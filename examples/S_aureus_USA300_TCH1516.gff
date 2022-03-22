@@ -1,0 +1,909 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM1708v1
+#!genome-build-accession NCBI_Assembly:GCA_000017085.1
+##sequence-region CP000730.1 1 2872915
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=451516
+CP000730.1	Genbank	region	1	2872915	.	+	.	ID=id0;Dbxref=taxon:451516;Is_circular=true;Name=ANONYMOUS;gbkey=Src;genome=chromosome;mol_type=genomic DNA;note=derived from methicillin-resistant clonal population USA300;strain=TCH1516;sub-species=aureus
+CP000730.1	Genbank	gene	544	1905	.	+	.	ID=gene0;Name=dnaA;gbkey=Gene;gene=dnaA;gene_biotype=protein_coding;locus_tag=USA300HOU_0001
+CP000730.1	Genbank	CDS	544	1905	.	+	0	ID=cds0;Parent=gene0;Dbxref=NCBI_GP:ABX28047.1;Name=ABX28047.1;gbkey=CDS;gene=dnaA;product=replication initiation protein DnaA;protein_id=ABX28047.1;transl_table=11
+CP000730.1	Genbank	gene	2183	3316	.	+	.	ID=gene1;Name=dnaN;gbkey=Gene;gene=dnaN;gene_biotype=protein_coding;locus_tag=USA300HOU_0002
+CP000730.1	Genbank	CDS	2183	3316	.	+	0	ID=cds1;Parent=gene1;Dbxref=NCBI_GP:ABX28048.1;Name=ABX28048.1;Note='DNA polymerase III%2C DNA nucleotidyltransferase (DNA-directed)';gbkey=CDS;gene=dnaN;product=DNA-directed DNA polymerase beta subunit;protein_id=ABX28048.1;transl_table=11
+CP000730.1	Genbank	gene	3697	3942	.	+	.	ID=gene2;Name=USA300HOU_0003;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0003
+CP000730.1	Genbank	CDS	3697	3942	.	+	0	ID=cds2;Parent=gene2;Dbxref=NCBI_GP:ABX28049.1;Name=ABX28049.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28049.1;transl_table=11
+CP000730.1	Genbank	gene	3939	5051	.	+	.	ID=gene3;Name=recF;gbkey=Gene;gene=recF;gene_biotype=protein_coding;locus_tag=USA300HOU_0004
+CP000730.1	Genbank	CDS	3939	5051	.	+	0	ID=cds3;Parent=gene3;Dbxref=NCBI_GP:ABX28050.1;Name=ABX28050.1;gbkey=CDS;gene=recF;product=recombination protein RecF;protein_id=ABX28050.1;transl_table=11
+CP000730.1	Genbank	gene	5061	6995	.	+	.	ID=gene4;Name=gyrB;gbkey=Gene;gene=gyrB;gene_biotype=protein_coding;locus_tag=USA300HOU_0005
+CP000730.1	Genbank	CDS	5061	6995	.	+	0	ID=cds4;Parent=gene4;Dbxref=NCBI_GP:ABX28051.1;Name=ABX28051.1;Note=DNA gyrase subunit B;gbkey=CDS;gene=gyrB;product=DNA topoisomerase (ATP-hydrolyzing) subunit B;protein_id=ABX28051.1;transl_table=11
+CP000730.1	Genbank	gene	7032	9695	.	+	.	ID=gene5;Name=gyrA;gbkey=Gene;gene=gyrA;gene_biotype=protein_coding;locus_tag=USA300HOU_0006
+CP000730.1	Genbank	CDS	7032	9695	.	+	0	ID=cds5;Parent=gene5;Dbxref=NCBI_GP:ABX28052.1;Name=ABX28052.1;Note=DNA gyrase subunit A;gbkey=CDS;gene=gyrA;product=DNA topoisomerase (ATP-hydrolyzing) subunit A;protein_id=ABX28052.1;transl_table=11
+CP000730.1	Genbank	gene	9782	10612	.	-	.	ID=gene6;Name=USA300HOU_0007;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0007
+CP000730.1	Genbank	CDS	9782	10612	.	-	0	ID=cds6;Parent=gene6;Dbxref=NCBI_GP:ABX28053.1;Name=ABX28053.1;gbkey=CDS;product=possible carbohydrate kinase;protein_id=ABX28053.1;transl_table=11
+CP000730.1	Genbank	gene	10920	12434	.	+	.	ID=gene7;Name=hutH;gbkey=Gene;gene=hutH;gene_biotype=protein_coding;locus_tag=USA300HOU_0008
+CP000730.1	Genbank	CDS	10920	12434	.	+	0	ID=cds7;Parent=gene7;Dbxref=NCBI_GP:ABX28054.1;Name=ABX28054.1;Note=histidase;gbkey=CDS;gene=hutH;product=histidine ammonia-lyase;protein_id=ABX28054.1;transl_table=11
+CP000730.1	Genbank	gene	12813	14099	.	+	.	ID=gene8;Name=serS;gbkey=Gene;gene=serS;gene_biotype=protein_coding;locus_tag=USA300HOU_0009
+CP000730.1	Genbank	CDS	12813	14099	.	+	0	ID=cds8;Parent=gene8;Dbxref=NCBI_GP:ABX28055.1;Name=ABX28055.1;gbkey=CDS;gene=serS;product=serine--tRNA ligase;protein_id=ABX28055.1;transl_table=11
+CP000730.1	Genbank	gene	14749	15444	.	+	.	ID=gene9;Name=USA300HOU_0010;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0010
+CP000730.1	Genbank	CDS	14749	15444	.	+	0	ID=cds9;Parent=gene9;Dbxref=NCBI_GP:ABX28056.1;Name=ABX28056.1;Note=AzlC family transporter;gbkey=CDS;product=LIV-E family branched chain amino acid exporter;protein_id=ABX28056.1;transl_table=11
+CP000730.1	Genbank	gene	15441	15770	.	+	.	ID=gene10;Name=USA300HOU_0011;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0011
+CP000730.1	Genbank	CDS	15441	15770	.	+	0	ID=cds10;Parent=gene10;Dbxref=NCBI_GP:ABX28057.1;Name=ABX28057.1;gbkey=CDS;product=possible membrane protein;protein_id=ABX28057.1;transl_table=11
+CP000730.1	Genbank	gene	16133	17101	.	+	.	ID=gene11;Name=metX;gbkey=Gene;gene=metX;gene_biotype=protein_coding;locus_tag=USA300HOU_0012
+CP000730.1	Genbank	CDS	16133	17101	.	+	0	ID=cds11;Parent=gene11;Dbxref=NCBI_GP:ABX28058.1;Name=ABX28058.1;gbkey=CDS;gene=metX;product=possible homoserine O-acetyltransferase;protein_id=ABX28058.1;transl_table=11
+CP000730.1	Genbank	gene	17392	18330	.	+	.	ID=gene12;Name=USA300HOU_0013;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0013
+CP000730.1	Genbank	CDS	17392	18330	.	+	0	ID=cds12;Parent=gene12;Dbxref=NCBI_GP:ABX28059.1;Name=ABX28059.1;gbkey=CDS;product=possible membrane protein;protein_id=ABX28059.1;transl_table=11
+CP000730.1	Genbank	gene	18345	20312	.	+	.	ID=gene13;Name=USA300HOU_0014;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0014
+CP000730.1	Genbank	CDS	18345	20312	.	+	0	ID=cds13;Parent=gene13;Dbxref=NCBI_GP:ABX28060.1;Name=ABX28060.1;gbkey=CDS;product=DHH subfamily phosphodiesterase;protein_id=ABX28060.1;transl_table=11
+CP000730.1	Genbank	gene	20309	20755	.	+	.	ID=gene14;Name=rplI;gbkey=Gene;gene=rplI;gene_biotype=protein_coding;locus_tag=USA300HOU_0015
+CP000730.1	Genbank	CDS	20309	20755	.	+	0	ID=cds14;Parent=gene14;Dbxref=NCBI_GP:ABX28061.1;Name=ABX28061.1;gbkey=CDS;gene=rplI;product=ribosomal protein L9;protein_id=ABX28061.1;transl_table=11
+CP000730.1	Genbank	gene	20787	22187	.	+	.	ID=gene15;Name=dnaB1;gbkey=Gene;gene=dnaB1;gene_biotype=protein_coding;locus_tag=USA300HOU_0016
+CP000730.1	Genbank	CDS	20787	22187	.	+	0	ID=cds15;Parent=gene15;Dbxref=NCBI_GP:ABX28062.1;Name=ABX28062.1;gbkey=CDS;gene=dnaB1;product=replicative DNA helicase DnaB;protein_id=ABX28062.1;transl_table=11
+CP000730.1	Genbank	gene	22465	23748	.	+	.	ID=gene16;Name=purA;gbkey=Gene;gene=purA;gene_biotype=protein_coding;locus_tag=USA300HOU_0017
+CP000730.1	Genbank	CDS	22465	23748	.	+	0	ID=cds16;Parent=gene16;Dbxref=NCBI_GP:ABX28063.1;Name=ABX28063.1;Note=adenylosuccinate synthetase;gbkey=CDS;gene=purA;product=adenylosuccinate synthase;protein_id=ABX28063.1;transl_table=11
+CP000730.1	Genbank	gene	24178	24252	.	+	.	ID=gene17;Name=USA300HOU_t0001;gbkey=Gene;gene_biotype=tRNA;locus_tag=USA300HOU_t0001
+CP000730.1	Genbank	tRNA	24178	24252	.	+	.	ID=rna0;Parent=gene17;gbkey=tRNA;product=tRNA-Glu
+CP000730.1	Genbank	exon	24178	24252	.	+	.	ID=id1;Parent=rna0;gbkey=tRNA;product=tRNA-Glu
+CP000730.1	Genbank	gene	24260	24332	.	+	.	ID=gene18;Name=USA300HOU_t0002;gbkey=Gene;gene_biotype=tRNA;locus_tag=USA300HOU_t0002
+CP000730.1	Genbank	tRNA	24260	24332	.	+	.	ID=rna1;Parent=gene18;gbkey=tRNA;product=tRNA-Asp
+CP000730.1	Genbank	exon	24260	24332	.	+	.	ID=id2;Parent=rna1;gbkey=tRNA;product=tRNA-Asp
+CP000730.1	Genbank	gene	24946	25653	.	+	.	ID=gene19;Name=yycF;gbkey=Gene;gene=yycF;gene_biotype=protein_coding;locus_tag=USA300HOU_0018
+CP000730.1	Genbank	CDS	24946	25653	.	+	0	ID=cds17;Parent=gene19;Dbxref=NCBI_GP:ABX28064.1;Name=ABX28064.1;gbkey=CDS;gene=yycF;product=response regulator VicR;protein_id=ABX28064.1;transl_table=11
+CP000730.1	Genbank	gene	25666	27492	.	+	.	ID=gene20;Name=USA300HOU_0019;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0019
+CP000730.1	Genbank	CDS	25666	27492	.	+	0	ID=cds18;Parent=gene20;Dbxref=NCBI_GP:ABX28065.1;Name=ABX28065.1;gbkey=CDS;product=sensor histidine kinase VicK;protein_id=ABX28065.1;transl_table=11
+CP000730.1	Genbank	gene	27485	28819	.	+	.	ID=gene21;Name=yycH;gbkey=Gene;gene=yycH;gene_biotype=protein_coding;locus_tag=USA300HOU_0020
+CP000730.1	Genbank	CDS	27485	28819	.	+	0	ID=cds19;Parent=gene21;Dbxref=NCBI_GP:ABX28066.1;Name=ABX28066.1;gbkey=CDS;gene=yycH;product=hypothetical protein YycH;protein_id=ABX28066.1;transl_table=11
+CP000730.1	Genbank	gene	28820	29608	.	+	.	ID=gene22;Name=yycI;gbkey=Gene;gene=yycI;gene_biotype=protein_coding;locus_tag=USA300HOU_0021
+CP000730.1	Genbank	CDS	28820	29608	.	+	0	ID=cds20;Parent=gene22;Dbxref=NCBI_GP:ABX28067.1;Name=ABX28067.1;gbkey=CDS;gene=yycI;product=hypothetical protein YycI;protein_id=ABX28067.1;transl_table=11
+CP000730.1	Genbank	gene	29998	30798	.	+	.	ID=gene23;Name=USA300HOU_0022;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0022
+CP000730.1	Genbank	CDS	29998	30798	.	+	0	ID=cds21;Parent=gene23;Dbxref=NCBI_GP:ABX28068.1;Name=ABX28068.1;Note=metallo-beta-lactamase;gbkey=CDS;product=beta-lactamase;protein_id=ABX28068.1;transl_table=11
+CP000730.1	Genbank	gene	30984	33344	.	+	.	ID=gene24;Name=USA300HOU_0023;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0023
+CP000730.1	Genbank	CDS	30984	33344	.	+	0	ID=cds22;Parent=gene24;Dbxref=NCBI_GP:ABX28069.1;Name=ABX28069.1;Note=surface protein SasH;gbkey=CDS;product=possible 5'-nucleotidase;protein_id=ABX28069.1;transl_table=11
+CP000730.1	Genbank	gene	33712	34191	.	+	.	ID=gene25;Name=orfX;gbkey=Gene;gene=orfX;gene_biotype=protein_coding;locus_tag=USA300HOU_0024
+CP000730.1	Genbank	CDS	33712	34191	.	+	0	ID=cds23;Parent=gene25;Dbxref=NCBI_GP:ABX28070.1;Name=ABX28070.1;gbkey=CDS;gene=orfX;product=hypothetical protein OrfX;protein_id=ABX28070.1;transl_table=11
+CP000730.1	Genbank	gene	34474	35769	.	+	.	ID=gene26;Name=USA300HOU_0025;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0025
+CP000730.1	Genbank	CDS	34474	35769	.	+	0	ID=cds24;Parent=gene26;Dbxref=NCBI_GP:ABX28071.1;Name=ABX28071.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28071.1;transl_table=11
+CP000730.1	Genbank	gene	35877	36551	.	-	.	ID=gene27;Name=USA300HOU_0026;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0026
+CP000730.1	Genbank	CDS	35877	36551	.	-	0	ID=cds25;Parent=gene27;Dbxref=NCBI_GP:ABX28072.1;Name=ABX28072.1;gbkey=CDS;product=IS431mec transposase;protein_id=ABX28072.1;transl_table=11
+CP000730.1	Genbank	pseudogene	36587	36976	.	+	.	ID=gene28;Name=USA300HOU_0027;Note=possible hydroxymethylglutaryl-CoA synthase;gbkey=Gene;gene_biotype=pseudogene;locus_tag=USA300HOU_0027;pseudo=true
+CP000730.1	Genbank	gene	37074	37304	.	+	.	ID=gene29;Name=USA300HOU_0028;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0028
+CP000730.1	Genbank	CDS	37074	37304	.	+	0	ID=cds26;Parent=gene29;Dbxref=NCBI_GP:ABX28073.1;Name=ABX28073.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28073.1;transl_table=11
+CP000730.1	Genbank	gene	37813	38556	.	+	.	ID=gene30;Name=ugpQ1;gbkey=Gene;gene=ugpQ1;gene_biotype=protein_coding;locus_tag=USA300HOU_0029
+CP000730.1	Genbank	CDS	37813	38556	.	+	0	ID=cds27;Parent=gene30;Dbxref=NCBI_GP:ABX28074.1;Name=ABX28074.1;gbkey=CDS;gene=ugpQ1;product=glycerophosphodiester phosphodiesterase;protein_id=ABX28074.1;transl_table=11
+CP000730.1	Genbank	gene	38653	39081	.	+	.	ID=gene31;Name=maoC;gbkey=Gene;gene=maoC;gene_biotype=protein_coding;locus_tag=USA300HOU_0030
+CP000730.1	Genbank	CDS	38653	39081	.	+	0	ID=cds28;Parent=gene31;Dbxref=NCBI_GP:ABX28075.1;Name=ABX28075.1;gbkey=CDS;gene=maoC;product=possible acyl dehydratase MaoC;protein_id=ABX28075.1;transl_table=11
+CP000730.1	Genbank	gene	39127	41133	.	-	.	ID=gene32;Name=mecA;gbkey=Gene;gene=mecA;gene_biotype=protein_coding;locus_tag=USA300HOU_0031
+CP000730.1	Genbank	CDS	39127	41133	.	-	0	ID=cds29;Parent=gene32;Dbxref=NCBI_GP:ABX28076.1;Name=ABX28076.1;Note=MecA protein;gbkey=CDS;gene=mecA;product=penicillin binding protein 2 prime;protein_id=ABX28076.1;transl_table=11
+CP000730.1	Genbank	gene	41305	42219	.	+	.	ID=gene33;Name=mecR1;gbkey=Gene;gene=mecR1;gene_biotype=protein_coding;locus_tag=USA300HOU_0032
+CP000730.1	Genbank	CDS	41305	42219	.	+	0	ID=cds30;Parent=gene33;Dbxref=NCBI_GP:ABX28077.1;Name=ABX28077.1;gbkey=CDS;gene=mecR1;product=methicillin resistance regulatory protein MecR1;protein_id=ABX28077.1;transl_table=11
+CP000730.1	Genbank	gene	42143	42451	.	+	.	ID=gene34;Name=hsdR1;gbkey=Gene;gene=hsdR1;gene_biotype=protein_coding;locus_tag=USA300HOU_0033
+CP000730.1	Genbank	CDS	42143	42451	.	+	0	ID=cds31;Parent=gene34;Dbxref=NCBI_GP:ABX28078.1;Name=ABX28078.1;gbkey=CDS;gene=hsdR1;product=possible type I site-specific deoxyribonuclease restriction subunit;protein_id=ABX28078.1;transl_table=11
+CP000730.1	Genbank	gene	42442	43965	.	-	.	ID=gene35;Name=USA300HOU_0034;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0034
+CP000730.1	Genbank	CDS	42442	43965	.	-	0	ID=cds32;Parent=gene35;Dbxref=NCBI_GP:ABX28079.1;Name=ABX28079.1;gbkey=CDS;product=IS1272 transposase;protein_id=ABX28079.1;transl_table=11
+CP000730.1	Genbank	gene	44101	44610	.	-	.	ID=gene36;Name=USA300HOU_0035;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0035
+CP000730.1	Genbank	CDS	44101	44610	.	-	0	ID=cds33;Parent=gene36;Dbxref=NCBI_GP:ABX28080.1;Name=ABX28080.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28080.1;transl_table=11
+CP000730.1	Genbank	gene	44622	44933	.	-	.	ID=gene37;Name=USA300HOU_0036;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0036
+CP000730.1	Genbank	CDS	44622	44933	.	-	0	ID=cds34;Parent=gene37;Dbxref=NCBI_GP:ABX28081.1;Name=ABX28081.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28081.1;transl_table=11
+CP000730.1	Genbank	gene	44935	45027	.	-	.	ID=gene38;Name=USA300HOU_0037;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0037
+CP000730.1	Genbank	CDS	44935	45027	.	-	0	ID=cds35;Parent=gene38;Dbxref=NCBI_GP:ABX28082.1;Name=ABX28082.1;Note=possible extracellular protein;gbkey=CDS;product=hypothetical protein;protein_id=ABX28082.1;transl_table=11
+CP000730.1	Genbank	gene	45020	45370	.	-	.	ID=gene39;Name=USA300HOU_0038;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0038
+CP000730.1	Genbank	CDS	45020	45370	.	-	0	ID=cds36;Parent=gene39;Dbxref=NCBI_GP:ABX28083.1;Name=ABX28083.1;Note=possible cysteine--tRNA ligase;gbkey=CDS;product=hypothetical protein;protein_id=ABX28083.1;transl_table=11
+CP000730.1	Genbank	gene	45892	47520	.	-	.	ID=gene40;Name=ccrB;gbkey=Gene;gene=ccrB;gene_biotype=protein_coding;locus_tag=USA300HOU_0039
+CP000730.1	Genbank	CDS	45892	47520	.	-	0	ID=cds37;Parent=gene40;Dbxref=NCBI_GP:ABX28084.1;Name=ABX28084.1;gbkey=CDS;gene=ccrB;product=cassette chromosome recombinase B;protein_id=ABX28084.1;transl_table=11
+CP000730.1	Genbank	gene	47542	48891	.	-	.	ID=gene41;Name=ccrA;gbkey=Gene;gene=ccrA;gene_biotype=protein_coding;locus_tag=USA300HOU_0040
+CP000730.1	Genbank	CDS	47542	48891	.	-	0	ID=cds38;Parent=gene41;Dbxref=NCBI_GP:ABX28085.1;Name=ABX28085.1;gbkey=CDS;gene=ccrA;product=cassette chromosome recombinase A;protein_id=ABX28085.1;transl_table=11
+CP000730.1	Genbank	gene	49125	50912	.	-	.	ID=gene42;Name=USA300HOU_0041;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0041
+CP000730.1	Genbank	CDS	49125	50912	.	-	0	ID=cds39;Parent=gene42;Dbxref=NCBI_GP:ABX28086.1;Name=ABX28086.1;Note=possible helicase;gbkey=CDS;product=hypothetical protein;protein_id=ABX28086.1;transl_table=11
+CP000730.1	Genbank	gene	50912	51202	.	-	.	ID=gene43;Name=USA300HOU_0042;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0042
+CP000730.1	Genbank	CDS	50912	51202	.	-	0	ID=cds40;Parent=gene43;Dbxref=NCBI_GP:ABX28087.1;Name=ABX28087.1;Note=possible replication initiation protein;gbkey=CDS;product=hypothetical protein;protein_id=ABX28087.1;transl_table=11
+CP000730.1	Genbank	gene	51299	52390	.	+	.	ID=gene44;Name=USA300HOU_0043;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0043
+CP000730.1	Genbank	CDS	51299	52390	.	+	0	ID=cds41;Parent=gene44;Dbxref=NCBI_GP:ABX28088.1;Name=ABX28088.1;Note=possible actin depolymerizing protein;gbkey=CDS;product=hypothetical membrane protein;protein_id=ABX28088.1;transl_table=11
+CP000730.1	Genbank	gene	53063	54553	.	+	.	ID=gene45;Name=USA300HOU_0044;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0044
+CP000730.1	Genbank	CDS	53063	54553	.	+	0	ID=cds42;Parent=gene45;Dbxref=NCBI_GP:ABX28089.1;Name=ABX28089.1;Note=possible AAA family ATP-binding protein;gbkey=CDS;product=possible transcriptional regulator;protein_id=ABX28089.1;transl_table=11
+CP000730.1	Genbank	gene	55177	56181	.	-	.	ID=gene46;Name=USA300HOU_0045;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0045
+CP000730.1	Genbank	CDS	55177	56181	.	-	0	ID=cds43;Parent=gene46;Dbxref=NCBI_GP:ABX28090.1;Name=ABX28090.1;Note=rhodanese domain hydrolase;gbkey=CDS;product=possible beta-lactamase;protein_id=ABX28090.1;transl_table=11
+CP000730.1	Genbank	gene	56300	56437	.	+	.	ID=gene47;Name=USA300HOU_0046;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0046
+CP000730.1	Genbank	CDS	56300	56437	.	+	0	ID=cds44;Parent=gene47;Dbxref=NCBI_GP:ABX28091.1;Name=ABX28091.1;Note=possible extracellular protein;gbkey=CDS;product=hypothetical protein;protein_id=ABX28091.1;transl_table=11
+CP000730.1	Genbank	pseudogene	56434	56805	.	+	.	ID=gene48;Name=USA300HOU_0047;Note=frameshift of hypothetical protein%3B possible endonuclease;gbkey=Gene;gene_biotype=pseudogene;locus_tag=USA300HOU_0047;pseudo=true
+CP000730.1	Genbank	gene	56934	57554	.	+	.	ID=gene49;Name=USA300HOU_0048;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0048
+CP000730.1	Genbank	CDS	56934	57554	.	+	0	ID=cds45;Parent=gene49;Dbxref=NCBI_GP:ABX28092.1;Name=ABX28092.1;gbkey=CDS;product=hypothetical membrane protein;protein_id=ABX28092.1;transl_table=11
+CP000730.1	Genbank	gene	58471	58641	.	-	.	ID=gene50;Name=USA300HOU_0049;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0049
+CP000730.1	Genbank	CDS	58471	58641	.	-	0	ID=cds46;Parent=gene50;Dbxref=NCBI_GP:ABX28093.1;Name=ABX28093.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28093.1;transl_table=11
+CP000730.1	Genbank	gene	59043	60008	.	+	.	ID=gene51;Name=USA300HOU_0050;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0050
+CP000730.1	Genbank	CDS	59043	60008	.	+	0	ID=cds47;Parent=gene51;Dbxref=NCBI_GP:ABX28094.1;Name=ABX28094.1;Note=possible adhesin;gbkey=CDS;product=hypothetical protein;protein_id=ABX28094.1;transl_table=11
+CP000730.1	Genbank	gene	60105	60296	.	+	.	ID=gene52;Name=USA300HOU_0051;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0051
+CP000730.1	Genbank	CDS	60105	60296	.	+	0	ID=cds48;Parent=gene52;Dbxref=NCBI_GP:ABX28095.1;Name=ABX28095.1;Note=possible ribonuclease;gbkey=CDS;product=hypothetical protein;protein_id=ABX28095.1;transl_table=11
+CP000730.1	Genbank	gene	60388	60717	.	+	.	ID=gene53;Name=USA300HOU_0052;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0052
+CP000730.1	Genbank	CDS	60388	60717	.	+	0	ID=cds49;Parent=gene53;Dbxref=NCBI_GP:ABX28096.1;Name=ABX28096.1;Note=possible peptidoglycan biosynthesis protein;gbkey=CDS;product=hypothetical protein;protein_id=ABX28096.1;transl_table=11
+CP000730.1	Genbank	gene	60794	61162	.	-	.	ID=gene54;Name=USA300HOU_0053;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0053
+CP000730.1	Genbank	CDS	60794	61162	.	-	0	ID=cds50;Parent=gene54;Dbxref=NCBI_GP:ABX28097.1;Name=ABX28097.1;gbkey=CDS;product=hypothetical membrane protein;protein_id=ABX28097.1;transl_table=11
+CP000730.1	Genbank	gene	61393	61560	.	+	.	ID=gene55;Name=USA300HOU_0054;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0054
+CP000730.1	Genbank	CDS	61393	61560	.	+	0	ID=cds51;Parent=gene55;Dbxref=NCBI_GP:ABX28098.1;Name=ABX28098.1;Note=possible extracellular protein;gbkey=CDS;product=hypothetical protein;protein_id=ABX28098.1;transl_table=11
+CP000730.1	Genbank	gene	61724	62533	.	-	.	ID=gene56;Name=USA300HOU_0055;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0055
+CP000730.1	Genbank	CDS	61724	62533	.	-	0	ID=cds52;Parent=gene56;Dbxref=NCBI_GP:ABX28099.1;Name=ABX28099.1;Note=possible transposase;gbkey=CDS;product=integrase;protein_id=ABX28099.1;transl_table=11
+CP000730.1	Genbank	gene	62553	62735	.	+	.	ID=gene57;Name=USA300HOU_0056;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0056
+CP000730.1	Genbank	CDS	62553	62735	.	+	0	ID=cds53;Parent=gene57;Dbxref=NCBI_GP:ABX28100.1;Name=ABX28100.1;Note=possible DNA repair protein;gbkey=CDS;product=hypothetical protein;protein_id=ABX28100.1;transl_table=11
+CP000730.1	Genbank	gene	63046	63543	.	-	.	ID=gene58;Name=USA300HOU_0057;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0057
+CP000730.1	Genbank	CDS	63046	63543	.	-	0	ID=cds54;Parent=gene58;Dbxref=NCBI_GP:ABX28101.1;Name=ABX28101.1;gbkey=CDS;product=diamine N-acetyltransferase;protein_id=ABX28101.1;transl_table=11
+CP000730.1	Genbank	gene	63731	63859	.	-	.	ID=gene59;Name=USA300HOU_0058;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0058
+CP000730.1	Genbank	CDS	63731	63859	.	-	0	ID=cds55;Parent=gene59;Dbxref=NCBI_GP:ABX28102.1;Name=ABX28102.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28102.1;transl_table=11
+CP000730.1	Genbank	gene	64071	65168	.	+	.	ID=gene60;Name=adhC;gbkey=Gene;gene=adhC;gene_biotype=protein_coding;locus_tag=USA300HOU_0059
+CP000730.1	Genbank	CDS	64071	65168	.	+	0	ID=cds56;Parent=gene60;Dbxref=NCBI_GP:ABX28103.1;Name=ABX28103.1;Note=aldehyde reductase;gbkey=CDS;gene=adhC;product=alcohol dehydrogenase;protein_id=ABX28103.1;transl_table=11
+CP000730.1	Genbank	gene	65423	65647	.	-	.	ID=gene61;Name=USA300HOU_0060;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0060
+CP000730.1	Genbank	CDS	65423	65647	.	-	0	ID=cds57;Parent=gene61;Dbxref=NCBI_GP:ABX28104.1;Name=ABX28104.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28104.1;transl_table=11
+CP000730.1	Genbank	gene	65661	66164	.	-	.	ID=gene62;Name=USA300HOU_0061;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0061
+CP000730.1	Genbank	CDS	65661	66164	.	-	0	ID=cds58;Parent=gene62;Dbxref=NCBI_GP:ABX28105.1;Name=ABX28105.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28105.1;transl_table=11
+CP000730.1	Genbank	gene	66180	66506	.	-	.	ID=gene63;Name=USA300HOU_0062;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0062
+CP000730.1	Genbank	CDS	66180	66506	.	-	0	ID=cds59;Parent=gene63;Dbxref=NCBI_GP:ABX28106.1;Name=ABX28106.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28106.1;transl_table=11
+CP000730.1	Genbank	gene	66493	66585	.	-	.	ID=gene64;Name=USA300HOU_0063;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0063
+CP000730.1	Genbank	CDS	66493	66585	.	-	0	ID=cds60;Parent=gene64;Dbxref=NCBI_GP:ABX28107.1;Name=ABX28107.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28107.1;transl_table=11
+CP000730.1	Genbank	gene	66578	66928	.	-	.	ID=gene65;Name=USA300HOU_0064;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0064
+CP000730.1	Genbank	CDS	66578	66928	.	-	0	ID=cds61;Parent=gene65;Dbxref=NCBI_GP:ABX28108.1;Name=ABX28108.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28108.1;transl_table=11
+CP000730.1	Genbank	gene	67885	68736	.	+	.	ID=gene66;Name=USA300HOU_0065;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0065
+CP000730.1	Genbank	CDS	67885	68736	.	+	0	ID=cds62;Parent=gene66;Dbxref=NCBI_GP:ABX28109.1;Name=ABX28109.1;gbkey=CDS;product=transposase;protein_id=ABX28109.1;transl_table=11
+CP000730.1	Genbank	gene	68836	69765	.	-	.	ID=gene67;Name=arcC1;gbkey=Gene;gene=arcC1;gene_biotype=protein_coding;locus_tag=USA300HOU_0066
+CP000730.1	Genbank	CDS	68836	69765	.	-	0	ID=cds63;Parent=gene67;Dbxref=NCBI_GP:ABX28110.1;Name=ABX28110.1;gbkey=CDS;gene=arcC1;product=carbamate kinase;protein_id=ABX28110.1;transl_table=11
+CP000730.1	Genbank	gene	69785	70783	.	-	.	ID=gene68;Name=arcB1;gbkey=Gene;gene=arcB1;gene_biotype=protein_coding;locus_tag=USA300HOU_0067
+CP000730.1	Genbank	CDS	69785	70783	.	-	0	ID=cds64;Parent=gene68;Dbxref=NCBI_GP:ABX28111.1;Name=ABX28111.1;gbkey=CDS;gene=arcB1;product=ornithine carbamoyltransferase;protein_id=ABX28111.1;transl_table=11
+CP000730.1	Genbank	gene	70821	71510	.	-	.	ID=gene69;Name=USA300HOU_0068;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0068
+CP000730.1	Genbank	CDS	70821	71510	.	-	0	ID=cds65;Parent=gene69;Dbxref=NCBI_GP:ABX28112.1;Name=ABX28112.1;gbkey=CDS;product=Crp family transcriptional regulator;protein_id=ABX28112.1;transl_table=11
+CP000730.1	Genbank	gene	71552	72973	.	-	.	ID=gene70;Name=arcD1;gbkey=Gene;gene=arcD1;gene_biotype=protein_coding;locus_tag=USA300HOU_0069
+CP000730.1	Genbank	CDS	71552	72973	.	-	0	ID=cds66;Parent=gene70;Dbxref=NCBI_GP:ABX28113.1;Name=ABX28113.1;gbkey=CDS;gene=arcD1;product=arginine/ornithine APC family amino acid-polyamine-organocation transporter%2C antiporter;protein_id=ABX28113.1;transl_table=11
+CP000730.1	Genbank	gene	73059	74294	.	-	.	ID=gene71;Name=arcA1;gbkey=Gene;gene=arcA1;gene_biotype=protein_coding;locus_tag=USA300HOU_0070
+CP000730.1	Genbank	CDS	73059	74294	.	-	0	ID=cds67;Parent=gene71;Dbxref=NCBI_GP:ABX28114.1;Name=ABX28114.1;Note=arginine dihydrolase;gbkey=CDS;gene=arcA1;product=arginine deiminase;protein_id=ABX28114.1;transl_table=11
+CP000730.1	Genbank	gene	74563	75009	.	-	.	ID=gene72;Name=argR1;gbkey=Gene;gene=argR1;gene_biotype=protein_coding;locus_tag=USA300HOU_0071
+CP000730.1	Genbank	CDS	74563	75009	.	-	0	ID=cds68;Parent=gene72;Dbxref=NCBI_GP:ABX28115.1;Name=ABX28115.1;gbkey=CDS;gene=argR1;product=arginine repressor;protein_id=ABX28115.1;transl_table=11
+CP000730.1	Genbank	gene	75511	75942	.	+	.	ID=gene73;Name=USA300HOU_0072;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0072
+CP000730.1	Genbank	CDS	75511	75942	.	+	0	ID=cds69;Parent=gene73;Dbxref=NCBI_GP:ABX28116.1;Name=ABX28116.1;Note=possible membrane protein;gbkey=CDS;product=universal stress protein;protein_id=ABX28116.1;transl_table=11
+CP000730.1	Genbank	pseudogene	76019	76171	.	-	.	ID=gene74;Name=USA300HOU_0073;Note=P-ATPase superfamily cation transporter;gbkey=Gene;gene_biotype=pseudogene;locus_tag=USA300HOU_0073;pseudo=true
+CP000730.1	Genbank	pseudogene	76215	76888	.	+	.	ID=gene75;Name=USA300HOU_0074;Note=frameshift of IS431mec transposase;gbkey=Gene;gene_biotype=pseudogene;locus_tag=USA300HOU_0074;pseudo=true
+CP000730.1	Genbank	gene	77076	77891	.	+	.	ID=gene76;Name=USA300HOU_0075;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0075
+CP000730.1	Genbank	CDS	77076	77891	.	+	0	ID=cds70;Parent=gene76;Dbxref=NCBI_GP:ABX28117.1;Name=ABX28117.1;gbkey=CDS;product=lysophospholipase;protein_id=ABX28117.1;transl_table=11
+CP000730.1	Genbank	gene	78378	79391	.	+	.	ID=gene77;Name=USA300HOU_0076;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0076
+CP000730.1	Genbank	CDS	78378	79391	.	+	0	ID=cds71;Parent=gene77;Dbxref=NCBI_GP:ABX28118.1;Name=ABX28118.1;gbkey=CDS;product=transposase;protein_id=ABX28118.1;transl_table=11
+CP000730.1	Genbank	gene	79651	80343	.	+	.	ID=gene78;Name=USA300HOU_0077;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0077
+CP000730.1	Genbank	CDS	79651	80343	.	+	0	ID=cds72;Parent=gene78;Dbxref=NCBI_GP:ABX28119.1;Name=ABX28119.1;gbkey=CDS;product=possible S-adenosyl-L-methionine-dependent methyltransferase;protein_id=ABX28119.1;transl_table=11
+CP000730.1	Genbank	gene	80340	81893	.	+	.	ID=gene79;Name=USA300HOU_0078;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0078
+CP000730.1	Genbank	CDS	80340	81893	.	+	0	ID=cds73;Parent=gene79;Dbxref=NCBI_GP:ABX28120.1;Name=ABX28120.1;gbkey=CDS;product=nickel (Ni2+)/peptide ABC superfamily ATP binding cassette transporter%2C binding protein;protein_id=ABX28120.1;transl_table=11
+CP000730.1	Genbank	gene	81896	82852	.	+	.	ID=gene80;Name=USA300HOU_0079;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0079
+CP000730.1	Genbank	CDS	81896	82852	.	+	0	ID=cds74;Parent=gene80;Dbxref=NCBI_GP:ABX28121.1;Name=ABX28121.1;gbkey=CDS;product=nickel (Ni2+)/peptide ABC superfamily ATP binding cassette transporter%2C membrane protein;protein_id=ABX28121.1;transl_table=11
+CP000730.1	Genbank	gene	82852	83619	.	+	.	ID=gene81;Name=USA300HOU_0080;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0080
+CP000730.1	Genbank	CDS	82852	83619	.	+	0	ID=cds75;Parent=gene81;Dbxref=NCBI_GP:ABX28122.1;Name=ABX28122.1;gbkey=CDS;product=nickel (Ni2+)/peptide ABC superfamily ATP binding cassette transporter%2C membrane protein;protein_id=ABX28122.1;transl_table=11
+CP000730.1	Genbank	gene	83586	84353	.	+	.	ID=gene82;Name=USA300HOU_0081;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0081
+CP000730.1	Genbank	CDS	83586	84353	.	+	0	ID=cds76;Parent=gene82;Dbxref=NCBI_GP:ABX28123.1;Name=ABX28123.1;gbkey=CDS;product=nickel (Ni2+)/peptide ABC superfamily ATP binding cassette transporter%2C ABC protein;protein_id=ABX28123.1;transl_table=11
+CP000730.1	Genbank	gene	84346	84981	.	+	.	ID=gene83;Name=USA300HOU_0082;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0082
+CP000730.1	Genbank	CDS	84346	84981	.	+	0	ID=cds77;Parent=gene83;Dbxref=NCBI_GP:ABX28124.1;Name=ABX28124.1;gbkey=CDS;product=nickel (Ni2+)/peptide ABC superfamily ATP binding cassette transporter%2C ABC protein;protein_id=ABX28124.1;transl_table=11
+CP000730.1	Genbank	pseudogene	85681	85881	.	-	.	ID=gene84;Name=USA300HOU_0083;Note=transposase;gbkey=Gene;gene_biotype=pseudogene;locus_tag=USA300HOU_0083;pseudo=true
+CP000730.1	Genbank	gene	86040	88064	.	+	.	ID=gene85;Name=USA300HOU_0084;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0084
+CP000730.1	Genbank	CDS	86040	88064	.	+	0	ID=cds78;Parent=gene85;Dbxref=NCBI_GP:ABX28125.1;Name=ABX28125.1;gbkey=CDS;product=P-ATPase superfamily P-type ATPase copper (Cu2+) transporter;protein_id=ABX28125.1;transl_table=11
+CP000730.1	Genbank	gene	88082	88627	.	+	.	ID=gene86;Name=USA300HOU_0085;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0085
+CP000730.1	Genbank	CDS	88082	88627	.	+	0	ID=cds79;Parent=gene86;Dbxref=NCBI_GP:ABX28126.1;Name=ABX28126.1;gbkey=CDS;product=possible lipoprotein;protein_id=ABX28126.1;transl_table=11
+CP000730.1	Genbank	gene	88819	88956	.	-	.	ID=gene87;Name=USA300HOU_0086;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0086
+CP000730.1	Genbank	CDS	88819	88956	.	-	0	ID=cds80;Parent=gene87;Dbxref=NCBI_GP:ABX28127.1;Name=ABX28127.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28127.1;transl_table=11
+CP000730.1	Genbank	pseudogene	89392	91139	.	+	.	ID=gene88;Name=USA300HOU_0087;Note=hypothetical protein;gbkey=Gene;gene_biotype=pseudogene;locus_tag=USA300HOU_0087;pseudo=true
+CP000730.1	Genbank	pseudogene	91233	91685	.	-	.	ID=gene89;Name=USA300HOU_0088;Note=hypothetical protein;gbkey=Gene;gene_biotype=pseudogene;locus_tag=USA300HOU_0088;pseudo=true
+CP000730.1	Genbank	gene	91701	91799	.	-	.	ID=gene90;Name=USA300HOU_0089;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0089
+CP000730.1	Genbank	CDS	91701	91799	.	-	0	ID=cds81;Parent=gene90;Dbxref=NCBI_GP:ABX28128.1;Name=ABX28128.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28128.1;transl_table=11
+CP000730.1	Genbank	gene	91900	92655	.	-	.	ID=gene91;Name=USA300HOU_0090;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0090
+CP000730.1	Genbank	CDS	91900	92655	.	-	0	ID=cds82;Parent=gene91;Dbxref=NCBI_GP:ABX28129.1;Name=ABX28129.1;gbkey=CDS;product=hypothetical membrane protein;protein_id=ABX28129.1;transl_table=11
+CP000730.1	Genbank	gene	92655	92915	.	-	.	ID=gene92;Name=USA300HOU_0091;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0091
+CP000730.1	Genbank	CDS	92655	92915	.	-	0	ID=cds83;Parent=gene92;Dbxref=NCBI_GP:ABX28130.1;Name=ABX28130.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28130.1;transl_table=11
+CP000730.1	Genbank	gene	93052	94119	.	+	.	ID=gene93;Name=USA300HOU_0092;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0092
+CP000730.1	Genbank	CDS	93052	94119	.	+	0	ID=cds84;Parent=gene93;Dbxref=NCBI_GP:ABX28131.1;Name=ABX28131.1;Note=possible rhodanese domain sulfurtransferase;gbkey=CDS;product=hypothetical protein;protein_id=ABX28131.1;transl_table=11
+CP000730.1	Genbank	gene	94150	95484	.	+	.	ID=gene94;Name=USA300HOU_0093;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0093
+CP000730.1	Genbank	CDS	94150	95484	.	+	0	ID=cds85;Parent=gene94;Dbxref=NCBI_GP:ABX28132.1;Name=ABX28132.1;Note=possible bifunctional beta-lactamase/rhodanese domain protein;gbkey=CDS;product=hypothetical protein;protein_id=ABX28132.1;transl_table=11
+CP000730.1	Genbank	pseudogene	95503	96696	.	+	.	ID=gene95;Name=USA300HOU_0094;Note=frameshift of hypothetical protein;gbkey=Gene;gene_biotype=pseudogene;locus_tag=USA300HOU_0094;pseudo=true
+CP000730.1	Genbank	gene	96963	97064	.	-	.	ID=gene96;Name=USA300HOU_0095;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0095
+CP000730.1	Genbank	CDS	96963	97064	.	-	0	ID=cds86;Parent=gene96;Dbxref=NCBI_GP:ABX28133.1;Name=ABX28133.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28133.1;transl_table=11
+CP000730.1	Genbank	gene	97363	98349	.	-	.	ID=gene97;Name=USA300HOU_0096;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0096
+CP000730.1	Genbank	CDS	97363	98349	.	-	0	ID=cds87;Parent=gene97;Dbxref=NCBI_GP:ABX28134.1;Name=ABX28134.1;gbkey=CDS;product=possible tRNA-dihydrouridine synthase;protein_id=ABX28134.1;transl_table=11
+CP000730.1	Genbank	gene	98658	98861	.	+	.	ID=gene98;Name=USA300HOU_0097;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0097
+CP000730.1	Genbank	CDS	98658	98861	.	+	0	ID=cds88;Parent=gene98;Dbxref=NCBI_GP:ABX28135.1;Name=ABX28135.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28135.1;transl_table=11
+CP000730.1	Genbank	gene	98910	99206	.	+	.	ID=gene99;Name=USA300HOU_0098;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0098
+CP000730.1	Genbank	CDS	98910	99206	.	+	0	ID=cds89;Parent=gene99;Dbxref=NCBI_GP:ABX28136.1;Name=ABX28136.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28136.1;transl_table=11
+CP000730.1	Genbank	gene	99278	100498	.	-	.	ID=gene100;Name=USA300HOU_0099;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0099
+CP000730.1	Genbank	CDS	99278	100498	.	-	0	ID=cds90;Parent=gene100;Dbxref=NCBI_GP:ABX28137.1;Name=ABX28137.1;gbkey=CDS;product=possible MFS family major facilitator transporter;protein_id=ABX28137.1;transl_table=11
+CP000730.1	Genbank	pseudogene	100496	101047	.	-	.	ID=gene101;Name=USA300HOU_0100;Note=frameshift of hypothetical protein;gbkey=Gene;gene_biotype=pseudogene;locus_tag=USA300HOU_0100;pseudo=true
+CP000730.1	Genbank	gene	100927	101025	.	-	.	ID=gene102;Name=USA300HOU_0101;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0101
+CP000730.1	Genbank	CDS	100927	101025	.	-	0	ID=cds91;Parent=gene102;Dbxref=NCBI_GP:ABX28138.1;Name=ABX28138.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28138.1;transl_table=11
+CP000730.1	Genbank	gene	101154	102014	.	+	.	ID=gene103;Name=USA300HOU_0102;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0102
+CP000730.1	Genbank	CDS	101154	102014	.	+	0	ID=cds92;Parent=gene103;Dbxref=NCBI_GP:ABX28139.1;Name=ABX28139.1;gbkey=CDS;product=possible transcriptional regulator;protein_id=ABX28139.1;transl_table=11
+CP000730.1	Genbank	gene	102369	102902	.	-	.	ID=gene104;Name=USA300HOU_0103;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0103
+CP000730.1	Genbank	CDS	102369	102902	.	-	0	ID=cds93;Parent=gene104;Dbxref=NCBI_GP:ABX28140.1;Name=ABX28140.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28140.1;transl_table=11
+CP000730.1	Genbank	gene	102993	103736	.	+	.	ID=gene105;Name=USA300HOU_0104;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0104
+CP000730.1	Genbank	CDS	102993	103736	.	+	0	ID=cds94;Parent=gene105;Dbxref=NCBI_GP:ABX28141.1;Name=ABX28141.1;gbkey=CDS;product=possible transcriptional regulator;protein_id=ABX28141.1;transl_table=11
+CP000730.1	Genbank	gene	104170	104772	.	+	.	ID=gene106;Name=USA300HOU_0105;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0105
+CP000730.1	Genbank	CDS	104170	104772	.	+	0	ID=cds95;Parent=gene106;Dbxref=NCBI_GP:ABX28142.1;Name=ABX28142.1;gbkey=CDS;product=hypothetical membrane protein;protein_id=ABX28142.1;transl_table=11
+CP000730.1	Genbank	gene	105039	108191	.	+	.	ID=gene107;Name=USA300HOU_0106;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0106
+CP000730.1	Genbank	CDS	105039	108191	.	+	0	ID=cds96;Parent=gene107;Dbxref=NCBI_GP:ABX28143.1;Name=ABX28143.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28143.1;transl_table=11
+CP000730.1	Genbank	gene	108248	108730	.	+	.	ID=gene108;Name=USA300HOU_0107;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0107
+CP000730.1	Genbank	CDS	108248	108730	.	+	0	ID=cds97;Parent=gene108;Dbxref=NCBI_GP:ABX28144.1;Name=ABX28144.1;gbkey=CDS;product=hypothetical membrane protein;protein_id=ABX28144.1;transl_table=11
+CP000730.1	Genbank	gene	108935	109921	.	+	.	ID=gene109;Name=plc;gbkey=Gene;gene=plc;gene_biotype=protein_coding;locus_tag=USA300HOU_0108
+CP000730.1	Genbank	CDS	108935	109921	.	+	0	ID=cds98;Parent=gene109;Dbxref=NCBI_GP:ABX28145.1;Name=ABX28145.1;Note=1-phosphatidylinositol phosphodiesterase;gbkey=CDS;gene=plc;product=phosphatidylinositol diacylglycerol-lyase;protein_id=ABX28145.1;transl_table=11
+CP000730.1	Genbank	gene	110142	110912	.	+	.	ID=gene110;Name=USA300HOU_0109;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0109
+CP000730.1	Genbank	CDS	110142	110912	.	+	0	ID=cds99;Parent=gene110;Dbxref=NCBI_GP:ABX28146.1;Name=ABX28146.1;gbkey=CDS;product=staphylococcal tandem lipoprotein;protein_id=ABX28146.1;transl_table=11
+CP000730.1	Genbank	gene	110931	111734	.	+	.	ID=gene111;Name=USA300HOU_0110;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0110
+CP000730.1	Genbank	CDS	110931	111734	.	+	0	ID=cds100;Parent=gene111;Dbxref=NCBI_GP:ABX28147.1;Name=ABX28147.1;gbkey=CDS;product=possible staphylococcal tandem lipoprotein;protein_id=ABX28147.1;transl_table=11
+CP000730.1	Genbank	gene	111798	112568	.	+	.	ID=gene112;Name=USA300HOU_0111;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0111
+CP000730.1	Genbank	CDS	111798	112568	.	+	0	ID=cds101;Parent=gene112;Dbxref=NCBI_GP:ABX28148.1;Name=ABX28148.1;gbkey=CDS;product=possible staphylococcal tandem lipoprotein;protein_id=ABX28148.1;transl_table=11
+CP000730.1	Genbank	gene	112635	113402	.	+	.	ID=gene113;Name=USA300HOU_0112;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0112
+CP000730.1	Genbank	CDS	112635	113402	.	+	0	ID=cds102;Parent=gene113;Dbxref=NCBI_GP:ABX28149.1;Name=ABX28149.1;gbkey=CDS;product=staphylococcal tandem lipoprotein;protein_id=ABX28149.1;transl_table=11
+CP000730.1	Genbank	gene	113496	115733	.	+	.	ID=gene114;Name=USA300HOU_0113;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0113
+CP000730.1	Genbank	CDS	113496	115733	.	+	0	ID=cds103;Parent=gene114;Dbxref=NCBI_GP:ABX28150.1;Name=ABX28150.1;gbkey=CDS;product=bifunctional AraC family transcriptional regulator/xylan 1%2C4-beta-xylosidase;protein_id=ABX28150.1;transl_table=11
+CP000730.1	Genbank	gene	115884	117062	.	+	.	ID=gene115;Name=USA300HOU_0114;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0114
+CP000730.1	Genbank	CDS	115884	117062	.	+	0	ID=cds104;Parent=gene115;Dbxref=NCBI_GP:ABX28151.1;Name=ABX28151.1;gbkey=CDS;product=M20 family peptidase;protein_id=ABX28151.1;transl_table=11
+CP000730.1	Genbank	gene	117064	118452	.	+	.	ID=gene116;Name=USA300HOU_0115;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0115
+CP000730.1	Genbank	CDS	117064	118452	.	+	0	ID=cds105;Parent=gene116;Dbxref=NCBI_GP:ABX28152.1;Name=ABX28152.1;gbkey=CDS;product=possible MFS family major facilitator transporter;protein_id=ABX28152.1;transl_table=11
+CP000730.1	Genbank	gene	118945	120612	.	-	.	ID=gene117;Name=USA300HOU_0116;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0116
+CP000730.1	Genbank	CDS	118945	120612	.	-	0	ID=cds106;Parent=gene117;Dbxref=NCBI_GP:ABX28153.1;Name=ABX28153.1;gbkey=CDS;product=possible PnaS family phosphate:sodium (Na+) symporter;protein_id=ABX28153.1;transl_table=11
+CP000730.1	Genbank	gene	120932	122707	.	-	.	ID=gene118;Name=USA300HOU_0117;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0117
+CP000730.1	Genbank	CDS	120932	122707	.	-	0	ID=cds107;Parent=gene118;Dbxref=NCBI_GP:ABX28154.1;Name=ABX28154.1;gbkey=CDS;product=myosin-cross-reactive antigen;protein_id=ABX28154.1;transl_table=11
+CP000730.1	Genbank	gene	122881	123762	.	-	.	ID=gene119;Name=USA300HOU_0118;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0118
+CP000730.1	Genbank	CDS	122881	123762	.	-	0	ID=cds108;Parent=gene119;Dbxref=NCBI_GP:ABX28155.1;Name=ABX28155.1;gbkey=CDS;product=possible DMT superfamily drug/metabolite transporter;protein_id=ABX28155.1;transl_table=11
+CP000730.1	Genbank	gene	123866	125263	.	+	.	ID=gene120;Name=USA300HOU_0119;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0119
+CP000730.1	Genbank	CDS	123866	125263	.	+	0	ID=cds109;Parent=gene120;Dbxref=NCBI_GP:ABX28156.1;Name=ABX28156.1;gbkey=CDS;product=possible bifunctional GntR family transcriptional regulator/aminotransferase;protein_id=ABX28156.1;transl_table=11
+CP000730.1	Genbank	gene	125453	125926	.	+	.	ID=gene121;Name=USA300HOU_0120;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0120
+CP000730.1	Genbank	CDS	125453	125926	.	+	0	ID=cds110;Parent=gene121;Dbxref=NCBI_GP:ABX28157.1;Name=ABX28157.1;gbkey=CDS;product=hypothetical membrane protein;protein_id=ABX28157.1;transl_table=11
+CP000730.1	Genbank	gene	126188	127780	.	+	.	ID=gene122;Name=lctP;gbkey=Gene;gene=lctP;gene_biotype=protein_coding;locus_tag=USA300HOU_0121
+CP000730.1	Genbank	CDS	126188	127780	.	+	0	ID=cds111;Parent=gene122;Dbxref=NCBI_GP:ABX28158.1;Name=ABX28158.1;gbkey=CDS;gene=lctP;product=LctP family L-lactate permease;protein_id=ABX28158.1;transl_table=11
+CP000730.1	Genbank	gene	128109	129623	.	-	.	ID=gene123;Name=spa;gbkey=Gene;gene=spa;gene_biotype=protein_coding;locus_tag=USA300HOU_0122
+CP000730.1	Genbank	CDS	128109	129623	.	-	0	ID=cds112;Parent=gene123;Dbxref=NCBI_GP:ABX28159.1;Name=ABX28159.1;gbkey=CDS;gene=spa;product=immunoglobulin G binding protein A;protein_id=ABX28159.1;transl_table=11
+CP000730.1	Genbank	gene	130008	130760	.	-	.	ID=gene124;Name=sarH1;gbkey=Gene;gene=sarH1;gene_biotype=protein_coding;locus_tag=USA300HOU_0123
+CP000730.1	Genbank	CDS	130008	130760	.	-	0	ID=cds113;Parent=gene124;Dbxref=NCBI_GP:ABX28160.1;Name=ABX28160.1;gbkey=CDS;gene=sarH1;product=staphylococcal accessory regulator H1;protein_id=ABX28160.1;transl_table=11
+CP000730.1	Genbank	gene	131129	132127	.	-	.	ID=gene125;Name=sirC;gbkey=Gene;gene=sirC;gene_biotype=protein_coding;locus_tag=USA300HOU_0124
+CP000730.1	Genbank	CDS	131129	132127	.	-	0	ID=cds114;Parent=gene125;Dbxref=NCBI_GP:ABX28161.1;Name=ABX28161.1;gbkey=CDS;gene=sirC;product=iron (Fe3+) ABC superfamily ATP binding cassette transporter%2C membrane protein;protein_id=ABX28161.1;transl_table=11
+CP000730.1	Genbank	gene	132124	133119	.	-	.	ID=gene126;Name=sirB;gbkey=Gene;gene=sirB;gene_biotype=protein_coding;locus_tag=USA300HOU_0125
+CP000730.1	Genbank	CDS	132124	133119	.	-	0	ID=cds115;Parent=gene126;Dbxref=NCBI_GP:ABX28162.1;Name=ABX28162.1;gbkey=CDS;gene=sirB;product=iron (Fe3+) ABC superfamily ATP binding cassette transporter%2C membrane protein;protein_id=ABX28162.1;transl_table=11
+CP000730.1	Genbank	gene	133135	134109	.	-	.	ID=gene127;Name=sirA;gbkey=Gene;gene=sirA;gene_biotype=protein_coding;locus_tag=USA300HOU_0126
+CP000730.1	Genbank	CDS	133135	134109	.	-	0	ID=cds116;Parent=gene127;Dbxref=NCBI_GP:ABX28163.1;Name=ABX28163.1;gbkey=CDS;gene=sirA;product=iron (Fe3+) ABC superfamily ATP binding cassette transporter%2C binding protein;protein_id=ABX28163.1;transl_table=11
+CP000730.1	Genbank	gene	134358	135338	.	+	.	ID=gene128;Name=USA300HOU_0127;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0127
+CP000730.1	Genbank	CDS	134358	135338	.	+	0	ID=cds117;Parent=gene128;Dbxref=NCBI_GP:ABX28164.1;Name=ABX28164.1;gbkey=CDS;product=possible pyridoxal-phosphate dependent enzyme;protein_id=ABX28164.1;transl_table=11
+CP000730.1	Genbank	gene	135335	136345	.	+	.	ID=gene129;Name=ocd;gbkey=Gene;gene=ocd;gene_biotype=protein_coding;locus_tag=USA300HOU_0128
+CP000730.1	Genbank	CDS	135335	136345	.	+	0	ID=cds118;Parent=gene129;Dbxref=NCBI_GP:ABX28165.1;Name=ABX28165.1;gbkey=CDS;gene=ocd;product=possible ornithine cyclodeaminase;protein_id=ABX28165.1;transl_table=11
+CP000730.1	Genbank	gene	136366	138120	.	+	.	ID=gene130;Name=USA300HOU_0129;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0129
+CP000730.1	Genbank	CDS	136366	138120	.	+	0	ID=cds119;Parent=gene130;Dbxref=NCBI_GP:ABX28166.1;Name=ABX28166.1;gbkey=CDS;product=IucA/IucC family siderophore biosynthesis protein;protein_id=ABX28166.1;transl_table=11
+CP000730.1	Genbank	gene	138113	139369	.	+	.	ID=gene131;Name=USA300HOU_0130;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0130
+CP000730.1	Genbank	CDS	138113	139369	.	+	0	ID=cds120;Parent=gene131;Dbxref=NCBI_GP:ABX28167.1;Name=ABX28167.1;gbkey=CDS;product=MFS family major facilitator transporter;protein_id=ABX28167.1;transl_table=11
+CP000730.1	Genbank	gene	139359	141095	.	+	.	ID=gene132;Name=USA300HOU_0131;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0131
+CP000730.1	Genbank	CDS	139359	141095	.	+	0	ID=cds121;Parent=gene132;Dbxref=NCBI_GP:ABX28168.1;Name=ABX28168.1;gbkey=CDS;product=IucA/IucC family siderophore biosynthesis protein;protein_id=ABX28168.1;transl_table=11
+CP000730.1	Genbank	gene	141076	142854	.	+	.	ID=gene133;Name=USA300HOU_0132;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0132
+CP000730.1	Genbank	CDS	141076	142854	.	+	0	ID=cds122;Parent=gene133;Dbxref=NCBI_GP:ABX28169.1;Name=ABX28169.1;gbkey=CDS;product=IucA/IucC family siderophore biosynthesis protein;protein_id=ABX28169.1;transl_table=11
+CP000730.1	Genbank	gene	142826	143605	.	+	.	ID=gene134;Name=USA300HOU_0133;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0133
+CP000730.1	Genbank	CDS	142826	143605	.	+	0	ID=cds123;Parent=gene134;Dbxref=NCBI_GP:ABX28170.1;Name=ABX28170.1;gbkey=CDS;product=HpcH/HpaI family aldolase;protein_id=ABX28170.1;transl_table=11
+CP000730.1	Genbank	gene	143605	144807	.	+	.	ID=gene135;Name=lysA1;gbkey=Gene;gene=lysA1;gene_biotype=protein_coding;locus_tag=USA300HOU_0134
+CP000730.1	Genbank	CDS	143605	144807	.	+	0	ID=cds124;Parent=gene135;Dbxref=NCBI_GP:ABX28171.1;Name=ABX28171.1;gbkey=CDS;gene=lysA1;product=diaminopimelate decarboxylase;protein_id=ABX28171.1;transl_table=11
+CP000730.1	Genbank	gene	144811	145575	.	+	.	ID=gene136;Name=USA300HOU_0135;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0135
+CP000730.1	Genbank	CDS	144811	145575	.	+	0	ID=cds125;Parent=gene136;Dbxref=NCBI_GP:ABX28172.1;Name=ABX28172.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28172.1;transl_table=11
+CP000730.1	Genbank	gene	145771	146178	.	+	.	ID=gene137;Name=USA300HOU_0136;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0136
+CP000730.1	Genbank	CDS	145771	146178	.	+	0	ID=cds126;Parent=gene137;Dbxref=NCBI_GP:ABX28173.1;Name=ABX28173.1;gbkey=CDS;product=hypothetical membrane protein;protein_id=ABX28173.1;transl_table=11
+CP000730.1	Genbank	gene	146228	146854	.	+	.	ID=gene138;Name=USA300HOU_0137;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0137
+CP000730.1	Genbank	CDS	146228	146854	.	+	0	ID=cds127;Parent=gene138;Dbxref=NCBI_GP:ABX28174.1;Name=ABX28174.1;gbkey=CDS;product=hypothetical membrane protein;protein_id=ABX28174.1;transl_table=11
+CP000730.1	Genbank	gene	147066	147842	.	+	.	ID=gene139;Name=USA300HOU_0138;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0138
+CP000730.1	Genbank	CDS	147066	147842	.	+	0	ID=cds128;Parent=gene139;Dbxref=NCBI_GP:ABX28175.1;Name=ABX28175.1;gbkey=CDS;product=short chain dehydrogenase;protein_id=ABX28175.1;transl_table=11
+CP000730.1	Genbank	gene	147986	148108	.	+	.	ID=gene140;Name=USA300HOU_0139;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0139
+CP000730.1	Genbank	CDS	147986	148108	.	+	0	ID=cds129;Parent=gene140;Dbxref=NCBI_GP:ABX28176.1;Name=ABX28176.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28176.1;transl_table=11
+CP000730.1	Genbank	gene	148178	149158	.	+	.	ID=gene141;Name=galE;gbkey=Gene;gene=galE;gene_biotype=protein_coding;locus_tag=USA300HOU_0140
+CP000730.1	Genbank	CDS	148178	149158	.	+	0	ID=cds130;Parent=gene141;Dbxref=NCBI_GP:ABX28177.1;Name=ABX28177.1;gbkey=CDS;gene=galE;product=UDP-glucose 4-epimerase;protein_id=ABX28177.1;transl_table=11
+CP000730.1	Genbank	gene	149121	149813	.	+	.	ID=gene142;Name=USA300HOU_0141;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0141
+CP000730.1	Genbank	CDS	149121	149813	.	+	0	ID=cds131;Parent=gene142;Dbxref=NCBI_GP:ABX28178.1;Name=ABX28178.1;gbkey=CDS;product=glycosyltransferase;protein_id=ABX28178.1;transl_table=11
+CP000730.1	Genbank	gene	150023	151189	.	+	.	ID=gene143;Name=USA300HOU_0142;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0142
+CP000730.1	Genbank	CDS	150023	151189	.	+	0	ID=cds132;Parent=gene143;Dbxref=NCBI_GP:ABX28179.1;Name=ABX28179.1;gbkey=CDS;product=glycosyltransferase;protein_id=ABX28179.1;transl_table=11
+CP000730.1	Genbank	gene	151170	152408	.	+	.	ID=gene144;Name=USA300HOU_0143;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0143
+CP000730.1	Genbank	CDS	151170	152408	.	+	0	ID=cds133;Parent=gene144;Dbxref=NCBI_GP:ABX28180.1;Name=ABX28180.1;gbkey=CDS;product=hypothetical membrane protein;protein_id=ABX28180.1;transl_table=11
+CP000730.1	Genbank	gene	152398	153828	.	+	.	ID=gene145;Name=USA300HOU_0144;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0144
+CP000730.1	Genbank	CDS	152398	153828	.	+	0	ID=cds134;Parent=gene145;Dbxref=NCBI_GP:ABX28181.1;Name=ABX28181.1;gbkey=CDS;product=MOP superfamily multidrug/oligosaccharidyl-lipid/polysaccharide flippase transporter;protein_id=ABX28181.1;transl_table=11
+CP000730.1	Genbank	gene	154096	154695	.	+	.	ID=gene146;Name=sodM;gbkey=Gene;gene=sodM;gene_biotype=protein_coding;locus_tag=USA300HOU_0145
+CP000730.1	Genbank	CDS	154096	154695	.	+	0	ID=cds135;Parent=gene146;Dbxref=NCBI_GP:ABX28182.1;Name=ABX28182.1;gbkey=CDS;gene=sodM;product=superoxide dismutase;protein_id=ABX28182.1;transl_table=11
+CP000730.1	Genbank	gene	155063	155788	.	+	.	ID=gene147;Name=sasD;gbkey=Gene;gene=sasD;gene_biotype=protein_coding;locus_tag=USA300HOU_0146
+CP000730.1	Genbank	CDS	155063	155788	.	+	0	ID=cds136;Parent=gene147;Dbxref=NCBI_GP:ABX28183.1;Name=ABX28183.1;gbkey=CDS;gene=sasD;product=cell wall surface anchor protein;protein_id=ABX28183.1;transl_table=11
+CP000730.1	Genbank	gene	155980	156735	.	-	.	ID=gene148;Name=USA300HOU_0147;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0147
+CP000730.1	Genbank	CDS	155980	156735	.	-	0	ID=cds137;Parent=gene148;Dbxref=NCBI_GP:ABX28184.1;Name=ABX28184.1;gbkey=CDS;product=transcriptional regulator;protein_id=ABX28184.1;transl_table=11
+CP000730.1	Genbank	gene	156971	157678	.	+	.	ID=gene149;Name=deoD1;gbkey=Gene;gene=deoD1;gene_biotype=protein_coding;locus_tag=USA300HOU_0148
+CP000730.1	Genbank	CDS	156971	157678	.	+	0	ID=cds138;Parent=gene149;Dbxref=NCBI_GP:ABX28185.1;Name=ABX28185.1;Note=inosine phosphorylase;gbkey=CDS;gene=deoD1;product=purine-nucleoside phosphorylase;protein_id=ABX28185.1;transl_table=11
+CP000730.1	Genbank	gene	157685	159037	.	+	.	ID=gene150;Name=USA300HOU_0149;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0149
+CP000730.1	Genbank	CDS	157685	159037	.	+	0	ID=cds139;Parent=gene150;Dbxref=NCBI_GP:ABX28186.1;Name=ABX28186.1;gbkey=CDS;product=MFS family major facilitator transporter%2C tetracycline:cation symporter;protein_id=ABX28186.1;transl_table=11
+CP000730.1	Genbank	gene	159118	159780	.	+	.	ID=gene151;Name=deoC1;gbkey=Gene;gene=deoC1;gene_biotype=protein_coding;locus_tag=USA300HOU_0150
+CP000730.1	Genbank	CDS	159118	159780	.	+	0	ID=cds140;Parent=gene151;Dbxref=NCBI_GP:ABX28187.1;Name=ABX28187.1;gbkey=CDS;gene=deoC1;product=deoxyribose-phosphate aldolase;protein_id=ABX28187.1;transl_table=11
+CP000730.1	Genbank	gene	159808	160986	.	+	.	ID=gene152;Name=deoB1;gbkey=Gene;gene=deoB1;gene_biotype=protein_coding;locus_tag=USA300HOU_0151
+CP000730.1	Genbank	CDS	159808	160986	.	+	0	ID=cds141;Parent=gene152;Dbxref=NCBI_GP:ABX28188.1;Name=ABX28188.1;Note=deoxyribomutase;gbkey=CDS;gene=deoB1;product=phosphopentomutase;protein_id=ABX28188.1;transl_table=11
+CP000730.1	Genbank	gene	161117	161932	.	-	.	ID=gene153;Name=USA300HOU_0152;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0152
+CP000730.1	Genbank	CDS	161117	161932	.	-	0	ID=cds142;Parent=gene153;Dbxref=NCBI_GP:ABX28189.1;Name=ABX28189.1;gbkey=CDS;product=ABC superfamily ATP binding cassette transporter%2C membrane protein;protein_id=ABX28189.1;transl_table=11
+CP000730.1	Genbank	gene	161929	162654	.	-	.	ID=gene154;Name=USA300HOU_0153;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0153
+CP000730.1	Genbank	CDS	161929	162654	.	-	0	ID=cds143;Parent=gene154;Dbxref=NCBI_GP:ABX28190.1;Name=ABX28190.1;gbkey=CDS;product=ABC superfamily ATP binding cassette transporter%2C membrane protein;protein_id=ABX28190.1;transl_table=11
+CP000730.1	Genbank	gene	162731	163504	.	-	.	ID=gene155;Name=USA300HOU_0154;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0154
+CP000730.1	Genbank	CDS	162731	163504	.	-	0	ID=cds144;Parent=gene155;Dbxref=NCBI_GP:ABX28191.1;Name=ABX28191.1;gbkey=CDS;product=ABC superfamily ATP binding cassette transporter%2C ABC protein;protein_id=ABX28191.1;transl_table=11
+CP000730.1	Genbank	gene	163718	164674	.	-	.	ID=gene156;Name=USA300HOU_0155;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0155
+CP000730.1	Genbank	CDS	163718	164674	.	-	0	ID=cds145;Parent=gene156;Dbxref=NCBI_GP:ABX28192.1;Name=ABX28192.1;gbkey=CDS;product=ABC superfamily ATP binding cassette transporter%2C binding protein;protein_id=ABX28192.1;transl_table=11
+CP000730.1	Genbank	gene	164903	166447	.	+	.	ID=gene157;Name=USA300HOU_0156;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0156
+CP000730.1	Genbank	CDS	164903	166447	.	+	0	ID=cds146;Parent=gene157;Dbxref=NCBI_GP:ABX28193.1;Name=ABX28193.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28193.1;transl_table=11
+CP000730.1	Genbank	gene	166498	168033	.	+	.	ID=gene158;Name=USA300HOU_0157;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0157
+CP000730.1	Genbank	CDS	166498	168033	.	+	0	ID=cds147;Parent=gene158;Dbxref=NCBI_GP:ABX28194.1;Name=ABX28194.1;gbkey=CDS;product=nucleotidase;protein_id=ABX28194.1;transl_table=11
+CP000730.1	Genbank	pseudogene	168117	168320	.	+	.	ID=gene159;Name=USA300HOU_0158;Note=hypothetical protein;gbkey=Gene;gene_biotype=pseudogene;locus_tag=USA300HOU_0158;pseudo=true
+CP000730.1	Genbank	pseudogene	168633	169453	.	+	.	ID=gene160;Name=USA300HOU_0159;Note=frameshift of replication initiation protein;gbkey=Gene;gene_biotype=pseudogene;locus_tag=USA300HOU_0159;pseudo=true
+CP000730.1	Genbank	gene	169537	169863	.	+	.	ID=gene161;Name=USA300HOU_0160;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0160
+CP000730.1	Genbank	CDS	169537	169863	.	+	0	ID=cds148;Parent=gene161;Dbxref=NCBI_GP:ABX28195.1;Name=ABX28195.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28195.1;transl_table=11
+CP000730.1	Genbank	pseudogene	170116	170651	.	+	.	ID=gene162;Name=USA300HOU_0161;Note=IS605/IS200 family transposase;gbkey=Gene;gene_biotype=pseudogene;locus_tag=USA300HOU_0161;pseudo=true
+CP000730.1	Genbank	gene	171101	173710	.	+	.	ID=gene163;Name=USA300HOU_0162;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0162
+CP000730.1	Genbank	CDS	171101	173710	.	+	0	ID=cds149;Parent=gene163;Dbxref=NCBI_GP:ABX28196.1;Name=ABX28196.1;gbkey=CDS;product=alcohol dehydrogenase;protein_id=ABX28196.1;transl_table=11
+CP000730.1	Genbank	gene	174055	174723	.	+	.	ID=gene164;Name=cap5A;gbkey=Gene;gene=cap5A;gene_biotype=protein_coding;locus_tag=USA300HOU_0163
+CP000730.1	Genbank	CDS	174055	174723	.	+	0	ID=cds150;Parent=gene164;Dbxref=NCBI_GP:ABX28197.1;Name=ABX28197.1;gbkey=CDS;gene=cap5A;product=capsular polysaccharide biosynthesis protein Cap5A;protein_id=ABX28197.1;transl_table=11
+CP000730.1	Genbank	gene	174739	175425	.	+	.	ID=gene165;Name=cap5B;gbkey=Gene;gene=cap5B;gene_biotype=protein_coding;locus_tag=USA300HOU_0164
+CP000730.1	Genbank	CDS	174739	175425	.	+	0	ID=cds151;Parent=gene165;Dbxref=NCBI_GP:ABX28198.1;Name=ABX28198.1;gbkey=CDS;gene=cap5B;product=capsular polysaccharide biosynthesis protein Cap5B;protein_id=ABX28198.1;transl_table=11
+CP000730.1	Genbank	gene	175428	176192	.	+	.	ID=gene166;Name=cap5C;gbkey=Gene;gene=cap5C;gene_biotype=protein_coding;locus_tag=USA300HOU_0165
+CP000730.1	Genbank	CDS	175428	176192	.	+	0	ID=cds152;Parent=gene166;Dbxref=NCBI_GP:ABX28199.1;Name=ABX28199.1;gbkey=CDS;gene=cap5C;product=capsular polysaccharide biosynthesis protein Cap5C;protein_id=ABX28199.1;transl_table=11
+CP000730.1	Genbank	pseudogene	177182	178036	.	+	.	ID=gene167;Name=cap5D;Note=capsular polysaccharide biosynthesis protein Cap5D;gbkey=Gene;gene=cap5D;gene_biotype=pseudogene;locus_tag=USA300HOU_0166;pseudo=true
+CP000730.1	Genbank	gene	178026	179054	.	+	.	ID=gene168;Name=cap5E;gbkey=Gene;gene=cap5E;gene_biotype=protein_coding;locus_tag=USA300HOU_0167
+CP000730.1	Genbank	CDS	178026	179054	.	+	0	ID=cds153;Parent=gene168;Dbxref=NCBI_GP:ABX28200.1;Name=ABX28200.1;gbkey=CDS;gene=cap5E;product=capsular polysaccharide biosynthesis protein Cap5E;protein_id=ABX28200.1;transl_table=11
+CP000730.1	Genbank	gene	179061	180176	.	+	.	ID=gene169;Name=cap5F;gbkey=Gene;gene=cap5F;gene_biotype=protein_coding;locus_tag=USA300HOU_0168
+CP000730.1	Genbank	CDS	179061	180176	.	+	0	ID=cds154;Parent=gene169;Dbxref=NCBI_GP:ABX28201.1;Name=ABX28201.1;gbkey=CDS;gene=cap5F;product=capsular polysaccharide biosynthesis protein Cap5F;protein_id=ABX28201.1;transl_table=11
+CP000730.1	Genbank	pseudogene	180180	181304	.	+	.	ID=gene170;Name=cap5G;Note=UDP-N-acetylglucosamine 2-epimerase;gbkey=Gene;gene=cap5G;gene_biotype=pseudogene;locus_tag=USA300HOU_0169;pseudo=true
+CP000730.1	Genbank	gene	181307	181933	.	+	.	ID=gene171;Name=cap5H;gbkey=Gene;gene=cap5H;gene_biotype=protein_coding;locus_tag=USA300HOU_0170
+CP000730.1	Genbank	CDS	181307	181933	.	+	0	ID=cds155;Parent=gene171;Dbxref=NCBI_GP:ABX28202.1;Name=ABX28202.1;gbkey=CDS;gene=cap5H;product=capsular polysaccharide biosynthesis protein Cap5H;protein_id=ABX28202.1;transl_table=11
+CP000730.1	Genbank	gene	181938	183047	.	+	.	ID=gene172;Name=cap5I;gbkey=Gene;gene=cap5I;gene_biotype=protein_coding;locus_tag=USA300HOU_0171
+CP000730.1	Genbank	CDS	181938	183047	.	+	0	ID=cds156;Parent=gene172;Dbxref=NCBI_GP:ABX28203.1;Name=ABX28203.1;gbkey=CDS;gene=cap5I;product=capsular polysaccharide biosynthesis protein Cap5I;protein_id=ABX28203.1;transl_table=11
+CP000730.1	Genbank	gene	183061	184227	.	+	.	ID=gene173;Name=cap5J;gbkey=Gene;gene=cap5J;gene_biotype=protein_coding;locus_tag=USA300HOU_0172
+CP000730.1	Genbank	CDS	183061	184227	.	+	0	ID=cds157;Parent=gene173;Dbxref=NCBI_GP:ABX28204.1;Name=ABX28204.1;gbkey=CDS;gene=cap5J;product=capsular polysaccharide biosynthesis protein Cap5J;protein_id=ABX28204.1;transl_table=11
+CP000730.1	Genbank	gene	184220	185425	.	+	.	ID=gene174;Name=cap5K;gbkey=Gene;gene=cap5K;gene_biotype=protein_coding;locus_tag=USA300HOU_0173
+CP000730.1	Genbank	CDS	184220	185425	.	+	0	ID=cds158;Parent=gene174;Dbxref=NCBI_GP:ABX28205.1;Name=ABX28205.1;gbkey=CDS;gene=cap5K;product=capsular polysaccharide synthesis protein Cap5K;protein_id=ABX28205.1;transl_table=11
+CP000730.1	Genbank	gene	185426	186631	.	+	.	ID=gene175;Name=cap5L;gbkey=Gene;gene=cap5L;gene_biotype=protein_coding;locus_tag=USA300HOU_0174
+CP000730.1	Genbank	CDS	185426	186631	.	+	0	ID=cds159;Parent=gene175;Dbxref=NCBI_GP:ABX28206.1;Name=ABX28206.1;gbkey=CDS;gene=cap5L;product=capsular polysaccharide biosynthesis protein Cap5L;protein_id=ABX28206.1;transl_table=11
+CP000730.1	Genbank	gene	186642	187199	.	+	.	ID=gene176;Name=cap5M;gbkey=Gene;gene=cap5M;gene_biotype=protein_coding;locus_tag=USA300HOU_0175
+CP000730.1	Genbank	CDS	186642	187199	.	+	0	ID=cds160;Parent=gene176;Dbxref=NCBI_GP:ABX28207.1;Name=ABX28207.1;Note=galactosyltransferase;gbkey=CDS;gene=cap5M;product=capsular polysaccharide biosynthesis protein Cap5M;protein_id=ABX28207.1;transl_table=11
+CP000730.1	Genbank	gene	187199	188086	.	+	.	ID=gene177;Name=cap5N;gbkey=Gene;gene=cap5N;gene_biotype=protein_coding;locus_tag=USA300HOU_0176
+CP000730.1	Genbank	CDS	187199	188086	.	+	0	ID=cds161;Parent=gene177;Dbxref=NCBI_GP:ABX28208.1;Name=ABX28208.1;Note=UDP-glucose 4-epimerase;gbkey=CDS;gene=cap5N;product=capsular polysaccharide biosynthesis protein Cap5N;protein_id=ABX28208.1;transl_table=11
+CP000730.1	Genbank	gene	188140	189402	.	+	.	ID=gene178;Name=cap5O;gbkey=Gene;gene=cap5O;gene_biotype=protein_coding;locus_tag=USA300HOU_0177
+CP000730.1	Genbank	CDS	188140	189402	.	+	0	ID=cds162;Parent=gene178;Dbxref=NCBI_GP:ABX28209.1;Name=ABX28209.1;Note=N-acylmannosamine 1-dehydrogenase;gbkey=CDS;gene=cap5O;product=capsular polysaccharide biosynthesis protein Cap5O;protein_id=ABX28209.1;transl_table=11
+CP000730.1	Genbank	gene	189449	190624	.	+	.	ID=gene179;Name=cap5P;gbkey=Gene;gene=cap5P;gene_biotype=protein_coding;locus_tag=USA300HOU_0178
+CP000730.1	Genbank	CDS	189449	190624	.	+	0	ID=cds163;Parent=gene179;Dbxref=NCBI_GP:ABX28210.1;Name=ABX28210.1;Note=UDP-N-acetylglucosamine 2-epimerase;gbkey=CDS;gene=cap5P;product=capsular polysaccharide biosynthesis protein Cap5P;protein_id=ABX28210.1;transl_table=11
+CP000730.1	Genbank	gene	190689	191009	.	-	.	ID=gene180;Name=isdG1;gbkey=Gene;gene=isdG1;gene_biotype=protein_coding;locus_tag=USA300HOU_0179
+CP000730.1	Genbank	CDS	190689	191009	.	-	0	ID=cds164;Parent=gene180;Dbxref=NCBI_GP:ABX28211.1;Name=ABX28211.1;Note=iron-regulated surface determinant G;gbkey=CDS;gene=isdG1;product=heme-degrading enzyme IsdG;protein_id=ABX28211.1;transl_table=11
+CP000730.1	Genbank	gene	191022	191405	.	-	.	ID=gene181;Name=USA300HOU_0180;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0180
+CP000730.1	Genbank	CDS	191022	191405	.	-	0	ID=cds165;Parent=gene181;Dbxref=NCBI_GP:ABX28212.1;Name=ABX28212.1;gbkey=CDS;product=hypothetical membrane protein;protein_id=ABX28212.1;transl_table=11
+CP000730.1	Genbank	gene	191832	193319	.	+	.	ID=gene182;Name=aldH2;gbkey=Gene;gene=aldH2;gene_biotype=protein_coding;locus_tag=USA300HOU_0181
+CP000730.1	Genbank	CDS	191832	193319	.	+	0	ID=cds166;Parent=gene182;Dbxref=NCBI_GP:ABX28213.1;Name=ABX28213.1;gbkey=CDS;gene=aldH2;product=aldehyde dehydrogenase (NAD(+));protein_id=ABX28213.1;transl_table=11
+CP000730.1	Genbank	gene	193965	194924	.	+	.	ID=gene183;Name=USA300HOU_0182;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0182
+CP000730.1	Genbank	CDS	193965	194924	.	+	0	ID=cds167;Parent=gene183;Dbxref=NCBI_GP:ABX28214.1;Name=ABX28214.1;gbkey=CDS;product=CDF family cation diffusion facilitator;protein_id=ABX28214.1;transl_table=11
+CP000730.1	Genbank	gene	194986	195189	.	-	.	ID=gene184;Name=USA300HOU_0183;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0183
+CP000730.1	Genbank	CDS	194986	195189	.	-	0	ID=cds168;Parent=gene184;Dbxref=NCBI_GP:ABX28215.1;Name=ABX28215.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28215.1;transl_table=11
+CP000730.1	Genbank	gene	195368	195880	.	+	.	ID=gene185;Name=USA300HOU_0184;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0184
+CP000730.1	Genbank	CDS	195368	195880	.	+	0	ID=cds169;Parent=gene185;Dbxref=NCBI_GP:ABX28216.1;Name=ABX28216.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28216.1;transl_table=11
+CP000730.1	Genbank	gene	196222	196962	.	+	.	ID=gene186;Name=USA300HOU_0185;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0185
+CP000730.1	Genbank	CDS	196222	196962	.	+	0	ID=cds170;Parent=gene186;Dbxref=NCBI_GP:ABX28217.1;Name=ABX28217.1;gbkey=CDS;product=possible nitrite/nitrate ABC superfamily ATP binding cassette transporter%2C ABC protein;protein_id=ABX28217.1;transl_table=11
+CP000730.1	Genbank	gene	196976	197950	.	+	.	ID=gene187;Name=USA300HOU_0186;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0186
+CP000730.1	Genbank	CDS	196976	197950	.	+	0	ID=cds171;Parent=gene187;Dbxref=NCBI_GP:ABX28218.1;Name=ABX28218.1;gbkey=CDS;product=possible ABC superfamily ATP-binding cassette transporter%2C binding protein;protein_id=ABX28218.1;transl_table=11
+CP000730.1	Genbank	gene	197947	198708	.	+	.	ID=gene188;Name=USA300HOU_0187;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0187
+CP000730.1	Genbank	CDS	197947	198708	.	+	0	ID=cds172;Parent=gene188;Dbxref=NCBI_GP:ABX28219.1;Name=ABX28219.1;gbkey=CDS;product=ABC superfamily ATP binding cassette transporter%2C membrane protein;protein_id=ABX28219.1;transl_table=11
+CP000730.1	Genbank	pseudogene	198721	199753	.	+	.	ID=gene189;Name=USA300HOU_0188;Note=frameshift of hypothetical protein;gbkey=Gene;gene_biotype=pseudogene;locus_tag=USA300HOU_0188;pseudo=true
+CP000730.1	Genbank	gene	199970	200329	.	+	.	ID=gene190;Name=USA300HOU_0189;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0189
+CP000730.1	Genbank	CDS	199970	200329	.	+	0	ID=cds173;Parent=gene190;Dbxref=NCBI_GP:ABX28220.1;Name=ABX28220.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28220.1;transl_table=11
+CP000730.1	Genbank	gene	200496	201527	.	+	.	ID=gene191;Name=fdh;gbkey=Gene;gene=fdh;gene_biotype=protein_coding;locus_tag=USA300HOU_0190
+CP000730.1	Genbank	CDS	200496	201527	.	+	0	ID=cds174;Parent=gene191;Dbxref=NCBI_GP:ABX28221.1;Name=ABX28221.1;Note=NAD-dependent formate dehydrogenase;gbkey=CDS;gene=fdh;product=formate dehydrogenase;protein_id=ABX28221.1;transl_table=11
+CP000730.1	Genbank	gene	201913	203163	.	+	.	ID=gene192;Name=USA300HOU_0191;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0191
+CP000730.1	Genbank	CDS	201913	203163	.	+	0	ID=cds175;Parent=gene192;Dbxref=NCBI_GP:ABX28222.1;Name=ABX28222.1;gbkey=CDS;product=MFS family major facilitator transporter%2C multidrug cation symporter or antiporter;protein_id=ABX28222.1;transl_table=11
+CP000730.1	Genbank	gene	203592	210785	.	+	.	ID=gene193;Name=USA300HOU_0192;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0192
+CP000730.1	Genbank	CDS	203592	210785	.	+	0	ID=cds176;Parent=gene193;Dbxref=NCBI_GP:ABX28223.1;Name=ABX28223.1;gbkey=CDS;product=non-ribosomal peptide synthetase;protein_id=ABX28223.1;transl_table=11
+CP000730.1	Genbank	gene	210798	211442	.	+	.	ID=gene194;Name=USA300HOU_0193;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0193
+CP000730.1	Genbank	CDS	210798	211442	.	+	0	ID=cds177;Parent=gene194;Dbxref=NCBI_GP:ABX28224.1;Name=ABX28224.1;gbkey=CDS;product=possible holo-[acyl-carrier-protein] synthase;protein_id=ABX28224.1;transl_table=11
+CP000730.1	Genbank	gene	211770	212264	.	-	.	ID=gene195;Name=USA300HOU_0194;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0194
+CP000730.1	Genbank	CDS	211770	212264	.	-	0	ID=cds178;Parent=gene195;Dbxref=NCBI_GP:ABX28225.1;Name=ABX28225.1;gbkey=CDS;product=hypothetical membrane protein;protein_id=ABX28225.1;transl_table=11
+CP000730.1	Genbank	gene	212519	213283	.	-	.	ID=gene196;Name=argB;gbkey=Gene;gene=argB;gene_biotype=protein_coding;locus_tag=USA300HOU_0195
+CP000730.1	Genbank	CDS	212519	213283	.	-	0	ID=cds179;Parent=gene196;Dbxref=NCBI_GP:ABX28226.1;Name=ABX28226.1;gbkey=CDS;gene=argB;product=acetylglutamate kinase;protein_id=ABX28226.1;transl_table=11
+CP000730.1	Genbank	gene	213299	214540	.	-	.	ID=gene197;Name=argJ;gbkey=Gene;gene=argJ;gene_biotype=protein_coding;locus_tag=USA300HOU_0196
+CP000730.1	Genbank	CDS	213299	214540	.	-	0	ID=cds180;Parent=gene197;Dbxref=NCBI_GP:ABX28227.1;Name=ABX28227.1;gbkey=CDS;gene=argJ;product=glutamate N-acetyltransferase;protein_id=ABX28227.1;transl_table=11
+CP000730.1	Genbank	gene	214552	215586	.	-	.	ID=gene198;Name=argC;gbkey=Gene;gene=argC;gene_biotype=protein_coding;locus_tag=USA300HOU_0197
+CP000730.1	Genbank	CDS	214552	215586	.	-	0	ID=cds181;Parent=gene198;Dbxref=NCBI_GP:ABX28228.1;Name=ABX28228.1;gbkey=CDS;gene=argC;product=N-acetyl-gamma-glutamyl-phosphate reductase;protein_id=ABX28228.1;transl_table=11
+CP000730.1	Genbank	gene	215622	216833	.	-	.	ID=gene199;Name=argD;gbkey=Gene;gene=argD;gene_biotype=protein_coding;locus_tag=USA300HOU_0198
+CP000730.1	Genbank	CDS	215622	216833	.	-	0	ID=cds182;Parent=gene199;Dbxref=NCBI_GP:ABX28229.1;Name=ABX28229.1;gbkey=CDS;gene=argD;product=ornithine--oxo-acid transaminase;protein_id=ABX28229.1;transl_table=11
+CP000730.1	Genbank	gene	217059	218414	.	-	.	ID=gene200;Name=USA300HOU_0199;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0199
+CP000730.1	Genbank	CDS	217059	218414	.	-	0	ID=cds183;Parent=gene200;Dbxref=NCBI_GP:ABX28230.1;Name=ABX28230.1;gbkey=CDS;product=possible LIVCS family branched chain amino acid:cation symporter;protein_id=ABX28230.1;transl_table=11
+CP000730.1	Genbank	gene	218690	219247	.	-	.	ID=gene201;Name=USA300HOU_0200;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0200
+CP000730.1	Genbank	CDS	218690	219247	.	-	0	ID=cds184;Parent=gene201;Dbxref=NCBI_GP:ABX28231.1;Name=ABX28231.1;gbkey=CDS;product=possible isochorismatase;protein_id=ABX28231.1;transl_table=11
+CP000730.1	Genbank	gene	219314	220954	.	-	.	ID=gene202;Name=USA300HOU_0201;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0201
+CP000730.1	Genbank	CDS	219314	220954	.	-	0	ID=cds185;Parent=gene202;Dbxref=NCBI_GP:ABX28232.1;Name=ABX28232.1;Note=indole-3-pyruvate decarboxylase;gbkey=CDS;product=indolepyruvate decarboxylase;protein_id=ABX28232.1;transl_table=11
+CP000730.1	Genbank	gene	221148	221249	.	+	.	ID=gene203;Name=USA300HOU_0202;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0202
+CP000730.1	Genbank	CDS	221148	221249	.	+	0	ID=cds186;Parent=gene203;Dbxref=NCBI_GP:ABX28233.1;Name=ABX28233.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28233.1;transl_table=11
+CP000730.1	Genbank	gene	221228	223288	.	-	.	ID=gene204;Name=USA300HOU_0203;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0203
+CP000730.1	Genbank	CDS	221228	223288	.	-	0	ID=cds187;Parent=gene204;Dbxref=NCBI_GP:ABX28234.1;Name=ABX28234.1;gbkey=CDS;product=PTS family glucose/glucoside (glc) porter component IIABC;protein_id=ABX28234.1;transl_table=11
+CP000730.1	Genbank	gene	223859	224914	.	+	.	ID=gene205;Name=USA300HOU_0204;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0204
+CP000730.1	Genbank	CDS	223859	224914	.	+	0	ID=cds188;Parent=gene205;Dbxref=NCBI_GP:ABX28235.1;Name=ABX28235.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28235.1;transl_table=11
+CP000730.1	Genbank	gene	224914	225810	.	+	.	ID=gene206;Name=USA300HOU_0205;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0205
+CP000730.1	Genbank	CDS	224914	225810	.	+	0	ID=cds189;Parent=gene206;Dbxref=NCBI_GP:ABX28236.1;Name=ABX28236.1;gbkey=CDS;product=possible sugar phosphate isomerase;protein_id=ABX28236.1;transl_table=11
+CP000730.1	Genbank	gene	225822	227276	.	+	.	ID=gene207;Name=USA300HOU_0206;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0206
+CP000730.1	Genbank	CDS	225822	227276	.	+	0	ID=cds190;Parent=gene207;Dbxref=NCBI_GP:ABX28237.1;Name=ABX28237.1;gbkey=CDS;product=possible PTS family sucrose porter component IIBC;protein_id=ABX28237.1;transl_table=11
+CP000730.1	Genbank	gene	227276	228154	.	+	.	ID=gene208;Name=USA300HOU_0207;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0207
+CP000730.1	Genbank	CDS	227276	228154	.	+	0	ID=cds191;Parent=gene208;Dbxref=NCBI_GP:ABX28238.1;Name=ABX28238.1;gbkey=CDS;product=RpiR family transcriptional regulator;protein_id=ABX28238.1;transl_table=11
+CP000730.1	Genbank	gene	228842	231631	.	+	.	ID=gene209;Name=hsdR2;gbkey=Gene;gene=hsdR2;gene_biotype=protein_coding;locus_tag=USA300HOU_0208
+CP000730.1	Genbank	CDS	228842	231631	.	+	0	ID=cds192;Parent=gene209;Dbxref=NCBI_GP:ABX28239.1;Name=ABX28239.1;gbkey=CDS;gene=hsdR2;product=type I site-specific deoxyribonuclease restriction subunit;protein_id=ABX28239.1;transl_table=11
+CP000730.1	Genbank	gene	231836	232678	.	+	.	ID=gene210;Name=USA300HOU_0209;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0209
+CP000730.1	Genbank	CDS	231836	232678	.	+	0	ID=cds193;Parent=gene210;Dbxref=NCBI_GP:ABX28240.1;Name=ABX28240.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28240.1;transl_table=11
+CP000730.1	Genbank	gene	232680	233603	.	+	.	ID=gene211;Name=USA300HOU_0210;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0210
+CP000730.1	Genbank	CDS	232680	233603	.	+	0	ID=cds194;Parent=gene211;Dbxref=NCBI_GP:ABX28241.1;Name=ABX28241.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28241.1;transl_table=11
+CP000730.1	Genbank	gene	233590	234702	.	+	.	ID=gene212;Name=USA300HOU_0211;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0211
+CP000730.1	Genbank	CDS	233590	234702	.	+	0	ID=cds195;Parent=gene212;Dbxref=NCBI_GP:ABX28242.1;Name=ABX28242.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28242.1;transl_table=11
+CP000730.1	Genbank	gene	234967	236559	.	-	.	ID=gene213;Name=USA300HOU_0212;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0212
+CP000730.1	Genbank	CDS	234967	236559	.	-	0	ID=cds196;Parent=gene213;Dbxref=NCBI_GP:ABX28243.1;Name=ABX28243.1;gbkey=CDS;product=oligopeptide ABC superfamily ATP binding cassette transporter%2C ABC protein;protein_id=ABX28243.1;transl_table=11
+CP000730.1	Genbank	gene	236558	237994	.	+	.	ID=gene214;Name=USA300HOU_0213;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0213
+CP000730.1	Genbank	CDS	236558	237994	.	+	0	ID=cds197;Parent=gene214;Dbxref=NCBI_GP:ABX28244.1;Name=ABX28244.1;gbkey=CDS;product=oligopeptide ABC superfamily ATP binding cassette transporter%2C membrane protein;protein_id=ABX28244.1;transl_table=11
+CP000730.1	Genbank	gene	238000	239163	.	+	.	ID=gene215;Name=USA300HOU_0214;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0214
+CP000730.1	Genbank	CDS	238000	239163	.	+	0	ID=cds198;Parent=gene215;Dbxref=NCBI_GP:ABX28245.1;Name=ABX28245.1;gbkey=CDS;product=oligopeptide ABC superfamily ATP binding cassette transporter%2C membrane protein;protein_id=ABX28245.1;transl_table=11
+CP000730.1	Genbank	gene	239180	240955	.	+	.	ID=gene216;Name=rlp;gbkey=Gene;gene=rlp;gene_biotype=protein_coding;locus_tag=USA300HOU_0215
+CP000730.1	Genbank	CDS	239180	240955	.	+	0	ID=cds199;Parent=gene216;Dbxref=NCBI_GP:ABX28246.1;Name=ABX28246.1;gbkey=CDS;gene=rlp;product=RGD domain lipoprotein;protein_id=ABX28246.1;transl_table=11
+CP000730.1	Genbank	gene	240993	242999	.	+	.	ID=gene217;Name=ggt;gbkey=Gene;gene=ggt;gene_biotype=protein_coding;locus_tag=USA300HOU_0216
+CP000730.1	Genbank	CDS	240993	242999	.	+	0	ID=cds200;Parent=gene217;Dbxref=NCBI_GP:ABX28247.1;Name=ABX28247.1;gbkey=CDS;gene=ggt;product=T3 family gamma-glutamyltransferase;protein_id=ABX28247.1;transl_table=11
+CP000730.1	Genbank	gene	243297	244070	.	-	.	ID=gene218;Name=USA300HOU_0217;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0217
+CP000730.1	Genbank	CDS	243297	244070	.	-	0	ID=cds201;Parent=gene218;Dbxref=NCBI_GP:ABX28248.1;Name=ABX28248.1;gbkey=CDS;product=possible staphylococcal lipoprotein;protein_id=ABX28248.1;transl_table=11
+CP000730.1	Genbank	gene	244260	244886	.	-	.	ID=gene219;Name=USA300HOU_0218;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0218
+CP000730.1	Genbank	CDS	244260	244886	.	-	0	ID=cds202;Parent=gene219;Dbxref=NCBI_GP:ABX28249.1;Name=ABX28249.1;Note=ACP phosphodiesterase;gbkey=CDS;product=[acyl-carrier-protein] phosphodiesterase;protein_id=ABX28249.1;transl_table=11
+CP000730.1	Genbank	gene	245083	245673	.	+	.	ID=gene220;Name=USA300HOU_0219;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0219
+CP000730.1	Genbank	CDS	245083	245673	.	+	0	ID=cds203;Parent=gene220;Dbxref=NCBI_GP:ABX28250.1;Name=ABX28250.1;gbkey=CDS;product=M23 family peptidase;protein_id=ABX28250.1;transl_table=11
+CP000730.1	Genbank	gene	246056	247153	.	+	.	ID=gene221;Name=USA300HOU_0220;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0220
+CP000730.1	Genbank	CDS	246056	247153	.	+	0	ID=cds204;Parent=gene221;Dbxref=NCBI_GP:ABX28251.1;Name=ABX28251.1;gbkey=CDS;product=maltose/maltodextrin ABC superfamily ATP binding cassette transporter%2C ABC protein;protein_id=ABX28251.1;transl_table=11
+CP000730.1	Genbank	gene	247166	248437	.	+	.	ID=gene222;Name=USA300HOU_0221;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0221
+CP000730.1	Genbank	CDS	247166	248437	.	+	0	ID=cds205;Parent=gene222;Dbxref=NCBI_GP:ABX28252.1;Name=ABX28252.1;gbkey=CDS;product=maltose/maltodextrin ABC superfamily ATP binding cassette transporter%2C binding protein;protein_id=ABX28252.1;transl_table=11
+CP000730.1	Genbank	gene	248440	249708	.	+	.	ID=gene223;Name=USA300HOU_0222;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0222
+CP000730.1	Genbank	CDS	248440	249708	.	+	0	ID=cds206;Parent=gene223;Dbxref=NCBI_GP:ABX28253.1;Name=ABX28253.1;gbkey=CDS;product=maltose/maltodextrin ABC superfamily ATP binding cassette transporter%2C membrane protein;protein_id=ABX28253.1;transl_table=11
+CP000730.1	Genbank	gene	249710	250549	.	+	.	ID=gene224;Name=USA300HOU_0223;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0223
+CP000730.1	Genbank	CDS	249710	250549	.	+	0	ID=cds207;Parent=gene224;Dbxref=NCBI_GP:ABX28254.1;Name=ABX28254.1;gbkey=CDS;product=maltose/maltodextrin ABC superfamily ATP binding cassette transporter%2C membrane protein;protein_id=ABX28254.1;transl_table=11
+CP000730.1	Genbank	gene	250620	251699	.	+	.	ID=gene225;Name=USA300HOU_0224;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0224
+CP000730.1	Genbank	CDS	250620	251699	.	+	0	ID=cds208;Parent=gene225;Dbxref=NCBI_GP:ABX28255.1;Name=ABX28255.1;gbkey=CDS;product=possible dehydrogenase;protein_id=ABX28255.1;transl_table=11
+CP000730.1	Genbank	gene	251724	252764	.	+	.	ID=gene226;Name=USA300HOU_0225;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0225
+CP000730.1	Genbank	CDS	251724	252764	.	+	0	ID=cds209;Parent=gene226;Dbxref=NCBI_GP:ABX28256.1;Name=ABX28256.1;gbkey=CDS;product=possible dehydrogenase;protein_id=ABX28256.1;transl_table=11
+CP000730.1	Genbank	gene	252819	253787	.	+	.	ID=gene227;Name=USA300HOU_0226;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0226
+CP000730.1	Genbank	CDS	252819	253787	.	+	0	ID=cds210;Parent=gene227;Dbxref=NCBI_GP:ABX28257.1;Name=ABX28257.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28257.1;transl_table=11
+CP000730.1	Genbank	gene	253975	254076	.	+	.	ID=gene228;Name=USA300HOU_0227;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0227
+CP000730.1	Genbank	CDS	253975	254076	.	+	0	ID=cds211;Parent=gene228;Dbxref=NCBI_GP:ABX28258.1;Name=ABX28258.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28258.1;transl_table=11
+CP000730.1	Genbank	gene	254149	254721	.	-	.	ID=gene229;Name=USA300HOU_0228;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0228
+CP000730.1	Genbank	CDS	254149	254721	.	-	0	ID=cds212;Parent=gene229;Dbxref=NCBI_GP:ABX28259.1;Name=ABX28259.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28259.1;transl_table=11
+CP000730.1	Genbank	gene	254858	256255	.	+	.	ID=gene230;Name=USA300HOU_0229;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0229
+CP000730.1	Genbank	CDS	254858	256255	.	+	0	ID=cds213;Parent=gene230;Dbxref=NCBI_GP:ABX28260.1;Name=ABX28260.1;gbkey=CDS;product=MFS family major facilitator transporter%2C hexose phosphate:cation symporter;protein_id=ABX28260.1;transl_table=11
+CP000730.1	Genbank	gene	256614	257372	.	-	.	ID=gene231;Name=USA300HOU_0230;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0230
+CP000730.1	Genbank	CDS	256614	257372	.	-	0	ID=cds214;Parent=gene231;Dbxref=NCBI_GP:ABX28261.1;Name=ABX28261.1;gbkey=CDS;product=response regulator;protein_id=ABX28261.1;transl_table=11
+CP000730.1	Genbank	gene	257365	258921	.	-	.	ID=gene232;Name=USA300HOU_0231;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0231
+CP000730.1	Genbank	CDS	257365	258921	.	-	0	ID=cds215;Parent=gene232;Dbxref=NCBI_GP:ABX28262.1;Name=ABX28262.1;gbkey=CDS;product=sensor histidine kinase;protein_id=ABX28262.1;transl_table=11
+CP000730.1	Genbank	gene	258918	259886	.	-	.	ID=gene233;Name=USA300HOU_0232;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0232
+CP000730.1	Genbank	CDS	258918	259886	.	-	0	ID=cds216;Parent=gene233;Dbxref=NCBI_GP:ABX28263.1;Name=ABX28263.1;gbkey=CDS;product=iron (Fe3+) ABC superfamily ATP binding cassette transporter%2C membrane/binding protein;protein_id=ABX28263.1;transl_table=11
+CP000730.1	Genbank	gene	260459	262723	.	+	.	ID=gene234;Name=pfl;gbkey=Gene;gene=pfl;gene_biotype=protein_coding;locus_tag=USA300HOU_0233
+CP000730.1	Genbank	CDS	260459	262723	.	+	0	ID=cds217;Parent=gene234;Dbxref=NCBI_GP:ABX28264.1;Name=ABX28264.1;Note=pyruvate formate-lyase;gbkey=CDS;gene=pfl;product=formate C-acetyltransferase;protein_id=ABX28264.1;transl_table=11
+CP000730.1	Genbank	gene	262746	263501	.	+	.	ID=gene235;Name=pflA;gbkey=Gene;gene=pflA;gene_biotype=protein_coding;locus_tag=USA300HOU_0234
+CP000730.1	Genbank	CDS	262746	263501	.	+	0	ID=cds218;Parent=gene235;Dbxref=NCBI_GP:ABX28265.1;Name=ABX28265.1;gbkey=CDS;gene=pflA;product=[formate-C-acetyltransferase]-activating enzyme;protein_id=ABX28265.1;transl_table=11
+CP000730.1	Genbank	gene	263605	263799	.	+	.	ID=gene236;Name=USA300HOU_0235;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0235
+CP000730.1	Genbank	CDS	263605	263799	.	+	0	ID=cds219;Parent=gene236;Dbxref=NCBI_GP:ABX28266.1;Name=ABX28266.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28266.1;transl_table=11
+CP000730.1	Genbank	gene	263786	265600	.	+	.	ID=gene237;Name=glpQ1;gbkey=Gene;gene=glpQ1;gene_biotype=protein_coding;locus_tag=USA300HOU_0236
+CP000730.1	Genbank	CDS	263786	265600	.	+	0	ID=cds220;Parent=gene237;Dbxref=NCBI_GP:ABX28267.1;Name=ABX28267.1;gbkey=CDS;gene=glpQ1;product=possible glycerophosphodiester phosphodiesterase;protein_id=ABX28267.1;transl_table=11
+CP000730.1	Genbank	gene	265764	266108	.	-	.	ID=gene238;Name=USA300HOU_0237;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0237
+CP000730.1	Genbank	CDS	265764	266108	.	-	0	ID=cds221;Parent=gene238;Dbxref=NCBI_GP:ABX28268.1;Name=ABX28268.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28268.1;transl_table=11
+CP000730.1	Genbank	gene	266298	268127	.	+	.	ID=gene239;Name=USA300HOU_0238;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0238
+CP000730.1	Genbank	CDS	266298	268127	.	+	0	ID=cds222;Parent=gene239;Dbxref=NCBI_GP:ABX28269.1;Name=ABX28269.1;gbkey=CDS;product=staphylocoagulase;protein_id=ABX28269.1;transl_table=11
+CP000730.1	Genbank	gene	268309	268416	.	-	.	ID=gene240;Name=USA300HOU_0239;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0239
+CP000730.1	Genbank	CDS	268309	268416	.	-	0	ID=cds223;Parent=gene240;Dbxref=NCBI_GP:ABX28270.1;Name=ABX28270.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28270.1;transl_table=11
+CP000730.1	Genbank	gene	268730	269923	.	-	.	ID=gene241;Name=USA300HOU_0240;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0240
+CP000730.1	Genbank	CDS	268730	269923	.	-	0	ID=cds224;Parent=gene241;Dbxref=NCBI_GP:ABX28271.1;Name=ABX28271.1;gbkey=CDS;product=acetyl-CoA C-acetyltransferase;protein_id=ABX28271.1;transl_table=11
+CP000730.1	Genbank	gene	269944	272205	.	-	.	ID=gene242;Name=USA300HOU_0241;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0241
+CP000730.1	Genbank	CDS	269944	272205	.	-	0	ID=cds225;Parent=gene242;Dbxref=NCBI_GP:ABX28272.1;Name=ABX28272.1;gbkey=CDS;product=3-hydroxyacyl-CoA dehydrogenase;protein_id=ABX28272.1;transl_table=11
+CP000730.1	Genbank	gene	272391	273647	.	-	.	ID=gene243;Name=USA300HOU_0242;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0242
+CP000730.1	Genbank	CDS	272391	273647	.	-	0	ID=cds226;Parent=gene243;Dbxref=NCBI_GP:ABX28273.1;Name=ABX28273.1;gbkey=CDS;product=acyl-CoA dehydrogenase;protein_id=ABX28273.1;transl_table=11
+CP000730.1	Genbank	gene	273714	275219	.	-	.	ID=gene244;Name=USA300HOU_0243;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0243
+CP000730.1	Genbank	CDS	273714	275219	.	-	0	ID=cds227;Parent=gene244;Dbxref=NCBI_GP:ABX28274.1;Name=ABX28274.1;gbkey=CDS;product=long-chain-fatty-acid--CoA ligase;protein_id=ABX28274.1;transl_table=11
+CP000730.1	Genbank	gene	275245	276822	.	-	.	ID=gene245;Name=USA300HOU_0244;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0244
+CP000730.1	Genbank	CDS	275245	276822	.	-	0	ID=cds228;Parent=gene245;Dbxref=NCBI_GP:ABX28275.1;Name=ABX28275.1;gbkey=CDS;product=3-oxoacid CoA-transferase;protein_id=ABX28275.1;transl_table=11
+CP000730.1	Genbank	gene	277176	278405	.	+	.	ID=gene246;Name=USA300HOU_0245;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0245
+CP000730.1	Genbank	CDS	277176	278405	.	+	0	ID=cds229;Parent=gene246;Dbxref=NCBI_GP:ABX28276.1;Name=ABX28276.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28276.1;transl_table=11
+CP000730.1	Genbank	gene	278719	280194	.	-	.	ID=gene247;Name=USA300HOU_0246;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0246
+CP000730.1	Genbank	CDS	278719	280194	.	-	0	ID=cds230;Parent=gene247;Dbxref=NCBI_GP:ABX28277.1;Name=ABX28277.1;gbkey=CDS;product=ABC superfamily ATP binding cassette transporter%2C binding protein;protein_id=ABX28277.1;transl_table=11
+CP000730.1	Genbank	gene	280392	280748	.	-	.	ID=gene248;Name=USA300HOU_0247;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0247
+CP000730.1	Genbank	CDS	280392	280748	.	-	0	ID=cds231;Parent=gene248;Dbxref=NCBI_GP:ABX28278.1;Name=ABX28278.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28278.1;transl_table=11
+CP000730.1	Genbank	gene	280905	281078	.	-	.	ID=gene249;Name=USA300HOU_0248;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0248
+CP000730.1	Genbank	CDS	280905	281078	.	-	0	ID=cds232;Parent=gene249;Dbxref=NCBI_GP:ABX28279.1;Name=ABX28279.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28279.1;transl_table=11
+CP000730.1	Genbank	gene	281104	282249	.	-	.	ID=gene250;Name=hmp;gbkey=Gene;gene=hmp;gene_biotype=protein_coding;locus_tag=USA300HOU_0249
+CP000730.1	Genbank	CDS	281104	282249	.	-	0	ID=cds233;Parent=gene250;Dbxref=NCBI_GP:ABX28280.1;Name=ABX28280.1;gbkey=CDS;gene=hmp;product=possible nitric oxide dioxygenase;protein_id=ABX28280.1;transl_table=11
+CP000730.1	Genbank	gene	282404	282511	.	+	.	ID=gene251;Name=USA300HOU_0250;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0250
+CP000730.1	Genbank	CDS	282404	282511	.	+	0	ID=cds234;Parent=gene251;Dbxref=NCBI_GP:ABX28281.1;Name=ABX28281.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28281.1;transl_table=11
+CP000730.1	Genbank	gene	282822	283775	.	+	.	ID=gene252;Name=ldh;gbkey=Gene;gene=ldh;gene_biotype=protein_coding;locus_tag=USA300HOU_0251
+CP000730.1	Genbank	CDS	282822	283775	.	+	0	ID=cds235;Parent=gene252;Dbxref=NCBI_GP:ABX28282.1;Name=ABX28282.1;Note=L-lactic acid dehydrogenase;gbkey=CDS;gene=ldh;product=L-lactate dehydrogenase;protein_id=ABX28282.1;transl_table=11
+CP000730.1	Genbank	gene	284095	285624	.	-	.	ID=gene253;Name=USA300HOU_0252;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0252
+CP000730.1	Genbank	CDS	284095	285624	.	-	0	ID=cds236;Parent=gene253;Dbxref=NCBI_GP:ABX28283.1;Name=ABX28283.1;gbkey=CDS;product=PTS family glucose/glucoside (glc) porter component IIABC;protein_id=ABX28283.1;transl_table=11
+CP000730.1	Genbank	gene	285986	286921	.	+	.	ID=gene254;Name=USA300HOU_0253;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0253
+CP000730.1	Genbank	CDS	285986	286921	.	+	0	ID=cds237;Parent=gene254;Dbxref=NCBI_GP:ABX28284.1;Name=ABX28284.1;gbkey=CDS;product=purine nucleosidase;protein_id=ABX28284.1;transl_table=11
+CP000730.1	Genbank	gene	287031	287129	.	+	.	ID=gene255;Name=USA300HOU_0254;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0254
+CP000730.1	Genbank	CDS	287031	287129	.	+	0	ID=cds238;Parent=gene255;Dbxref=NCBI_GP:ABX28285.1;Name=ABX28285.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28285.1;transl_table=11
+CP000730.1	Genbank	gene	287260	289356	.	+	.	ID=gene256;Name=USA300HOU_0255;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0255
+CP000730.1	Genbank	CDS	287260	289356	.	+	0	ID=cds239;Parent=gene256;Dbxref=NCBI_GP:ABX28286.1;Name=ABX28286.1;gbkey=CDS;product=possible BglG family transcriptional antiterminator;protein_id=ABX28286.1;transl_table=11
+CP000730.1	Genbank	gene	289341	289808	.	+	.	ID=gene257;Name=USA300HOU_0256;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0256
+CP000730.1	Genbank	CDS	289341	289808	.	+	0	ID=cds240;Parent=gene257;Dbxref=NCBI_GP:ABX28287.1;Name=ABX28287.1;gbkey=CDS;product=possible PTS family porter component IIA;protein_id=ABX28287.1;transl_table=11
+CP000730.1	Genbank	gene	289831	290109	.	+	.	ID=gene258;Name=USA300HOU_0257;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0257
+CP000730.1	Genbank	CDS	289831	290109	.	+	0	ID=cds241;Parent=gene258;Dbxref=NCBI_GP:ABX28288.1;Name=ABX28288.1;gbkey=CDS;product=PTS family galactitol (gat) porter component IIB;protein_id=ABX28288.1;transl_table=11
+CP000730.1	Genbank	gene	290336	291595	.	+	.	ID=gene259;Name=gatC1;gbkey=Gene;gene=gatC1;gene_biotype=protein_coding;locus_tag=USA300HOU_0258
+CP000730.1	Genbank	CDS	290336	291595	.	+	0	ID=cds242;Parent=gene259;Dbxref=NCBI_GP:ABX28289.1;Name=ABX28289.1;gbkey=CDS;gene=gatC1;product=PTS family galactitol (gat) porter component IIC;protein_id=ABX28289.1;transl_table=11
+CP000730.1	Genbank	gene	291610	292668	.	+	.	ID=gene260;Name=gutB;gbkey=Gene;gene=gutB;gene_biotype=protein_coding;locus_tag=USA300HOU_0259
+CP000730.1	Genbank	CDS	291610	292668	.	+	0	ID=cds243;Parent=gene260;Dbxref=NCBI_GP:ABX28290.1;Name=ABX28290.1;gbkey=CDS;gene=gutB;product=L-iditol 2-dehydrogenase;protein_id=ABX28290.1;transl_table=11
+CP000730.1	Genbank	gene	292670	292816	.	+	.	ID=gene261;Name=USA300HOU_0260;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0260
+CP000730.1	Genbank	CDS	292670	292816	.	+	0	ID=cds244;Parent=gene261;Dbxref=NCBI_GP:ABX28291.1;Name=ABX28291.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28291.1;transl_table=11
+CP000730.1	Genbank	gene	292840	293883	.	+	.	ID=gene262;Name=USA300HOU_0261;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0261
+CP000730.1	Genbank	CDS	292840	293883	.	+	0	ID=cds245;Parent=gene262;Dbxref=NCBI_GP:ABX28292.1;Name=ABX28292.1;gbkey=CDS;product=zinc (Zn2+)-binding dehydrogenase;protein_id=ABX28292.1;transl_table=11
+CP000730.1	Genbank	gene	294411	295127	.	+	.	ID=gene263;Name=ispD2;gbkey=Gene;gene=ispD2;gene_biotype=protein_coding;locus_tag=USA300HOU_0262
+CP000730.1	Genbank	CDS	294411	295127	.	+	0	ID=cds246;Parent=gene263;Dbxref=NCBI_GP:ABX28293.1;Name=ABX28293.1;gbkey=CDS;gene=ispD2;product=2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase;protein_id=ABX28293.1;transl_table=11
+CP000730.1	Genbank	gene	295120	296145	.	+	.	ID=gene264;Name=USA300HOU_0263;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0263
+CP000730.1	Genbank	CDS	295120	296145	.	+	0	ID=cds247;Parent=gene264;Dbxref=NCBI_GP:ABX28294.1;Name=ABX28294.1;gbkey=CDS;product=alcohol dehydrogenase;protein_id=ABX28294.1;transl_table=11
+CP000730.1	Genbank	gene	296167	297861	.	+	.	ID=gene265;Name=tagB1;gbkey=Gene;gene=tagB1;gene_biotype=protein_coding;locus_tag=USA300HOU_0264
+CP000730.1	Genbank	CDS	296167	297861	.	+	0	ID=cds248;Parent=gene265;Dbxref=NCBI_GP:ABX28295.1;Name=ABX28295.1;Note=teichoic acid biosynthesis protein B;gbkey=CDS;gene=tagB1;product=glycosyl/glycerophosphate transferase;protein_id=ABX28295.1;transl_table=11
+CP000730.1	Genbank	gene	298289	299458	.	+	.	ID=gene266;Name=tagF;gbkey=Gene;gene=tagF;gene_biotype=protein_coding;locus_tag=USA300HOU_0265
+CP000730.1	Genbank	CDS	298289	299458	.	+	0	ID=cds249;Parent=gene266;Dbxref=NCBI_GP:ABX28296.1;Name=ABX28296.1;Note=teichoic acid biosynthesis protein F;gbkey=CDS;gene=tagF;product=CDP-glycerol glycerophosphotransferase;protein_id=ABX28296.1;transl_table=11
+CP000730.1	Genbank	gene	299734	300450	.	+	.	ID=gene267;Name=USA300HOU_0266;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0266
+CP000730.1	Genbank	CDS	299734	300450	.	+	0	ID=cds250;Parent=gene267;Dbxref=NCBI_GP:ABX28297.1;Name=ABX28297.1;gbkey=CDS;product=2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase;protein_id=ABX28297.1;transl_table=11
+CP000730.1	Genbank	gene	300443	301468	.	+	.	ID=gene268;Name=USA300HOU_0267;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0267
+CP000730.1	Genbank	CDS	300443	301468	.	+	0	ID=cds251;Parent=gene268;Dbxref=NCBI_GP:ABX28298.1;Name=ABX28298.1;gbkey=CDS;product=zinc (Zn2+)-binding dehydrogenase;protein_id=ABX28298.1;transl_table=11
+CP000730.1	Genbank	gene	301490	303178	.	+	.	ID=gene269;Name=tagB2;gbkey=Gene;gene=tagB2;gene_biotype=protein_coding;locus_tag=USA300HOU_0268
+CP000730.1	Genbank	CDS	301490	303178	.	+	0	ID=cds252;Parent=gene269;Dbxref=NCBI_GP:ABX28299.1;Name=ABX28299.1;Note=teichoic acid biosynthesis protein B;gbkey=CDS;gene=tagB2;product=glycosyl/glycerophosphate transferase;protein_id=ABX28299.1;transl_table=11
+CP000730.1	Genbank	gene	303211	304935	.	+	.	ID=gene270;Name=USA300HOU_0269;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0269
+CP000730.1	Genbank	CDS	303211	304935	.	+	0	ID=cds253;Parent=gene270;Dbxref=NCBI_GP:ABX28300.1;Name=ABX28300.1;gbkey=CDS;product=glycosyltransferase;protein_id=ABX28300.1;transl_table=11
+CP000730.1	Genbank	gene	305075	305749	.	+	.	ID=gene271;Name=scdA;gbkey=Gene;gene=scdA;gene_biotype=protein_coding;locus_tag=USA300HOU_0270
+CP000730.1	Genbank	CDS	305075	305749	.	+	0	ID=cds254;Parent=gene271;Dbxref=NCBI_GP:ABX28301.1;Name=ABX28301.1;gbkey=CDS;gene=scdA;product=cell division and morphogenesis protein ScdA;protein_id=ABX28301.1;transl_table=11
+CP000730.1	Genbank	gene	305996	307750	.	+	.	ID=gene272;Name=lytS;gbkey=Gene;gene=lytS;gene_biotype=protein_coding;locus_tag=USA300HOU_0271
+CP000730.1	Genbank	CDS	305996	307750	.	+	0	ID=cds255;Parent=gene272;Dbxref=NCBI_GP:ABX28302.1;Name=ABX28302.1;gbkey=CDS;gene=lytS;product=sensor histidine kinase LytS;protein_id=ABX28302.1;transl_table=11
+CP000730.1	Genbank	gene	307753	308493	.	+	.	ID=gene273;Name=lytR;gbkey=Gene;gene=lytR;gene_biotype=protein_coding;locus_tag=USA300HOU_0272
+CP000730.1	Genbank	CDS	307753	308493	.	+	0	ID=cds256;Parent=gene273;Dbxref=NCBI_GP:ABX28303.1;Name=ABX28303.1;gbkey=CDS;gene=lytR;product=response regulator LytR;protein_id=ABX28303.1;transl_table=11
+CP000730.1	Genbank	gene	308606	309049	.	+	.	ID=gene274;Name=lrgA;gbkey=Gene;gene=lrgA;gene_biotype=protein_coding;locus_tag=USA300HOU_0273
+CP000730.1	Genbank	CDS	308606	309049	.	+	0	ID=cds257;Parent=gene274;Dbxref=NCBI_GP:ABX28304.1;Name=ABX28304.1;gbkey=CDS;gene=lrgA;product=murein hydrolase regulator LrgA;protein_id=ABX28304.1;transl_table=11
+CP000730.1	Genbank	gene	309042	309743	.	+	.	ID=gene275;Name=lrgB;gbkey=Gene;gene=lrgB;gene_biotype=protein_coding;locus_tag=USA300HOU_0274
+CP000730.1	Genbank	CDS	309042	309743	.	+	0	ID=cds258;Parent=gene275;Dbxref=NCBI_GP:ABX28305.1;Name=ABX28305.1;gbkey=CDS;gene=lrgB;product=murein hydrolase regulator LrgB;protein_id=ABX28305.1;transl_table=11
+CP000730.1	Genbank	gene	309851	310555	.	-	.	ID=gene276;Name=USA300HOU_0275;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0275
+CP000730.1	Genbank	CDS	309851	310555	.	-	0	ID=cds259;Parent=gene276;Dbxref=NCBI_GP:ABX28306.1;Name=ABX28306.1;gbkey=CDS;product=GntR family transcriptional regulator;protein_id=ABX28306.1;transl_table=11
+CP000730.1	Genbank	gene	310704	311495	.	+	.	ID=gene277;Name=USA300HOU_0276;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0276
+CP000730.1	Genbank	CDS	310704	311495	.	+	0	ID=cds260;Parent=gene277;Dbxref=NCBI_GP:ABX28307.1;Name=ABX28307.1;gbkey=CDS;product=PTS family glucose/glucoside (glc) porter component IIABC;protein_id=ABX28307.1;transl_table=11
+CP000730.1	Genbank	gene	311511	312947	.	+	.	ID=gene278;Name=bglA;gbkey=Gene;gene=bglA;gene_biotype=protein_coding;locus_tag=USA300HOU_0277
+CP000730.1	Genbank	CDS	311511	312947	.	+	0	ID=cds261;Parent=gene278;Dbxref=NCBI_GP:ABX28308.1;Name=ABX28308.1;Note=phospho-beta-glucosidase;gbkey=CDS;gene=bglA;product=6-phospho-beta-glucosidase;protein_id=ABX28308.1;transl_table=11
+CP000730.1	Genbank	gene	313019	313210	.	+	.	ID=gene279;Name=USA300HOU_0278;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0278
+CP000730.1	Genbank	CDS	313019	313210	.	+	0	ID=cds262;Parent=gene279;Dbxref=NCBI_GP:ABX28309.1;Name=ABX28309.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28309.1;transl_table=11
+CP000730.1	Genbank	gene	313381	314142	.	-	.	ID=gene280;Name=USA300HOU_0279;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0279
+CP000730.1	Genbank	CDS	313381	314142	.	-	0	ID=cds263;Parent=gene280;Dbxref=NCBI_GP:ABX28310.1;Name=ABX28310.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28310.1;transl_table=11
+CP000730.1	Genbank	gene	314393	315307	.	-	.	ID=gene281;Name=rbsK;gbkey=Gene;gene=rbsK;gene_biotype=protein_coding;locus_tag=USA300HOU_0280
+CP000730.1	Genbank	CDS	314393	315307	.	-	0	ID=cds264;Parent=gene281;Dbxref=NCBI_GP:ABX28311.1;Name=ABX28311.1;gbkey=CDS;gene=rbsK;product=ribokinase;protein_id=ABX28311.1;transl_table=11
+CP000730.1	Genbank	gene	315335	315739	.	-	.	ID=gene282;Name=rbsD;gbkey=Gene;gene=rbsD;gene_biotype=protein_coding;locus_tag=USA300HOU_0281
+CP000730.1	Genbank	CDS	315335	315739	.	-	0	ID=cds265;Parent=gene282;Dbxref=NCBI_GP:ABX28312.1;Name=ABX28312.1;gbkey=CDS;gene=rbsD;product=ribose ABC superfamily ATP binding cassette transporter%2C membrane protein;protein_id=ABX28312.1;transl_table=11
+CP000730.1	Genbank	gene	315754	316635	.	-	.	ID=gene283;Name=USA300HOU_0282;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0282
+CP000730.1	Genbank	CDS	315754	316635	.	-	0	ID=cds266;Parent=gene283;Dbxref=NCBI_GP:ABX28313.1;Name=ABX28313.1;Note=ribose transporter;gbkey=CDS;product=DMT superfamily drug/metabolite transporter;protein_id=ABX28313.1;transl_table=11
+CP000730.1	Genbank	gene	316867	317865	.	-	.	ID=gene284;Name=USA300HOU_0283;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0283
+CP000730.1	Genbank	CDS	316867	317865	.	-	0	ID=cds267;Parent=gene284;Dbxref=NCBI_GP:ABX28314.1;Name=ABX28314.1;gbkey=CDS;product=ribose operon repressor;protein_id=ABX28314.1;transl_table=11
+CP000730.1	Genbank	gene	318016	318195	.	+	.	ID=gene285;Name=USA300HOU_0284;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0284
+CP000730.1	Genbank	CDS	318016	318195	.	+	0	ID=cds268;Parent=gene285;Dbxref=NCBI_GP:ABX28315.1;Name=ABX28315.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28315.1;transl_table=11
+CP000730.1	Genbank	gene	318245	318637	.	+	.	ID=gene286;Name=USA300HOU_0285;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0285
+CP000730.1	Genbank	CDS	318245	318637	.	+	0	ID=cds269;Parent=gene286;Dbxref=NCBI_GP:ABX28316.1;Name=ABX28316.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28316.1;transl_table=11
+CP000730.1	Genbank	gene	318865	319269	.	+	.	ID=gene287;Name=USA300HOU_0286;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0286
+CP000730.1	Genbank	CDS	318865	319269	.	+	0	ID=cds270;Parent=gene287;Dbxref=NCBI_GP:ABX28317.1;Name=ABX28317.1;Note=IS1272 transposase;gbkey=CDS;product=transposase;protein_id=ABX28317.1;transl_table=11
+CP000730.1	Genbank	gene	319310	320695	.	-	.	ID=gene288;Name=USA300HOU_0287;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0287
+CP000730.1	Genbank	CDS	319310	320695	.	-	0	ID=cds271;Parent=gene288;Dbxref=NCBI_GP:ABX28318.1;Name=ABX28318.1;gbkey=CDS;product=MFS family major facilitator transporter;protein_id=ABX28318.1;transl_table=11
+CP000730.1	Genbank	gene	320920	321912	.	+	.	ID=gene289;Name=USA300HOU_0288;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0288
+CP000730.1	Genbank	CDS	320920	321912	.	+	0	ID=cds272;Parent=gene289;Dbxref=NCBI_GP:ABX28319.1;Name=ABX28319.1;gbkey=CDS;product=C59 family penicillin amidase;protein_id=ABX28319.1;transl_table=11
+CP000730.1	Genbank	gene	322220	323188	.	+	.	ID=gene290;Name=lytM;gbkey=Gene;gene=lytM;gene_biotype=protein_coding;locus_tag=USA300HOU_0289
+CP000730.1	Genbank	CDS	322220	323188	.	+	0	ID=cds273;Parent=gene290;Dbxref=NCBI_GP:ABX28320.1;Name=ABX28320.1;gbkey=CDS;gene=lytM;product=M23 family lysostaphin;protein_id=ABX28320.1;transl_table=11
+CP000730.1	Genbank	gene	323240	323899	.	-	.	ID=gene291;Name=USA300HOU_0290;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0290
+CP000730.1	Genbank	CDS	323240	323899	.	-	0	ID=cds274;Parent=gene291;Dbxref=NCBI_GP:ABX28321.1;Name=ABX28321.1;gbkey=CDS;product=ABC superfamily ATP binding cassette transporter%2C ABC protein;protein_id=ABX28321.1;transl_table=11
+CP000730.1	Genbank	gene	323913	324833	.	-	.	ID=gene292;Name=USA300HOU_0291;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0291
+CP000730.1	Genbank	CDS	323913	324833	.	-	0	ID=cds275;Parent=gene292;Dbxref=NCBI_GP:ABX28322.1;Name=ABX28322.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28322.1;transl_table=11
+CP000730.1	Genbank	gene	324830	325996	.	-	.	ID=gene293;Name=USA300HOU_0292;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0292
+CP000730.1	Genbank	CDS	324830	325996	.	-	0	ID=cds276;Parent=gene293;Dbxref=NCBI_GP:ABX28323.1;Name=ABX28323.1;gbkey=CDS;product=hypothetical membrane protein;protein_id=ABX28323.1;transl_table=11
+CP000730.1	Genbank	gene	326064	327587	.	-	.	ID=gene294;Name=USA300HOU_0293;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0293
+CP000730.1	Genbank	CDS	326064	327587	.	-	0	ID=cds277;Parent=gene294;Dbxref=NCBI_GP:ABX28324.1;Name=ABX28324.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28324.1;transl_table=11
+CP000730.1	Genbank	gene	327858	328511	.	+	.	ID=gene295;Name=USA300HOU_0294;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0294
+CP000730.1	Genbank	CDS	327858	328511	.	+	0	ID=cds278;Parent=gene295;Dbxref=NCBI_GP:ABX28325.1;Name=ABX28325.1;gbkey=CDS;product=hypothetical membrane protein;protein_id=ABX28325.1;transl_table=11
+CP000730.1	Genbank	gene	328545	329132	.	+	.	ID=gene296;Name=USA300HOU_0295;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0295
+CP000730.1	Genbank	CDS	328545	329132	.	+	0	ID=cds279;Parent=gene296;Dbxref=NCBI_GP:ABX28326.1;Name=ABX28326.1;gbkey=CDS;product=hypothetical membrane protein;protein_id=ABX28326.1;transl_table=11
+CP000730.1	Genbank	gene	329275	330177	.	-	.	ID=gene297;Name=USA300HOU_0296;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0296
+CP000730.1	Genbank	CDS	329275	330177	.	-	0	ID=cds280;Parent=gene297;Dbxref=NCBI_GP:ABX28327.1;Name=ABX28327.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28327.1;transl_table=11
+CP000730.1	Genbank	gene	330416	330709	.	+	.	ID=gene298;Name=esxA;gbkey=Gene;gene=esxA;gene_biotype=protein_coding;locus_tag=USA300HOU_0297
+CP000730.1	Genbank	CDS	330416	330709	.	+	0	ID=cds281;Parent=gene298;Dbxref=NCBI_GP:ABX28328.1;Name=ABX28328.1;gbkey=CDS;gene=esxA;product=ESAT-6 family virulence protein;protein_id=ABX28328.1;transl_table=11
+CP000730.1	Genbank	gene	330793	333822	.	+	.	ID=gene299;Name=esaA;gbkey=Gene;gene=esaA;gene_biotype=protein_coding;locus_tag=USA300HOU_0298
+CP000730.1	Genbank	CDS	330793	333822	.	+	0	ID=cds282;Parent=gene299;Dbxref=NCBI_GP:ABX28329.1;Name=ABX28329.1;Note=possible membrane protein;gbkey=CDS;gene=esaA;product=virulence protein EsaA;protein_id=ABX28329.1;transl_table=11
+CP000730.1	Genbank	gene	333822	334280	.	+	.	ID=gene300;Name=essA;gbkey=Gene;gene=essA;gene_biotype=protein_coding;locus_tag=USA300HOU_0299
+CP000730.1	Genbank	CDS	333822	334280	.	+	0	ID=cds283;Parent=gene300;Dbxref=NCBI_GP:ABX28330.1;Name=ABX28330.1;gbkey=CDS;gene=essA;product=virulence protein EssA;protein_id=ABX28330.1;transl_table=11
+CP000730.1	Genbank	gene	334252	334494	.	+	.	ID=gene301;Name=esaB;gbkey=Gene;gene=esaB;gene_biotype=protein_coding;locus_tag=USA300HOU_0300
+CP000730.1	Genbank	CDS	334252	334494	.	+	0	ID=cds284;Parent=gene301;Dbxref=NCBI_GP:ABX28331.1;Name=ABX28331.1;gbkey=CDS;gene=esaB;product=virulence protein EsaB;protein_id=ABX28331.1;transl_table=11
+CP000730.1	Genbank	gene	334507	335841	.	+	.	ID=gene302;Name=essB;gbkey=Gene;gene=essB;gene_biotype=protein_coding;locus_tag=USA300HOU_0301
+CP000730.1	Genbank	CDS	334507	335841	.	+	0	ID=cds285;Parent=gene302;Dbxref=NCBI_GP:ABX28332.1;Name=ABX28332.1;gbkey=CDS;gene=essB;product=virulence protein EssB;protein_id=ABX28332.1;transl_table=11
+CP000730.1	Genbank	gene	335863	340302	.	+	.	ID=gene303;Name=essC;gbkey=Gene;gene=essC;gene_biotype=protein_coding;locus_tag=USA300HOU_0302
+CP000730.1	Genbank	CDS	335863	340302	.	+	0	ID=cds286;Parent=gene303;Dbxref=NCBI_GP:ABX28333.1;Name=ABX28333.1;Note=FtsK domain membrane protein;gbkey=CDS;gene=essC;product=virulence protein EssC;protein_id=ABX28333.1;transl_table=11
+CP000730.1	Genbank	gene	340332	340724	.	+	.	ID=gene304;Name=esaC;gbkey=Gene;gene=esaC;gene_biotype=protein_coding;locus_tag=USA300HOU_0303
+CP000730.1	Genbank	CDS	340332	340724	.	+	0	ID=cds287;Parent=gene304;Dbxref=NCBI_GP:ABX28334.1;Name=ABX28334.1;gbkey=CDS;gene=esaC;product=virulence protein EsaC;protein_id=ABX28334.1;transl_table=11
+CP000730.1	Genbank	gene	340740	341054	.	+	.	ID=gene305;Name=esxB;gbkey=Gene;gene=esxB;gene_biotype=protein_coding;locus_tag=USA300HOU_0304
+CP000730.1	Genbank	CDS	340740	341054	.	+	0	ID=cds288;Parent=gene305;Dbxref=NCBI_GP:ABX28335.1;Name=ABX28335.1;gbkey=CDS;gene=esxB;product=virulence protein EsxB;protein_id=ABX28335.1;transl_table=11
+CP000730.1	Genbank	gene	341051	341728	.	+	.	ID=gene306;Name=USA300HOU_0305;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0305
+CP000730.1	Genbank	CDS	341051	341728	.	+	0	ID=cds289;Parent=gene306;Dbxref=NCBI_GP:ABX28336.1;Name=ABX28336.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28336.1;transl_table=11
+CP000730.1	Genbank	gene	341728	342045	.	+	.	ID=gene307;Name=USA300HOU_0306;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0306
+CP000730.1	Genbank	CDS	341728	342045	.	+	0	ID=cds290;Parent=gene307;Dbxref=NCBI_GP:ABX28337.1;Name=ABX28337.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28337.1;transl_table=11
+CP000730.1	Genbank	gene	342055	343899	.	+	.	ID=gene308;Name=USA300HOU_0307;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0307
+CP000730.1	Genbank	CDS	342055	343899	.	+	0	ID=cds291;Parent=gene308;Dbxref=NCBI_GP:ABX28338.1;Name=ABX28338.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28338.1;transl_table=11
+CP000730.1	Genbank	gene	343910	344401	.	+	.	ID=gene309;Name=USA300HOU_0308;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0308
+CP000730.1	Genbank	CDS	343910	344401	.	+	0	ID=cds292;Parent=gene309;Dbxref=NCBI_GP:ABX28339.1;Name=ABX28339.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28339.1;transl_table=11
+CP000730.1	Genbank	gene	344609	345292	.	+	.	ID=gene310;Name=USA300HOU_0309;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0309
+CP000730.1	Genbank	CDS	344609	345292	.	+	0	ID=cds293;Parent=gene310;Dbxref=NCBI_GP:ABX28340.1;Name=ABX28340.1;gbkey=CDS;product=hypothetical membrane protein;protein_id=ABX28340.1;transl_table=11
+CP000730.1	Genbank	gene	345439	346050	.	+	.	ID=gene311;Name=USA300HOU_0310;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0310
+CP000730.1	Genbank	CDS	345439	346050	.	+	0	ID=cds294;Parent=gene311;Dbxref=NCBI_GP:ABX28341.1;Name=ABX28341.1;gbkey=CDS;product=hypothetical membrane protein;protein_id=ABX28341.1;transl_table=11
+CP000730.1	Genbank	gene	346186	346404	.	+	.	ID=gene312;Name=USA300HOU_0311;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0311
+CP000730.1	Genbank	CDS	346186	346404	.	+	0	ID=cds295;Parent=gene312;Dbxref=NCBI_GP:ABX28342.1;Name=ABX28342.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28342.1;transl_table=11
+CP000730.1	Genbank	gene	346536	347036	.	+	.	ID=gene313;Name=USA300HOU_0312;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0312
+CP000730.1	Genbank	CDS	346536	347036	.	+	0	ID=cds296;Parent=gene313;Dbxref=NCBI_GP:ABX28343.1;Name=ABX28343.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28343.1;transl_table=11
+CP000730.1	Genbank	gene	347047	347547	.	+	.	ID=gene314;Name=USA300HOU_0313;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0313
+CP000730.1	Genbank	CDS	347047	347547	.	+	0	ID=cds297;Parent=gene314;Dbxref=NCBI_GP:ABX28344.1;Name=ABX28344.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28344.1;transl_table=11
+CP000730.1	Genbank	pseudogene	347558	348053	.	+	.	ID=gene315;Name=USA300HOU_0314;Note=frameshift of hypothetical protein;gbkey=Gene;gene_biotype=pseudogene;locus_tag=USA300HOU_0314;pseudo=true
+CP000730.1	Genbank	gene	348064	348555	.	+	.	ID=gene316;Name=USA300HOU_0315;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0315
+CP000730.1	Genbank	CDS	348064	348555	.	+	0	ID=cds298;Parent=gene316;Dbxref=NCBI_GP:ABX28345.1;Name=ABX28345.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28345.1;transl_table=11
+CP000730.1	Genbank	gene	348765	349448	.	+	.	ID=gene317;Name=USA300HOU_0316;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0316
+CP000730.1	Genbank	CDS	348765	349448	.	+	0	ID=cds299;Parent=gene317;Dbxref=NCBI_GP:ABX28346.1;Name=ABX28346.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28346.1;transl_table=11
+CP000730.1	Genbank	gene	350034	350534	.	+	.	ID=gene318;Name=USA300HOU_0317;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0317
+CP000730.1	Genbank	CDS	350034	350534	.	+	0	ID=cds300;Parent=gene318;Dbxref=NCBI_GP:ABX28347.1;Name=ABX28347.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28347.1;transl_table=11
+CP000730.1	Genbank	gene	350546	351046	.	+	.	ID=gene319;Name=USA300HOU_0318;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0318
+CP000730.1	Genbank	CDS	350546	351046	.	+	0	ID=cds301;Parent=gene319;Dbxref=NCBI_GP:ABX28348.1;Name=ABX28348.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28348.1;transl_table=11
+CP000730.1	Genbank	gene	351568	352068	.	+	.	ID=gene320;Name=USA300HOU_0319;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0319
+CP000730.1	Genbank	CDS	351568	352068	.	+	0	ID=cds302;Parent=gene320;Dbxref=NCBI_GP:ABX28349.1;Name=ABX28349.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28349.1;transl_table=11
+CP000730.1	Genbank	gene	352079	352567	.	+	.	ID=gene321;Name=USA300HOU_0320;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0320
+CP000730.1	Genbank	CDS	352079	352567	.	+	0	ID=cds303;Parent=gene321;Dbxref=NCBI_GP:ABX28350.1;Name=ABX28350.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28350.1;transl_table=11
+CP000730.1	Genbank	gene	352588	352701	.	+	.	ID=gene322;Name=USA300HOU_0321;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0321
+CP000730.1	Genbank	CDS	352588	352701	.	+	0	ID=cds304;Parent=gene322;Dbxref=NCBI_GP:ABX28351.1;Name=ABX28351.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28351.1;transl_table=11
+CP000730.1	Genbank	gene	353187	353564	.	+	.	ID=gene323;Name=USA300HOU_0322;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0322
+CP000730.1	Genbank	CDS	353187	353564	.	+	0	ID=cds305;Parent=gene323;Dbxref=NCBI_GP:ABX28352.1;Name=ABX28352.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28352.1;transl_table=11
+CP000730.1	Genbank	gene	353717	354115	.	+	.	ID=gene324;Name=USA300HOU_0323;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0323
+CP000730.1	Genbank	CDS	353717	354115	.	+	0	ID=cds306;Parent=gene324;Dbxref=NCBI_GP:ABX28353.1;Name=ABX28353.1;gbkey=CDS;product=hypothetical membrane protein;protein_id=ABX28353.1;transl_table=11
+CP000730.1	Genbank	gene	354331	355176	.	-	.	ID=gene325;Name=USA300HOU_0324;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0324
+CP000730.1	Genbank	CDS	354331	355176	.	-	0	ID=cds307;Parent=gene325;Dbxref=NCBI_GP:ABX28354.1;Name=ABX28354.1;gbkey=CDS;product=FNT family formate-nitrite transporter;protein_id=ABX28354.1;transl_table=11
+CP000730.1	Genbank	gene	355392	356699	.	-	.	ID=gene326;Name=brnQ1;gbkey=Gene;gene=brnQ1;gene_biotype=protein_coding;locus_tag=USA300HOU_0325
+CP000730.1	Genbank	CDS	355392	356699	.	-	0	ID=cds308;Parent=gene326;Dbxref=NCBI_GP:ABX28355.1;Name=ABX28355.1;gbkey=CDS;gene=brnQ1;product=LIVCS family branched chain amino acid:cation symporter;protein_id=ABX28355.1;transl_table=11
+CP000730.1	Genbank	gene	356620	356859	.	+	.	ID=gene327;Name=USA300HOU_0326;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0326
+CP000730.1	Genbank	CDS	356620	356859	.	+	0	ID=cds309;Parent=gene327;Dbxref=NCBI_GP:ABX28356.1;Name=ABX28356.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28356.1;transl_table=11
+CP000730.1	Genbank	gene	357283	358173	.	+	.	ID=gene328;Name=USA300HOU_0327;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0327
+CP000730.1	Genbank	CDS	357283	358173	.	+	0	ID=cds310;Parent=gene328;Dbxref=NCBI_GP:ABX28357.1;Name=ABX28357.1;gbkey=CDS;product=acid phosphatase;protein_id=ABX28357.1;transl_table=11
+CP000730.1	Genbank	gene	358422	359471	.	+	.	ID=gene329;Name=USA300HOU_0328;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0328
+CP000730.1	Genbank	CDS	358422	359471	.	+	0	ID=cds311;Parent=gene329;Dbxref=NCBI_GP:ABX28358.1;Name=ABX28358.1;gbkey=CDS;product=ABC superfamily ATP binding cassette transporter%2C membrane protein;protein_id=ABX28358.1;transl_table=11
+CP000730.1	Genbank	gene	359484	360161	.	+	.	ID=gene330;Name=USA300HOU_0329;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0329
+CP000730.1	Genbank	CDS	359484	360161	.	+	0	ID=cds312;Parent=gene330;Dbxref=NCBI_GP:ABX28359.1;Name=ABX28359.1;gbkey=CDS;product=ABC superfamily ATP binding cassette transporter%2C binding protein;protein_id=ABX28359.1;transl_table=11
+CP000730.1	Genbank	gene	360369	361400	.	+	.	ID=gene331;Name=USA300HOU_0330;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0330
+CP000730.1	Genbank	CDS	360369	361400	.	+	0	ID=cds313;Parent=gene331;Dbxref=NCBI_GP:ABX28360.1;Name=ABX28360.1;gbkey=CDS;product=PfoR family transcriptional regulator;protein_id=ABX28360.1;transl_table=11
+CP000730.1	Genbank	gene	361743	362861	.	+	.	ID=gene332;Name=USA300HOU_0331;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0331
+CP000730.1	Genbank	CDS	361743	362861	.	+	0	ID=cds314;Parent=gene332;Dbxref=NCBI_GP:ABX28361.1;Name=ABX28361.1;gbkey=CDS;product=PfkB family carbohydrate kinase;protein_id=ABX28361.1;transl_table=11
+CP000730.1	Genbank	gene	362836	363759	.	+	.	ID=gene333;Name=USA300HOU_0332;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0332
+CP000730.1	Genbank	CDS	362836	363759	.	+	0	ID=cds315;Parent=gene333;Dbxref=NCBI_GP:ABX28362.1;Name=ABX28362.1;Note=possible indigoidine synthase A like protein;gbkey=CDS;product=hypothetical protein;protein_id=ABX28362.1;transl_table=11
+CP000730.1	Genbank	gene	363770	364990	.	+	.	ID=gene334;Name=USA300HOU_0333;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0333
+CP000730.1	Genbank	CDS	363770	364990	.	+	0	ID=cds316;Parent=gene334;Dbxref=NCBI_GP:ABX28363.1;Name=ABX28363.1;gbkey=CDS;product=possible CNT family concentrative nucleoside transporter;protein_id=ABX28363.1;transl_table=11
+CP000730.1	Genbank	gene	365095	366627	.	-	.	ID=gene335;Name=USA300HOU_0334;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0334
+CP000730.1	Genbank	CDS	365095	366627	.	-	0	ID=cds317;Parent=gene335;Dbxref=NCBI_GP:ABX28364.1;Name=ABX28364.1;gbkey=CDS;product=SSS family solute:sodium (Na+) symporter;protein_id=ABX28364.1;transl_table=11
+CP000730.1	Genbank	gene	366667	367548	.	-	.	ID=gene336;Name=nanA;gbkey=Gene;gene=nanA;gene_biotype=protein_coding;locus_tag=USA300HOU_0335
+CP000730.1	Genbank	CDS	366667	367548	.	-	0	ID=cds318;Parent=gene336;Dbxref=NCBI_GP:ABX28365.1;Name=ABX28365.1;gbkey=CDS;gene=nanA;product=N-acetylneuraminate lyase;protein_id=ABX28365.1;transl_table=11
+CP000730.1	Genbank	gene	367664	368566	.	+	.	ID=gene337;Name=USA300HOU_0336;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0336
+CP000730.1	Genbank	CDS	367664	368566	.	+	0	ID=cds319;Parent=gene337;Dbxref=NCBI_GP:ABX28366.1;Name=ABX28366.1;gbkey=CDS;product=possible transcriptional regulator;protein_id=ABX28366.1;transl_table=11
+CP000730.1	Genbank	gene	368844	369644	.	-	.	ID=gene338;Name=USA300HOU_0337;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0337
+CP000730.1	Genbank	CDS	368844	369644	.	-	0	ID=cds320;Parent=gene338;Dbxref=NCBI_GP:ABX28367.1;Name=ABX28367.1;gbkey=CDS;product=possible RpiR family transcriptional regulator;protein_id=ABX28367.1;transl_table=11
+CP000730.1	Genbank	gene	369784	370452	.	+	.	ID=gene339;Name=nanE;gbkey=Gene;gene=nanE;gene_biotype=protein_coding;locus_tag=USA300HOU_0338
+CP000730.1	Genbank	CDS	369784	370452	.	+	0	ID=cds321;Parent=gene339;Dbxref=NCBI_GP:ABX28368.1;Name=ABX28368.1;gbkey=CDS;gene=nanE;product=N-acylglucosamine-6-phosphate 2-epimerase;protein_id=ABX28368.1;transl_table=11
+CP000730.1	Genbank	gene	370579	371940	.	-	.	ID=gene340;Name=USA300HOU_0339;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0339
+CP000730.1	Genbank	CDS	370579	371940	.	-	0	ID=cds322;Parent=gene340;Dbxref=NCBI_GP:ABX28369.1;Name=ABX28369.1;gbkey=CDS;product=hypothetical membrane protein;protein_id=ABX28369.1;transl_table=11
+CP000730.1	Genbank	gene	372310	374382	.	+	.	ID=gene341;Name=lip1;gbkey=Gene;gene=lip1;gene_biotype=protein_coding;locus_tag=USA300HOU_0340
+CP000730.1	Genbank	CDS	372310	374382	.	+	0	ID=cds323;Parent=gene341;Dbxref=NCBI_GP:ABX28370.1;Name=ABX28370.1;gbkey=CDS;gene=lip1;product=triacylglycerol lipase;protein_id=ABX28370.1;transl_table=11
+CP000730.1	Genbank	gene	374624	375451	.	-	.	ID=gene342;Name=USA300HOU_0341;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0341
+CP000730.1	Genbank	CDS	374624	375451	.	-	0	ID=cds324;Parent=gene342;Dbxref=NCBI_GP:ABX28371.1;Name=ABX28371.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28371.1;transl_table=11
+CP000730.1	Genbank	gene	375524	376723	.	-	.	ID=gene343;Name=USA300HOU_0342;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0342
+CP000730.1	Genbank	CDS	375524	376723	.	-	0	ID=cds325;Parent=gene343;Dbxref=NCBI_GP:ABX28372.1;Name=ABX28372.1;gbkey=CDS;product=FMN reductase;protein_id=ABX28372.1;transl_table=11
+CP000730.1	Genbank	gene	376819	376911	.	+	.	ID=gene344;Name=USA300HOU_0343;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0343
+CP000730.1	Genbank	CDS	376819	376911	.	+	0	ID=cds326;Parent=gene344;Dbxref=NCBI_GP:ABX28373.1;Name=ABX28373.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28373.1;transl_table=11
+CP000730.1	Genbank	gene	377025	378026	.	+	.	ID=gene345;Name=USA300HOU_0344;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0344
+CP000730.1	Genbank	CDS	377025	378026	.	+	0	ID=cds327;Parent=gene345;Dbxref=NCBI_GP:ABX28374.1;Name=ABX28374.1;gbkey=CDS;product=alkanal monooxygenase (FMN-linked);protein_id=ABX28374.1;transl_table=11
+CP000730.1	Genbank	gene	378060	378392	.	+	.	ID=gene346;Name=USA300HOU_0345;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0345
+CP000730.1	Genbank	CDS	378060	378392	.	+	0	ID=cds328;Parent=gene346;Dbxref=NCBI_GP:ABX28375.1;Name=ABX28375.1;gbkey=CDS;product=possible glycine cleavage system H-protein;protein_id=ABX28375.1;transl_table=11
+CP000730.1	Genbank	gene	378393	379193	.	+	.	ID=gene347;Name=USA300HOU_0346;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0346
+CP000730.1	Genbank	CDS	378393	379193	.	+	0	ID=cds329;Parent=gene347;Dbxref=NCBI_GP:ABX28376.1;Name=ABX28376.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28376.1;transl_table=11
+CP000730.1	Genbank	gene	379183	380127	.	+	.	ID=gene348;Name=USA300HOU_0347;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0347
+CP000730.1	Genbank	CDS	379183	380127	.	+	0	ID=cds330;Parent=gene348;Dbxref=NCBI_GP:ABX28377.1;Name=ABX28377.1;gbkey=CDS;product=possible Sir2 silent information regulator family NAD-dependent deacetylase;protein_id=ABX28377.1;transl_table=11
+CP000730.1	Genbank	gene	380105	381127	.	+	.	ID=gene349;Name=lplA1;gbkey=Gene;gene=lplA1;gene_biotype=protein_coding;locus_tag=USA300HOU_0348
+CP000730.1	Genbank	CDS	380105	381127	.	+	0	ID=cds331;Parent=gene349;Dbxref=NCBI_GP:ABX28378.1;Name=ABX28378.1;gbkey=CDS;gene=lplA1;product=lipoate--protein ligase A;protein_id=ABX28378.1;transl_table=11
+CP000730.1	Genbank	gene	381442	382467	.	+	.	ID=gene350;Name=USA300HOU_0349;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0349
+CP000730.1	Genbank	CDS	381442	382467	.	+	0	ID=cds332;Parent=gene350;Dbxref=NCBI_GP:ABX28379.1;Name=ABX28379.1;gbkey=CDS;product=possible dehydrogenase;protein_id=ABX28379.1;transl_table=11
+CP000730.1	Genbank	gene	382560	383906	.	-	.	ID=gene351;Name=USA300HOU_0350;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0350
+CP000730.1	Genbank	CDS	382560	383906	.	-	0	ID=cds333;Parent=gene351;Dbxref=NCBI_GP:ABX28380.1;Name=ABX28380.1;gbkey=CDS;product=PTS family porter component IIC;protein_id=ABX28380.1;transl_table=11
+CP000730.1	Genbank	gene	383921	384214	.	-	.	ID=gene352;Name=USA300HOU_0351;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0351
+CP000730.1	Genbank	CDS	383921	384214	.	-	0	ID=cds334;Parent=gene352;Dbxref=NCBI_GP:ABX28381.1;Name=ABX28381.1;gbkey=CDS;product=PTS family porter component IIB;protein_id=ABX28381.1;transl_table=11
+CP000730.1	Genbank	gene	384207	384650	.	-	.	ID=gene353;Name=USA300HOU_0352;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0352
+CP000730.1	Genbank	CDS	384207	384650	.	-	0	ID=cds335;Parent=gene353;Dbxref=NCBI_GP:ABX28382.1;Name=ABX28382.1;gbkey=CDS;product=PTS family porter component IIA;protein_id=ABX28382.1;transl_table=11
+CP000730.1	Genbank	gene	384655	386610	.	-	.	ID=gene354;Name=USA300HOU_0353;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0353
+CP000730.1	Genbank	CDS	384655	386610	.	-	0	ID=cds336;Parent=gene354;Dbxref=NCBI_GP:ABX28383.1;Name=ABX28383.1;gbkey=CDS;product=BglG family transcriptional antiterminator;protein_id=ABX28383.1;transl_table=11
+CP000730.1	Genbank	gene	386822	387241	.	+	.	ID=gene355;Name=USA300HOU_0354;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0354
+CP000730.1	Genbank	CDS	386822	387241	.	+	0	ID=cds337;Parent=gene355;Dbxref=NCBI_GP:ABX28384.1;Name=ABX28384.1;gbkey=CDS;product=possible transcriptional regulator;protein_id=ABX28384.1;transl_table=11
+CP000730.1	Genbank	gene	387348	388703	.	+	.	ID=gene356;Name=USA300HOU_0355;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0355
+CP000730.1	Genbank	CDS	387348	388703	.	+	0	ID=cds338;Parent=gene356;Dbxref=NCBI_GP:ABX28385.1;Name=ABX28385.1;gbkey=CDS;product=MATE family multi-antimicrobial extrusion protein;protein_id=ABX28385.1;transl_table=11
+CP000730.1	Genbank	gene	388807	389247	.	+	.	ID=gene357;Name=USA300HOU_0356;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0356
+CP000730.1	Genbank	CDS	388807	389247	.	+	0	ID=cds339;Parent=gene357;Dbxref=NCBI_GP:ABX28386.1;Name=ABX28386.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28386.1;transl_table=11
+CP000730.1	Genbank	gene	389330	390688	.	-	.	ID=gene358;Name=glpT;gbkey=Gene;gene=glpT;gene_biotype=protein_coding;locus_tag=USA300HOU_0357
+CP000730.1	Genbank	CDS	389330	390688	.	-	0	ID=cds340;Parent=gene358;Dbxref=NCBI_GP:ABX28387.1;Name=ABX28387.1;Note=glycerol-3-phosphate transporter;gbkey=CDS;gene=glpT;product=MOP superfamily multidrug/oligosaccharidyl-lipid/polysaccharide flippase transporter;protein_id=ABX28387.1;transl_table=11
+CP000730.1	Genbank	gene	390996	391922	.	+	.	ID=gene359;Name=USA300HOU_0358;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0358
+CP000730.1	Genbank	CDS	390996	391922	.	+	0	ID=cds341;Parent=gene359;Dbxref=NCBI_GP:ABX28388.1;Name=ABX28388.1;gbkey=CDS;product=possible lactoylglutathione lyase;protein_id=ABX28388.1;transl_table=11
+CP000730.1	Genbank	gene	391936	392997	.	+	.	ID=gene360;Name=USA300HOU_0359;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0359
+CP000730.1	Genbank	CDS	391936	392997	.	+	0	ID=cds342;Parent=gene360;Dbxref=NCBI_GP:ABX28389.1;Name=ABX28389.1;gbkey=CDS;product=possible alkanal monooxygenase (FMN-linked);protein_id=ABX28389.1;transl_table=11
+CP000730.1	Genbank	gene	393011	393577	.	+	.	ID=gene361;Name=USA300HOU_0360;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0360
+CP000730.1	Genbank	CDS	393011	393577	.	+	0	ID=cds343;Parent=gene361;Dbxref=NCBI_GP:ABX28390.1;Name=ABX28390.1;gbkey=CDS;product=possible FMN reductase;protein_id=ABX28390.1;transl_table=11
+CP000730.1	Genbank	gene	393637	394632	.	-	.	ID=gene362;Name=USA300HOU_0361;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0361
+CP000730.1	Genbank	CDS	393637	394632	.	-	0	ID=cds344;Parent=gene362;Dbxref=NCBI_GP:ABX28391.1;Name=ABX28391.1;gbkey=CDS;product=hypothetical membrane protein;protein_id=ABX28391.1;transl_table=11
+CP000730.1	Genbank	gene	394631	395026	.	+	.	ID=gene363;Name=USA300HOU_0362;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0362
+CP000730.1	Genbank	CDS	394631	395026	.	+	0	ID=cds345;Parent=gene363;Dbxref=NCBI_GP:ABX28392.1;Name=ABX28392.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28392.1;transl_table=11
+CP000730.1	Genbank	gene	395106	395651	.	+	.	ID=gene364;Name=USA300HOU_0363;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0363
+CP000730.1	Genbank	CDS	395106	395651	.	+	0	ID=cds346;Parent=gene364;Dbxref=NCBI_GP:ABX28393.1;Name=ABX28393.1;gbkey=CDS;product=possible N-acetyltransferase;protein_id=ABX28393.1;transl_table=11
+CP000730.1	Genbank	gene	395919	396773	.	+	.	ID=gene365;Name=USA300HOU_0364;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0364
+CP000730.1	Genbank	CDS	395919	396773	.	+	0	ID=cds347;Parent=gene365;Dbxref=NCBI_GP:ABX28394.1;Name=ABX28394.1;gbkey=CDS;product=possible lipoprotein;protein_id=ABX28394.1;transl_table=11
+CP000730.1	Genbank	gene	396770	397999	.	+	.	ID=gene366;Name=USA300HOU_0365;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0365
+CP000730.1	Genbank	CDS	396770	397999	.	+	0	ID=cds348;Parent=gene366;Dbxref=NCBI_GP:ABX28395.1;Name=ABX28395.1;Note=Tat-translocated peroxidase;gbkey=CDS;product=iron (Fe2+)-dependent Dyp family peroxidase;protein_id=ABX28395.1;transl_table=11
+CP000730.1	Genbank	gene	397980	399692	.	+	.	ID=gene367;Name=USA300HOU_0366;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0366
+CP000730.1	Genbank	CDS	397980	399692	.	+	0	ID=cds349;Parent=gene367;Dbxref=NCBI_GP:ABX28396.1;Name=ABX28396.1;gbkey=CDS;product=OFeT family oxidase-dependent iron (Fe2+) transporter;protein_id=ABX28396.1;transl_table=11
+CP000730.1	Genbank	gene	399784	400440	.	-	.	ID=gene368;Name=USA300HOU_0367;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0367
+CP000730.1	Genbank	CDS	399784	400440	.	-	0	ID=cds350;Parent=gene368;Dbxref=NCBI_GP:ABX28397.1;Name=ABX28397.1;gbkey=CDS;product=Tat family twin arginine targeting transporter TatC;protein_id=ABX28397.1;transl_table=11
+CP000730.1	Genbank	gene	400502	400717	.	-	.	ID=gene369;Name=USA300HOU_0368;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0368
+CP000730.1	Genbank	CDS	400502	400717	.	-	0	ID=cds351;Parent=gene369;Dbxref=NCBI_GP:ABX28398.1;Name=ABX28398.1;gbkey=CDS;product=Tat family twin arginine targeting transporter TatA;protein_id=ABX28398.1;transl_table=11
+CP000730.1	Genbank	gene	400826	401215	.	-	.	ID=gene370;Name=USA300HOU_0369;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0369
+CP000730.1	Genbank	CDS	400826	401215	.	-	0	ID=cds352;Parent=gene370;Dbxref=NCBI_GP:ABX28399.1;Name=ABX28399.1;gbkey=CDS;product=possible bacteriophage envelope protein;protein_id=ABX28399.1;transl_table=11
+CP000730.1	Genbank	gene	401456	401659	.	+	.	ID=gene371;Name=USA300HOU_0370;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0370
+CP000730.1	Genbank	CDS	401456	401659	.	+	0	ID=cds353;Parent=gene371;Dbxref=NCBI_GP:ABX28400.1;Name=ABX28400.1;gbkey=CDS;product=possible transcriptional regulator;protein_id=ABX28400.1;transl_table=11
+CP000730.1	Genbank	gene	401656	402369	.	+	.	ID=gene372;Name=USA300HOU_0371;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0371
+CP000730.1	Genbank	CDS	401656	402369	.	+	0	ID=cds354;Parent=gene372;Dbxref=NCBI_GP:ABX28401.1;Name=ABX28401.1;gbkey=CDS;product=hypothetical membrane protein;protein_id=ABX28401.1;transl_table=11
+CP000730.1	Genbank	gene	402394	403236	.	+	.	ID=gene373;Name=USA300HOU_0372;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0372
+CP000730.1	Genbank	CDS	402394	403236	.	+	0	ID=cds355;Parent=gene373;Dbxref=NCBI_GP:ABX28402.1;Name=ABX28402.1;gbkey=CDS;product=ABC superfamily ATP binding cassette transporter%2C ABC protein;protein_id=ABX28402.1;transl_table=11
+CP000730.1	Genbank	gene	403236	403865	.	+	.	ID=gene374;Name=USA300HOU_0373;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0373
+CP000730.1	Genbank	CDS	403236	403865	.	+	0	ID=cds356;Parent=gene374;Dbxref=NCBI_GP:ABX28403.1;Name=ABX28403.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28403.1;transl_table=11
+CP000730.1	Genbank	gene	404232	405365	.	-	.	ID=gene375;Name=USA300HOU_0374;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0374
+CP000730.1	Genbank	CDS	404232	405365	.	-	0	ID=cds357;Parent=gene375;Dbxref=NCBI_GP:ABX28404.1;Name=ABX28404.1;gbkey=CDS;product=possible bacterial low temperature requirement protein A;protein_id=ABX28404.1;transl_table=11
+CP000730.1	Genbank	gene	405904	407085	.	+	.	ID=gene376;Name=USA300HOU_0375;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0375
+CP000730.1	Genbank	CDS	405904	407085	.	+	0	ID=cds358;Parent=gene376;Dbxref=NCBI_GP:ABX28405.1;Name=ABX28405.1;gbkey=CDS;product=acetyl-CoA C-acetyltransferase;protein_id=ABX28405.1;transl_table=11
+CP000730.1	Genbank	gene	407168	407920	.	-	.	ID=gene377;Name=USA300HOU_0376;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0376
+CP000730.1	Genbank	CDS	407168	407920	.	-	0	ID=cds359;Parent=gene377;Dbxref=NCBI_GP:ABX28406.1;Name=ABX28406.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28406.1;transl_table=11
+CP000730.1	Genbank	gene	407963	410191	.	-	.	ID=gene378;Name=metE;gbkey=Gene;gene=metE;gene_biotype=protein_coding;locus_tag=USA300HOU_0377
+CP000730.1	Genbank	CDS	407963	410191	.	-	0	ID=cds360;Parent=gene378;Dbxref=NCBI_GP:ABX28407.1;Name=ABX28407.1;gbkey=CDS;gene=metE;product=5-methyltetrahydropteroyltriglutamate--homocysteine S-methyltransferase;protein_id=ABX28407.1;transl_table=11
+CP000730.1	Genbank	gene	410188	412029	.	-	.	ID=gene379;Name=USA300HOU_0378;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0378
+CP000730.1	Genbank	CDS	410188	412029	.	-	0	ID=cds361;Parent=gene379;Dbxref=NCBI_GP:ABX28408.1;Name=ABX28408.1;gbkey=CDS;product=possible bifunctional methylenetetrahydrofolate reductase/homocysteine S-methyltransferase;protein_id=ABX28408.1;transl_table=11
+CP000730.1	Genbank	gene	411998	413158	.	-	.	ID=gene380;Name=USA300HOU_0379;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0379
+CP000730.1	Genbank	CDS	411998	413158	.	-	0	ID=cds362;Parent=gene380;Dbxref=NCBI_GP:ABX28409.1;Name=ABX28409.1;gbkey=CDS;product=bifunctional cystathionine gamma-lyase/gamma-synthase;protein_id=ABX28409.1;transl_table=11
+CP000730.1	Genbank	gene	413155	414258	.	-	.	ID=gene381;Name=USA300HOU_0380;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0380
+CP000730.1	Genbank	CDS	413155	414258	.	-	0	ID=cds363;Parent=gene381;Dbxref=NCBI_GP:ABX28410.1;Name=ABX28410.1;gbkey=CDS;product=bifunctional cystathionine gamma-lyase/gamma-synthase;protein_id=ABX28410.1;transl_table=11
+CP000730.1	Genbank	gene	414922	415767	.	+	.	ID=gene382;Name=USA300HOU_0381;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0381
+CP000730.1	Genbank	CDS	414922	415767	.	+	0	ID=cds364;Parent=gene382;Dbxref=NCBI_GP:ABX28411.1;Name=ABX28411.1;gbkey=CDS;product=possible ParB family partitioning protein;protein_id=ABX28411.1;transl_table=11
+CP000730.1	Genbank	gene	415924	416805	.	+	.	ID=gene383;Name=USA300HOU_0382;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0382
+CP000730.1	Genbank	CDS	415924	416805	.	+	0	ID=cds365;Parent=gene383;Dbxref=NCBI_GP:ABX28412.1;Name=ABX28412.1;gbkey=CDS;product=MscS family small conductance mechanosensitive ion channel;protein_id=ABX28412.1;transl_table=11
+CP000730.1	Genbank	gene	416835	417038	.	+	.	ID=gene384;Name=USA300HOU_0383;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0383
+CP000730.1	Genbank	CDS	416835	417038	.	+	0	ID=cds366;Parent=gene384;Dbxref=NCBI_GP:ABX28413.1;Name=ABX28413.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28413.1;transl_table=11
+CP000730.1	Genbank	gene	417050	418147	.	+	.	ID=gene385;Name=USA300HOU_0384;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0384
+CP000730.1	Genbank	CDS	417050	418147	.	+	0	ID=cds367;Parent=gene385;Dbxref=NCBI_GP:ABX28414.1;Name=ABX28414.1;gbkey=CDS;product=possible GTP-binding protein;protein_id=ABX28414.1;transl_table=11
+CP000730.1	Genbank	gene	418233	418424	.	-	.	ID=gene386;Name=USA300HOU_0385;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0385
+CP000730.1	Genbank	CDS	418233	418424	.	-	0	ID=cds368;Parent=gene386;Dbxref=NCBI_GP:ABX28415.1;Name=ABX28415.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28415.1;transl_table=11
+CP000730.1	Genbank	gene	418408	418677	.	-	.	ID=gene387;Name=USA300HOU_0386;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0386
+CP000730.1	Genbank	CDS	418408	418677	.	-	0	ID=cds369;Parent=gene387;Dbxref=NCBI_GP:ABX28416.1;Name=ABX28416.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28416.1;transl_table=11
+CP000730.1	Genbank	gene	418668	418964	.	+	.	ID=gene388;Name=rpsF;gbkey=Gene;gene=rpsF;gene_biotype=protein_coding;locus_tag=USA300HOU_0387
+CP000730.1	Genbank	CDS	418668	418964	.	+	0	ID=cds370;Parent=gene388;Dbxref=NCBI_GP:ABX28417.1;Name=ABX28417.1;gbkey=CDS;gene=rpsF;product=ribosomal protein S6;protein_id=ABX28417.1;transl_table=11
+CP000730.1	Genbank	gene	418985	419488	.	+	.	ID=gene389;Name=ssb1;gbkey=Gene;gene=ssb1;gene_biotype=protein_coding;locus_tag=USA300HOU_0388
+CP000730.1	Genbank	CDS	418985	419488	.	+	0	ID=cds371;Parent=gene389;Dbxref=NCBI_GP:ABX28418.1;Name=ABX28418.1;gbkey=CDS;gene=ssb1;product=single-stranded DNA-binding protein;protein_id=ABX28418.1;transl_table=11
+CP000730.1	Genbank	gene	419540	419782	.	+	.	ID=gene390;Name=rpsR;gbkey=Gene;gene=rpsR;gene_biotype=protein_coding;locus_tag=USA300HOU_0389
+CP000730.1	Genbank	CDS	419540	419782	.	+	0	ID=cds372;Parent=gene390;Dbxref=NCBI_GP:ABX28419.1;Name=ABX28419.1;gbkey=CDS;gene=rpsR;product=ribosomal protein S18;protein_id=ABX28419.1;transl_table=11
+CP000730.1	Genbank	gene	420048	421022	.	-	.	ID=gene391;Name=USA300HOU_0390;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0390
+CP000730.1	Genbank	CDS	420048	421022	.	-	0	ID=cds373;Parent=gene391;Dbxref=NCBI_GP:ABX28420.1;Name=ABX28420.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28420.1;transl_table=11
+CP000730.1	Genbank	pseudogene	421025	421572	.	-	.	ID=gene392;Name=USA300HOU_0391;Note=frameshift of possible integrase;gbkey=Gene;gene_biotype=pseudogene;locus_tag=USA300HOU_0391;pseudo=true
+CP000730.1	Genbank	gene	421932	422543	.	+	.	ID=gene393;Name=USA300HOU_0392;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0392
+CP000730.1	Genbank	CDS	421932	422543	.	+	0	ID=cds374;Parent=gene393;Dbxref=NCBI_GP:ABX28421.1;Name=ABX28421.1;gbkey=CDS;product=possible staphylococcal enterotoxin;protein_id=ABX28421.1;transl_table=11
+CP000730.1	Genbank	gene	422640	422759	.	-	.	ID=gene394;Name=USA300HOU_0393;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0393
+CP000730.1	Genbank	CDS	422640	422759	.	-	0	ID=cds375;Parent=gene394;Dbxref=NCBI_GP:ABX28422.1;Name=ABX28422.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28422.1;transl_table=11
+CP000730.1	Genbank	gene	422912	423280	.	+	.	ID=gene395;Name=USA300HOU_0394;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0394
+CP000730.1	Genbank	CDS	422912	423280	.	+	0	ID=cds376;Parent=gene395;Dbxref=NCBI_GP:ABX28423.1;Name=ABX28423.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28423.1;transl_table=11
+CP000730.1	Genbank	gene	423461	424033	.	+	.	ID=gene396;Name=USA300HOU_0395;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0395
+CP000730.1	Genbank	CDS	423461	424033	.	+	0	ID=cds377;Parent=gene396;Dbxref=NCBI_GP:ABX28424.1;Name=ABX28424.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28424.1;transl_table=11
+CP000730.1	Genbank	gene	424171	424434	.	-	.	ID=gene397;Name=USA300HOU_0396;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0396
+CP000730.1	Genbank	CDS	424171	424434	.	-	0	ID=cds378;Parent=gene397;Dbxref=NCBI_GP:ABX28425.1;Name=ABX28425.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28425.1;transl_table=11
+CP000730.1	Genbank	gene	424734	424985	.	+	.	ID=gene398;Name=USA300HOU_0397;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0397
+CP000730.1	Genbank	CDS	424734	424985	.	+	0	ID=cds379;Parent=gene398;Dbxref=NCBI_GP:ABX28426.1;Name=ABX28426.1;gbkey=CDS;product=hypothetical membrane protein;protein_id=ABX28426.1;transl_table=11
+CP000730.1	Genbank	gene	425024	425233	.	-	.	ID=gene399;Name=USA300HOU_0398;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0398
+CP000730.1	Genbank	CDS	425024	425233	.	-	0	ID=cds380;Parent=gene399;Dbxref=NCBI_GP:ABX28427.1;Name=ABX28427.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28427.1;transl_table=11
+CP000730.1	Genbank	gene	425411	425992	.	+	.	ID=gene400;Name=USA300HOU_0399;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0399
+CP000730.1	Genbank	CDS	425411	425992	.	+	0	ID=cds381;Parent=gene400;Dbxref=NCBI_GP:ABX28428.1;Name=ABX28428.1;gbkey=CDS;product=phosphoglycerate mutase;protein_id=ABX28428.1;transl_table=11
+CP000730.1	Genbank	gene	426058	426441	.	-	.	ID=gene401;Name=USA300HOU_0400;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0400
+CP000730.1	Genbank	CDS	426058	426441	.	-	0	ID=cds382;Parent=gene401;Dbxref=NCBI_GP:ABX28429.1;Name=ABX28429.1;gbkey=CDS;product=hypothetical membrane protein;protein_id=ABX28429.1;transl_table=11
+CP000730.1	Genbank	gene	426696	427322	.	-	.	ID=gene402;Name=USA300HOU_0401;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0401
+CP000730.1	Genbank	CDS	426696	427322	.	-	0	ID=cds383;Parent=gene402;Dbxref=NCBI_GP:ABX28430.1;Name=ABX28430.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28430.1;transl_table=11
+CP000730.1	Genbank	gene	427395	427688	.	-	.	ID=gene403;Name=USA300HOU_0402;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0402
+CP000730.1	Genbank	CDS	427395	427688	.	-	0	ID=cds384;Parent=gene403;Dbxref=NCBI_GP:ABX28431.1;Name=ABX28431.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28431.1;transl_table=11
+CP000730.1	Genbank	gene	427767	429290	.	-	.	ID=gene404;Name=ahpF;gbkey=Gene;gene=ahpF;gene_biotype=protein_coding;locus_tag=USA300HOU_0403
+CP000730.1	Genbank	CDS	427767	429290	.	-	0	ID=cds385;Parent=gene404;Dbxref=NCBI_GP:ABX28432.1;Name=ABX28432.1;gbkey=CDS;gene=ahpF;product=peroxiredoxin subunit F;protein_id=ABX28432.1;transl_table=11
+CP000730.1	Genbank	gene	429306	429875	.	-	.	ID=gene405;Name=ahpC1;gbkey=Gene;gene=ahpC1;gene_biotype=protein_coding;locus_tag=USA300HOU_0404
+CP000730.1	Genbank	CDS	429306	429875	.	-	0	ID=cds386;Parent=gene405;Dbxref=NCBI_GP:ABX28433.1;Name=ABX28433.1;gbkey=CDS;gene=ahpC1;product=peroxiredoxin subunit C;protein_id=ABX28433.1;transl_table=11
+CP000730.1	Genbank	gene	430316	431122	.	+	.	ID=gene406;Name=USA300HOU_0405;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0405
+CP000730.1	Genbank	CDS	430316	431122	.	+	0	ID=cds387;Parent=gene406;Dbxref=NCBI_GP:ABX28434.1;Name=ABX28434.1;gbkey=CDS;product=possible FMN reductase;protein_id=ABX28434.1;transl_table=11
+CP000730.1	Genbank	gene	431203	432591	.	-	.	ID=gene407;Name=USA300HOU_0406;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0406
+CP000730.1	Genbank	CDS	431203	432591	.	-	0	ID=cds388;Parent=gene407;Dbxref=NCBI_GP:ABX28435.1;Name=ABX28435.1;gbkey=CDS;product=possible DAACS family dicarboxylate/amino acid:sodium (Na+) or proton (H+) symporter;protein_id=ABX28435.1;transl_table=11
+CP000730.1	Genbank	pseudogene	432985	433232	.	-	.	ID=gene408;Name=USA300HOU_0407;Note=hypothetical protein;gbkey=Gene;gene_biotype=pseudogene;locus_tag=USA300HOU_0407;pseudo=true
+CP000730.1	Genbank	gene	433568	434524	.	-	.	ID=gene409;Name=USA300HOU_0408;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0408
+CP000730.1	Genbank	CDS	433568	434524	.	-	0	ID=cds389;Parent=gene409;Dbxref=NCBI_GP:ABX28436.1;Name=ABX28436.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28436.1;transl_table=11
+CP000730.1	Genbank	gene	434642	435304	.	-	.	ID=gene410;Name=USA300HOU_0409;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0409
+CP000730.1	Genbank	CDS	434642	435304	.	-	0	ID=cds390;Parent=gene410;Dbxref=NCBI_GP:ABX28437.1;Name=ABX28437.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28437.1;transl_table=11
+CP000730.1	Genbank	gene	435447	435854	.	-	.	ID=gene411;Name=USA300HOU_0410;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0410
+CP000730.1	Genbank	CDS	435447	435854	.	-	0	ID=cds391;Parent=gene411;Dbxref=NCBI_GP:ABX28438.1;Name=ABX28438.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28438.1;transl_table=11
+CP000730.1	Genbank	binding_site	436036	436135	.	+	.	ID=id3;Note=purine riboswitch~USA300HOU_nc0001;bound_moiety=purine;gbkey=misc_binding
+CP000730.1	Genbank	gene	436367	436945	.	+	.	ID=gene412;Name=xprT;gbkey=Gene;gene=xprT;gene_biotype=protein_coding;locus_tag=USA300HOU_0411
+CP000730.1	Genbank	CDS	436367	436945	.	+	0	ID=cds392;Parent=gene412;Dbxref=NCBI_GP:ABX28439.1;Name=ABX28439.1;gbkey=CDS;gene=xprT;product=xanthine phosphoribosyltransferase;protein_id=ABX28439.1;transl_table=11
+CP000730.1	Genbank	gene	436945	438213	.	+	.	ID=gene413;Name=pbuX;gbkey=Gene;gene=pbuX;gene_biotype=protein_coding;locus_tag=USA300HOU_0412
+CP000730.1	Genbank	CDS	436945	438213	.	+	0	ID=cds393;Parent=gene413;Dbxref=NCBI_GP:ABX28440.1;Name=ABX28440.1;Note=xanthine permease;gbkey=CDS;gene=pbuX;product=NCS2 family nucleobase:cation symporter-2;protein_id=ABX28440.1;transl_table=11
+CP000730.1	Genbank	gene	438251	439717	.	+	.	ID=gene414;Name=guaB;gbkey=Gene;gene=guaB;gene_biotype=protein_coding;locus_tag=USA300HOU_0413
+CP000730.1	Genbank	CDS	438251	439717	.	+	0	ID=cds394;Parent=gene414;Dbxref=NCBI_GP:ABX28441.1;Name=ABX28441.1;gbkey=CDS;gene=guaB;product=IMP dehydrogenase;protein_id=ABX28441.1;transl_table=11
+CP000730.1	Genbank	gene	439742	441283	.	+	.	ID=gene415;Name=guaA;gbkey=Gene;gene=guaA;gene_biotype=protein_coding;locus_tag=USA300HOU_0414
+CP000730.1	Genbank	CDS	439742	441283	.	+	0	ID=cds395;Parent=gene415;Dbxref=NCBI_GP:ABX28442.1;Name=ABX28442.1;gbkey=CDS;gene=guaA;product=GMP synthase (glutamine-hydrolyzing);protein_id=ABX28442.1;transl_table=11
+CP000730.1	Genbank	gene	441396	441932	.	-	.	ID=gene416;Name=USA300HOU_0415;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0415
+CP000730.1	Genbank	CDS	441396	441932	.	-	0	ID=cds396;Parent=gene416;Dbxref=NCBI_GP:ABX28443.1;Name=ABX28443.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28443.1;transl_table=11
+CP000730.1	Genbank	gene	442325	443029	.	-	.	ID=gene417;Name=USA300HOU_0416;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0416
+CP000730.1	Genbank	CDS	442325	443029	.	-	0	ID=cds397;Parent=gene417;Dbxref=NCBI_GP:ABX28444.1;Name=ABX28444.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28444.1;transl_table=11
+CP000730.1	Genbank	gene	443428	443700	.	-	.	ID=gene418;Name=USA300HOU_0417;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0417
+CP000730.1	Genbank	CDS	443428	443700	.	-	0	ID=cds398;Parent=gene418;Dbxref=NCBI_GP:ABX28445.1;Name=ABX28445.1;Note=IS3 transposase;gbkey=CDS;product=transposase;protein_id=ABX28445.1;transl_table=11
+CP000730.1	Genbank	pseudogene	443741	443980	.	-	.	ID=gene419;Name=USA300HOU_0418;Note=hypothetical protein;gbkey=Gene;gene_biotype=pseudogene;locus_tag=USA300HOU_0418;pseudo=true
+CP000730.1	Genbank	gene	443961	444113	.	-	.	ID=gene420;Name=USA300HOU_0419;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0419
+CP000730.1	Genbank	CDS	443961	444113	.	-	0	ID=cds399;Parent=gene420;Dbxref=NCBI_GP:ABX28446.1;Name=ABX28446.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28446.1;transl_table=11
+CP000730.1	Genbank	gene	444637	444996	.	-	.	ID=gene421;Name=USA300HOU_0420;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0420
+CP000730.1	Genbank	CDS	444637	444996	.	-	0	ID=cds400;Parent=gene421;Dbxref=NCBI_GP:ABX28447.1;Name=ABX28447.1;gbkey=CDS;product=hypothetical membrane protein;protein_id=ABX28447.1;transl_table=11
+CP000730.1	Genbank	gene	445015	445860	.	-	.	ID=gene422;Name=USA300HOU_0421;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0421
+CP000730.1	Genbank	CDS	445015	445860	.	-	0	ID=cds401;Parent=gene422;Dbxref=NCBI_GP:ABX28448.1;Name=ABX28448.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28448.1;transl_table=11
+CP000730.1	Genbank	gene	446332	447012	.	+	.	ID=gene423;Name=set3;gbkey=Gene;gene=set3;gene_biotype=protein_coding;locus_tag=USA300HOU_0422
+CP000730.1	Genbank	CDS	446332	447012	.	+	0	ID=cds402;Parent=gene423;Dbxref=NCBI_GP:ABX28449.1;Name=ABX28449.1;gbkey=CDS;gene=set3;product=staphylococcal exotoxin;protein_id=ABX28449.1;transl_table=11
+CP000730.1	Genbank	gene	447298	447993	.	+	.	ID=gene424;Name=set1;gbkey=Gene;gene=set1;gene_biotype=protein_coding;locus_tag=USA300HOU_0423
+CP000730.1	Genbank	CDS	447298	447993	.	+	0	ID=cds403;Parent=gene424;Dbxref=NCBI_GP:ABX28450.1;Name=ABX28450.1;gbkey=CDS;gene=set1;product=staphylococcal exotoxin;protein_id=ABX28450.1;transl_table=11
+CP000730.1	Genbank	gene	448284	449342	.	+	.	ID=gene425;Name=set18;gbkey=Gene;gene=set18;gene_biotype=protein_coding;locus_tag=USA300HOU_0424
+CP000730.1	Genbank	CDS	448284	449342	.	+	0	ID=cds404;Parent=gene425;Dbxref=NCBI_GP:ABX28451.1;Name=ABX28451.1;Note=Set18;gbkey=CDS;gene=set18;product=staphylococcal exotoxin;protein_id=ABX28451.1;transl_table=11
+CP000730.1	Genbank	gene	449461	449598	.	+	.	ID=gene426;Name=USA300HOU_0425;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0425
+CP000730.1	Genbank	CDS	449461	449598	.	+	0	ID=cds405;Parent=gene426;Dbxref=NCBI_GP:ABX28452.1;Name=ABX28452.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28452.1;transl_table=11
+CP000730.1	Genbank	gene	449707	450633	.	+	.	ID=gene427;Name=set19;gbkey=Gene;gene=set19;gene_biotype=protein_coding;locus_tag=USA300HOU_0426
+CP000730.1	Genbank	CDS	449707	450633	.	+	0	ID=cds406;Parent=gene427;Dbxref=NCBI_GP:ABX28453.1;Name=ABX28453.1;Note=Set19;gbkey=CDS;gene=set19;product=staphylococcal exotoxin;protein_id=ABX28453.1;transl_table=11
+CP000730.1	Genbank	gene	450982	451701	.	+	.	ID=gene428;Name=set20;gbkey=Gene;gene=set20;gene_biotype=protein_coding;locus_tag=USA300HOU_0427
+CP000730.1	Genbank	CDS	450982	451701	.	+	0	ID=cds407;Parent=gene428;Dbxref=NCBI_GP:ABX28454.1;Name=ABX28454.1;Note=Set20;gbkey=CDS;gene=set20;product=staphylococcal exotoxin;protein_id=ABX28454.1;transl_table=11
+CP000730.1	Genbank	gene	452147	452842	.	+	.	ID=gene429;Name=set21;gbkey=Gene;gene=set21;gene_biotype=protein_coding;locus_tag=USA300HOU_0428
+CP000730.1	Genbank	CDS	452147	452842	.	+	0	ID=cds408;Parent=gene429;Dbxref=NCBI_GP:ABX28455.1;Name=ABX28455.1;Note=Set21;gbkey=CDS;gene=set21;product=staphylococcal exotoxin;protein_id=ABX28455.1;transl_table=11
+CP000730.1	Genbank	gene	453263	453958	.	+	.	ID=gene430;Name=set22;gbkey=Gene;gene=set22;gene_biotype=protein_coding;locus_tag=USA300HOU_0429
+CP000730.1	Genbank	CDS	453263	453958	.	+	0	ID=cds409;Parent=gene430;Dbxref=NCBI_GP:ABX28456.1;Name=ABX28456.1;Note=Set22;gbkey=CDS;gene=set22;product=staphylococcal exotoxin;protein_id=ABX28456.1;transl_table=11
+CP000730.1	Genbank	gene	454302	455000	.	+	.	ID=gene431;Name=set23;gbkey=Gene;gene=set23;gene_biotype=protein_coding;locus_tag=USA300HOU_0430
+CP000730.1	Genbank	CDS	454302	455000	.	+	0	ID=cds410;Parent=gene431;Dbxref=NCBI_GP:ABX28457.1;Name=ABX28457.1;Note=Set23;gbkey=CDS;gene=set23;product=staphylococcal exotoxin;protein_id=ABX28457.1;transl_table=11
+CP000730.1	Genbank	gene	455380	456078	.	+	.	ID=gene432;Name=set24;gbkey=Gene;gene=set24;gene_biotype=protein_coding;locus_tag=USA300HOU_0431
+CP000730.1	Genbank	CDS	455380	456078	.	+	0	ID=cds411;Parent=gene432;Dbxref=NCBI_GP:ABX28458.1;Name=ABX28458.1;Note=Set24;gbkey=CDS;gene=set24;product=staphylococcal exotoxin;protein_id=ABX28458.1;transl_table=11
+CP000730.1	Genbank	gene	456444	457127	.	+	.	ID=gene433;Name=set25;gbkey=Gene;gene=set25;gene_biotype=protein_coding;locus_tag=USA300HOU_0432
+CP000730.1	Genbank	CDS	456444	457127	.	+	0	ID=cds412;Parent=gene433;Dbxref=NCBI_GP:ABX28459.1;Name=ABX28459.1;Note=Set25;gbkey=CDS;gene=set25;product=staphylococcal exotoxin;protein_id=ABX28459.1;transl_table=11
+CP000730.1	Genbank	gene	457391	458947	.	+	.	ID=gene434;Name=hsdM1;gbkey=Gene;gene=hsdM1;gene_biotype=protein_coding;locus_tag=USA300HOU_0433
+CP000730.1	Genbank	CDS	457391	458947	.	+	0	ID=cds413;Parent=gene434;Dbxref=NCBI_GP:ABX28460.1;Name=ABX28460.1;gbkey=CDS;gene=hsdM1;product=type I site-specific deoxyribonuclease methyltransferase subunit;protein_id=ABX28460.1;transl_table=11
+CP000730.1	Genbank	gene	458940	460151	.	+	.	ID=gene435;Name=hsdS1;gbkey=Gene;gene=hsdS1;gene_biotype=protein_coding;locus_tag=USA300HOU_0434
+CP000730.1	Genbank	CDS	458940	460151	.	+	0	ID=cds414;Parent=gene435;Dbxref=NCBI_GP:ABX28461.1;Name=ABX28461.1;gbkey=CDS;gene=hsdS1;product=type I site-specific deoxyribonuclease specificity subunit;protein_id=ABX28461.1;transl_table=11
+CP000730.1	Genbank	gene	460534	461211	.	+	.	ID=gene436;Name=set;gbkey=Gene;gene=set;gene_biotype=protein_coding;locus_tag=USA300HOU_0435
+CP000730.1	Genbank	CDS	460534	461211	.	+	0	ID=cds415;Parent=gene436;Dbxref=NCBI_GP:ABX28462.1;Name=ABX28462.1;Note=Set26;gbkey=CDS;gene=set;product=staphylococcal exotoxin;protein_id=ABX28462.1;transl_table=11
+CP000730.1	Genbank	gene	461233	462741	.	+	.	ID=gene437;Name=USA300HOU_0436;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0436
+CP000730.1	Genbank	CDS	461233	462741	.	+	0	ID=cds416;Parent=gene437;Dbxref=NCBI_GP:ABX28463.1;Name=ABX28463.1;Note=possible surface protein;gbkey=CDS;product=hypothetical protein;protein_id=ABX28463.1;transl_table=11
+CP000730.1	Genbank	gene	462844	463152	.	-	.	ID=gene438;Name=USA300HOU_0437;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0437
+CP000730.1	Genbank	CDS	462844	463152	.	-	0	ID=cds417;Parent=gene438;Dbxref=NCBI_GP:ABX28464.1;Name=ABX28464.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28464.1;transl_table=11
+CP000730.1	Genbank	gene	463490	464293	.	+	.	ID=gene439;Name=lpl11;gbkey=Gene;gene=lpl11;gene_biotype=protein_coding;locus_tag=USA300HOU_0438
+CP000730.1	Genbank	CDS	463490	464293	.	+	0	ID=cds418;Parent=gene439;Dbxref=NCBI_GP:ABX28465.1;Name=ABX28465.1;gbkey=CDS;gene=lpl11;product=possible lipoprotein;protein_id=ABX28465.1;transl_table=11
+CP000730.1	Genbank	gene	464324	465124	.	+	.	ID=gene440;Name=USA300HOU_0439;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0439
+CP000730.1	Genbank	CDS	464324	465124	.	+	0	ID=cds419;Parent=gene440;Dbxref=NCBI_GP:ABX28466.1;Name=ABX28466.1;Note=possible lipoprotein;gbkey=CDS;product=hypothetical protein;protein_id=ABX28466.1;transl_table=11
+CP000730.1	Genbank	pseudogene	465143	465950	.	+	.	ID=gene441;Name=USA300HOU_0440;Note=frameshift of possible lipoprotein;gbkey=Gene;gene_biotype=pseudogene;locus_tag=USA300HOU_0440;pseudo=true
+CP000730.1	Genbank	gene	465999	466799	.	+	.	ID=gene442;Name=lpl7;gbkey=Gene;gene=lpl7;gene_biotype=protein_coding;locus_tag=USA300HOU_0441
+CP000730.1	Genbank	CDS	465999	466799	.	+	0	ID=cds420;Parent=gene442;Dbxref=NCBI_GP:ABX28467.1;Name=ABX28467.1;Note=possible lipoprotein Lpl7;gbkey=CDS;gene=lpl7;product=hypothetical protein;protein_id=ABX28467.1;transl_table=11
+CP000730.1	Genbank	gene	466818	467588	.	+	.	ID=gene443;Name=USA300HOU_0442;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0442
+CP000730.1	Genbank	CDS	466818	467588	.	+	0	ID=cds421;Parent=gene443;Dbxref=NCBI_GP:ABX28468.1;Name=ABX28468.1;gbkey=CDS;product=hypothetical lipoprotein;protein_id=ABX28468.1;transl_table=11
+CP000730.1	Genbank	gene	467620	468411	.	+	.	ID=gene444;Name=USA300HOU_0443;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0443
+CP000730.1	Genbank	CDS	467620	468411	.	+	0	ID=cds422;Parent=gene444;Dbxref=NCBI_GP:ABX28469.1;Name=ABX28469.1;Note=staphylococcal tandem lipoprotein;gbkey=CDS;product=hypothetical lipoprotein;protein_id=ABX28469.1;transl_table=11
+CP000730.1	Genbank	gene	468481	469257	.	+	.	ID=gene445;Name=USA300HOU_0444;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0444
+CP000730.1	Genbank	CDS	468481	469257	.	+	0	ID=cds423;Parent=gene445;Dbxref=NCBI_GP:ABX28470.1;Name=ABX28470.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28470.1;transl_table=11
+CP000730.1	Genbank	gene	469433	470248	.	+	.	ID=gene446;Name=USA300HOU_0445;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0445
+CP000730.1	Genbank	CDS	469433	470248	.	+	0	ID=cds424;Parent=gene446;Dbxref=NCBI_GP:ABX28471.1;Name=ABX28471.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28471.1;transl_table=11
+CP000730.1	Genbank	gene	470267	471052	.	+	.	ID=gene447;Name=USA300HOU_0446;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0446
+CP000730.1	Genbank	CDS	470267	471052	.	+	0	ID=cds425;Parent=gene447;Dbxref=NCBI_GP:ABX28472.1;Name=ABX28472.1;Note=staphylococcal tandem lipoprotein;gbkey=CDS;product=hypothetical lipoprotein;protein_id=ABX28472.1;transl_table=11
+CP000730.1	Genbank	gene	471232	472047	.	+	.	ID=gene448;Name=USA300HOU_0447;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0447
+CP000730.1	Genbank	CDS	471232	472047	.	+	0	ID=cds426;Parent=gene448;Dbxref=NCBI_GP:ABX28473.1;Name=ABX28473.1;gbkey=CDS;product=hypothetical lipoprotein;protein_id=ABX28473.1;transl_table=11
+CP000730.1	Genbank	gene	472037	473365	.	+	.	ID=gene449;Name=USA300HOU_0448;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0448
+CP000730.1	Genbank	CDS	472037	473365	.	+	0	ID=cds427;Parent=gene449;Dbxref=NCBI_GP:ABX28474.1;Name=ABX28474.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28474.1;transl_table=11
+CP000730.1	Genbank	gene	473362	473685	.	+	.	ID=gene450;Name=USA300HOU_0449;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0449
+CP000730.1	Genbank	CDS	473362	473685	.	+	0	ID=cds428;Parent=gene450;Dbxref=NCBI_GP:ABX28475.1;Name=ABX28475.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28475.1;transl_table=11
+CP000730.1	Genbank	gene	473704	474018	.	+	.	ID=gene451;Name=USA300HOU_0450;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0450
+CP000730.1	Genbank	CDS	473704	474018	.	+	0	ID=cds429;Parent=gene451;Dbxref=NCBI_GP:ABX28476.1;Name=ABX28476.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28476.1;transl_table=11
+CP000730.1	Genbank	gene	474308	474502	.	-	.	ID=gene452;Name=USA300HOU_0451;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0451
+CP000730.1	Genbank	CDS	474308	474502	.	-	0	ID=cds430;Parent=gene452;Dbxref=NCBI_GP:ABX28477.1;Name=ABX28477.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28477.1;transl_table=11
+CP000730.1	Genbank	gene	474687	475889	.	+	.	ID=gene453;Name=cobW1;gbkey=Gene;gene=cobW1;gene_biotype=protein_coding;locus_tag=USA300HOU_0452
+CP000730.1	Genbank	CDS	474687	475889	.	+	0	ID=cds431;Parent=gene453;Dbxref=NCBI_GP:ABX28478.1;Name=ABX28478.1;gbkey=CDS;gene=cobW1;product=cobalamin (vitamin B12) biosynthesis protein;protein_id=ABX28478.1;transl_table=11
+CP000730.1	Genbank	gene	475992	476135	.	-	.	ID=gene454;Name=USA300HOU_0453;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0453
+CP000730.1	Genbank	CDS	475992	476135	.	-	0	ID=cds432;Parent=gene454;Dbxref=NCBI_GP:ABX28479.1;Name=ABX28479.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28479.1;transl_table=11
+CP000730.1	Genbank	gene	476158	476286	.	+	.	ID=gene455;Name=USA300HOU_0454;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0454
+CP000730.1	Genbank	CDS	476158	476286	.	+	0	ID=cds433;Parent=gene455;Dbxref=NCBI_GP:ABX28480.1;Name=ABX28480.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28480.1;transl_table=11
+CP000730.1	Genbank	gene	476794	476859	.	-	.	ID=gene456;Name=USA300HOU_0455;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0455
+CP000730.1	Genbank	CDS	476794	476859	.	-	0	ID=cds434;Parent=gene456;Dbxref=NCBI_GP:ABX28481.1;Name=ABX28481.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28481.1;transl_table=11
+CP000730.1	Genbank	gene	476891	476956	.	-	.	ID=gene457;Name=USA300HOU_0456;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0456
+CP000730.1	Genbank	CDS	476891	476956	.	-	0	ID=cds435;Parent=gene457;Dbxref=NCBI_GP:ABX28482.1;Name=ABX28482.1;gbkey=CDS;product=hypothetical protein;protein_id=ABX28482.1;transl_table=11
+CP000730.1	Genbank	gene	477477	478961	.	+	.	ID=gene458;Name=USA300HOU_0457;gbkey=Gene;gene_biotype=protein_coding;locus_tag=USA300HOU_0457
+CP000730.1	Genbank	CDS	477477	478961	.	+	0	ID=cds436;Parent=gene458;Dbxref=NCBI_GP:ABX28483.1;Name=ABX28483.1;gbkey=CDS;product=NADH dehydrogenase (ubiquinone);protein_id=ABX28483.1;transl_table=11

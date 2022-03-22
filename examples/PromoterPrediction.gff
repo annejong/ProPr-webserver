@@ -1,0 +1,237 @@
+NC_009004.1	RefSeq	region	1	2529478	.	+	.	ID=id0;Dbxref=taxon:416870;Is_circular=true;gbkey=Src;genome=chromosome;mol_type=genomic DNA;strain=MG1363
+NC_009004.1	RefSeq	gene	1	1365	.	+	.	ID=gene0;Name=dnaA;Dbxref=GeneID:4798589;gbkey=Gene;gene=dnaA;locus_tag=llmg_0001
+NC_009004.1	RefSeq	CDS	1	1365	.	+	0	ID=cds0;Name=YP_001031366.1;Parent=gene0;Note=binds to the dnaA-box as an ATP-bound complex at the origin of replication during the initiation of chromosomal replication%3B can also affect transcription of multiple genes including itself.;Dbxref=Genbank:YP_001031366.1,GeneID:4798589;gbkey=CDS;product=chromosomal replication initiation protein;protein_id=YP_001031366.1;transl_table=11
+NC_009004.1	RefSeq	gene	1522	2664	.	+	.	ID=gene1;Name=dnaN;Dbxref=GeneID:4798369;gbkey=Gene;gene=dnaN;locus_tag=llmg_0002
+NC_009004.1	RefSeq	CDS	1522	2664	.	+	0	ID=cds1;Name=YP_001031367.1;Parent=gene1;Note=binds the polymerase to DNA and acts as a sliding clamp;Dbxref=Genbank:YP_001031367.1,GeneID:4798369;gbkey=CDS;product=DNA polymerase III subunit beta;protein_id=YP_001031367.1;transl_table=11
+NC_009004.1	RefSeq	gene	2770	6069	.	+	.	ID=gene2;Name=rexB;Dbxref=GeneID:4798396;gbkey=Gene;gene=rexB;locus_tag=llmg_0003
+NC_009004.1	RefSeq	CDS	2770	6069	.	+	0	ID=cds2;Name=YP_001031368.1;Parent=gene2;Note=ATP-dependent exonuclease%2C ATP-stimulated endonuclease%2C ATP-dependent helicase and DNA-dependent ATPase%7EHigh confidence in function and specificity;Dbxref=Genbank:YP_001031368.1,GeneID:4798396;gbkey=CDS;product=ATP-dependent nuclease subunit B;protein_id=YP_001031368.1;transl_table=11
+NC_009004.1	RefSeq	gene	6062	9673	.	+	.	ID=gene3;Name=rexA;Dbxref=GeneID:4797078;gbkey=Gene;gene=rexA;locus_tag=llmg_0004
+NC_009004.1	RefSeq	CDS	6062	9673	.	+	0	ID=cds3;Name=YP_001031369.1;Parent=gene3;Note=UvrD%2FREP helicase%7EHigh confidence in function and specificity;Dbxref=Genbank:YP_001031369.1,GeneID:4797078;gbkey=CDS;product=ATP-dependent nuclease subunit A;protein_id=YP_001031369.1;transl_table=11
+NC_009004.1	RefSeq	gene	9708	9908	.	+	.	ID=gene4;Name=llmg_0005;Dbxref=GeneID:4798206;gbkey=Gene;locus_tag=llmg_0005
+NC_009004.1	RefSeq	CDS	9708	9908	.	+	0	ID=cds4;Name=YP_001031370.1;Parent=gene4;Note=Bacterial protein of unknown function DUF951;Dbxref=Genbank:YP_001031370.1,GeneID:4798206;gbkey=CDS;product=hypothetical protein;protein_id=YP_001031370.1;transl_table=11
+NC_009004.1	RefSeq	gene	9916	10473	.	-	.	ID=gene5;Name=llmg_0006;Dbxref=GeneID:4796748;gbkey=Gene;locus_tag=llmg_0006
+NC_009004.1	RefSeq	CDS	9916	10473	.	-	0	ID=cds5;Name=YP_001031371.1;Parent=gene5;Note=Lambda repressor-like%2C DNA-binding%2C Helix-turn- helix;Dbxref=Genbank:YP_001031371.1,GeneID:4796748;gbkey=CDS;product=HTH-type transcriptional regulator;protein_id=YP_001031371.1;transl_table=11
+NC_009004.1	RefSeq	gene	10757	11872	.	+	.	ID=gene6;Name=ychF;Dbxref=GeneID:4798155;gbkey=Gene;gene=ychF;gene_synonym=ychF;locus_tag=llmg_0007
+NC_009004.1	RefSeq	CDS	10757	11872	.	+	0	ID=cds6;Name=YP_001031372.1;Parent=gene6;Note=translation-associated GTPase%3B the crystal structure of the Haemophilus influenzae YchF protein showed similarity to the yeast structure %28PDB: 1NI3%29%3B fluorescence spectroscopy revealed nucleic acid binding%3B the yeast protein YBR025c interacts with the translation elongation factor eEF1;Dbxref=Genbank:YP_001031372.1,GeneID:4798155;gbkey=CDS;product=GTP-dependent nucleic acid-binding protein EngD;protein_id=YP_001031372.1;transl_table=11
+NC_009004.1	RefSeq	gene	11984	12307	.	+	.	ID=gene7;Name=llmg_0008;Dbxref=GeneID:4797060;gbkey=Gene;locus_tag=llmg_0008
+NC_009004.1	RefSeq	CDS	11984	12307	.	+	0	ID=cds7;Name=YP_001031373.1;Parent=gene7;Note=DNA binding Helix-turn-helix motif%7EConserved hypothetical protein;Dbxref=Genbank:YP_001031373.1,GeneID:4797060;gbkey=CDS;product=HTH-type transcriptional regulator;protein_id=YP_001031373.1;transl_table=11
+NC_009004.1	RefSeq	gene	12720	13421	.	+	.	ID=gene8;Name=llmg_0009;Dbxref=GeneID:4798235;gbkey=Gene;locus_tag=llmg_0009
+NC_009004.1	RefSeq	CDS	12720	13421	.	+	0	ID=cds8;Name=YP_001031374.1;Parent=gene8;Dbxref=Genbank:YP_001031374.1,GeneID:4798235;gbkey=CDS;product=hypothetical protein;protein_id=YP_001031374.1;transl_table=11
+NC_009004.1	RefSeq	gene	13521	13712	.	+	.	ID=gene9;Name=llmg_0010;Dbxref=GeneID:4799098;gbkey=Gene;locus_tag=llmg_0010
+NC_009004.1	RefSeq	CDS	13521	13712	.	+	0	ID=cds9;Name=YP_001031375.1;Parent=gene9;Dbxref=Genbank:YP_001031375.1,GeneID:4799098;gbkey=CDS;product=hypothetical protein;protein_id=YP_001031375.1;transl_table=11
+NC_009004.1	RefSeq	gene	13947	14432	.	+	.	ID=gene10;Name=llmg_0011;Dbxref=GeneID:4797850;gbkey=Gene;locus_tag=llmg_0011
+NC_009004.1	RefSeq	CDS	13947	14432	.	+	0	ID=cds10;Name=YP_001031376.1;Parent=gene10;Dbxref=Genbank:YP_001031376.1,GeneID:4797850;gbkey=CDS;product=hypothetical protein;protein_id=YP_001031376.1;transl_table=11
+NC_009004.1	RefSeq	gene	14436	15002	.	+	.	ID=gene11;Name=pth;Dbxref=GeneID:4797925;gbkey=Gene;gene=pth;locus_tag=llmg_0012
+NC_009004.1	RefSeq	CDS	14436	15002	.	+	0	ID=cds11;Name=YP_001031377.1;Parent=gene11;Note=Enables the recycling of peptidyl-tRNAs produced at termination of translation;Dbxref=Genbank:YP_001031377.1,GeneID:4797925;gbkey=CDS;product=peptidyl-tRNA hydrolase;protein_id=YP_001031377.1;transl_table=11
+NC_009004.1	RefSeq	gene	15003	18545	.	+	.	ID=gene12;Name=mfd;Dbxref=GeneID:4797443;gbkey=Gene;gene=mfd;locus_tag=llmg_0013
+NC_009004.1	RefSeq	CDS	15003	18545	.	+	0	ID=cds12;Name=YP_001031378.1;Parent=gene12;Note=Transcription-repair coupling factor%2C CarD- like%2FTRCF domain%7EHigh confidence in function and specificity;Dbxref=Genbank:YP_001031378.1,GeneID:4797443;gbkey=CDS;product=transcription-repair coupling factor;protein_id=YP_001031378.1;transl_table=11
+NC_009004.1	RefSeq	gene	18862	19131	.	+	.	ID=gene13;Name=llmg_0015;Dbxref=GeneID:4798909;gbkey=Gene;locus_tag=llmg_0015
+NC_009004.1	RefSeq	CDS	18862	19131	.	+	0	ID=cds13;Name=YP_001031379.1;Parent=gene13;Note=RNA-binding S4%7EConserved hypothetical protein;Dbxref=Genbank:YP_001031379.1,GeneID:4798909;gbkey=CDS;product=RNA binding protein;protein_id=YP_001031379.1;transl_table=11
+NC_009004.1	RefSeq	gene	19162	19536	.	+	.	ID=gene14;Name=llmg_0016;Dbxref=GeneID:4796653;gbkey=Gene;locus_tag=llmg_0016
+NC_009004.1	RefSeq	CDS	19162	19536	.	+	0	ID=cds14;Name=YP_001031380.1;Parent=gene14;Dbxref=Genbank:YP_001031380.1,GeneID:4796653;gbkey=CDS;product=hypothetical protein;protein_id=YP_001031380.1;transl_table=11
+NC_009004.1	RefSeq	gene	19536	19859	.	+	.	ID=gene15;Name=llmg_0017;Dbxref=GeneID:4796747;gbkey=Gene;locus_tag=llmg_0017
+NC_009004.1	RefSeq	CDS	19536	19859	.	+	0	ID=cds15;Name=YP_001031381.1;Parent=gene15;Note=Nucleic acid-binding OB-fold%2C RNA binding S1 domain%7EConserved hypothetical protein;Dbxref=Genbank:YP_001031381.1,GeneID:4796747;gbkey=CDS;product=hypothetical protein;protein_id=YP_001031381.1;transl_table=11
+NC_009004.1	RefSeq	gene	20021	21337	.	+	.	ID=gene16;Name=llmg_0018;Dbxref=GeneID:4799110;gbkey=Gene;locus_tag=llmg_0018
+NC_009004.1	RefSeq	CDS	20021	21337	.	+	0	ID=cds16;Name=YP_001031382.1;Parent=gene16;Note=COG: Beta-lactamase class A%7EFamily membership;Dbxref=Genbank:YP_001031382.1,GeneID:4799110;gbkey=CDS;product=beta-lactamase A;protein_id=YP_001031382.1;transl_table=11
+NC_009004.1	RefSeq	gene	21334	22602	.	+	.	ID=gene17;Name=mesJ;Dbxref=GeneID:4796965;gbkey=Gene;gene=mesJ;locus_tag=llmg_0019
+NC_009004.1	RefSeq	CDS	21334	22602	.	+	0	ID=cds17;Name=YP_001031383.1;Parent=gene17;Note=PP-loop family%7EHigh confidence in function and specificity;Dbxref=Genbank:YP_001031383.1,GeneID:4796965;gbkey=CDS;product=cell cycle protein mesJ;protein_id=YP_001031383.1;transl_table=11
+NC_009004.1	RefSeq	gene	22583	23134	.	+	.	ID=gene18;Name=hpt;Dbxref=GeneID:4797593;gbkey=Gene;gene=hpt;locus_tag=llmg_0020
+NC_009004.1	RefSeq	CDS	22583	23134	.	+	0	ID=cds18;Name=YP_001031384.1;Parent=gene18;Dbxref=Genbank:YP_001031384.1,GeneID:4797593;gbkey=CDS;product=hypoxanthine phosphoribosyltransferase;protein_id=YP_001031384.1;transl_table=11
+NC_009004.1	RefSeq	gene	23340	25427	.	+	.	ID=gene19;Name=ftsH;Dbxref=GeneID:4798295;gbkey=Gene;gene=ftsH;locus_tag=llmg_0021
+NC_009004.1	RefSeq	CDS	23340	25427	.	+	0	ID=cds19;Name=YP_001031385.1;Parent=gene19;Dbxref=Genbank:YP_001031385.1,GeneID:4798295;gbkey=CDS;product=cell division protein;protein_id=YP_001031385.1;transl_table=11
+NC_009004.1	RefSeq	gene	25648	25719	.	+	.	ID=gene20;Name=llmg_tRNA_01;Note=tRNA-Glu;Dbxref=GeneID:4798787;gbkey=Gene;locus_tag=llmg_tRNA_01
+NC_009004.1	RefSeq	tRNA	25648	25719	.	+	.	ID=rna0;Dbxref=GeneID:4798787;anticodon=%28pos:25681..25683%29;codons=58;gbkey=tRNA;product=tRNA-Glu
+NC_009004.1	RefSeq	exon	25648	25719	.	+	.	ID=id1;Parent=rna0;Dbxref=GeneID:4798787;anticodon=%28pos:25681..25683%29;codons=58;gbkey=tRNA;product=tRNA-Glu
+NC_009004.1	RefSeq	gene	25725	25814	.	+	.	ID=gene21;Name=llmg_tRNA_02;Note=tRNA-Ser;Dbxref=GeneID:4796660;gbkey=Gene;locus_tag=llmg_tRNA_02
+NC_009004.1	RefSeq	tRNA	25725	25814	.	+	.	ID=rna1;Dbxref=GeneID:4796660;anticodon=%28pos:25761..25763%29;codons=6;gbkey=tRNA;product=tRNA-Ser
+NC_009004.1	RefSeq	exon	25725	25814	.	+	.	ID=id2;Parent=rna1;Dbxref=GeneID:4796660;anticodon=%28pos:25761..25763%29;codons=6;gbkey=tRNA;product=tRNA-Ser
+NC_009004.1	RefSeq	gene	25825	25898	.	+	.	ID=gene22;Name=llmg_tRNA_03;Note=tRNA-Met;Dbxref=GeneID:4796901;gbkey=Gene;locus_tag=llmg_tRNA_03
+NC_009004.1	RefSeq	tRNA	25825	25898	.	+	.	ID=rna2;Dbxref=GeneID:4796901;anticodon=%28pos:25859..25861%29;codons=35;gbkey=tRNA;product=tRNA-Met
+NC_009004.1	RefSeq	exon	25825	25898	.	+	.	ID=id3;Parent=rna2;Dbxref=GeneID:4796901;anticodon=%28pos:25859..25861%29;codons=35;gbkey=tRNA;product=tRNA-Met
+NC_009004.1	RefSeq	gene	25904	25976	.	+	.	ID=gene23;Name=llmg_tRNA_04;Note=tRNA-Phe;Dbxref=GeneID:4797075;gbkey=Gene;locus_tag=llmg_tRNA_04
+NC_009004.1	RefSeq	tRNA	25904	25976	.	+	.	ID=rna3;Dbxref=GeneID:4797075;anticodon=%28pos:25937..25939%29;codons=1;gbkey=tRNA;product=tRNA-Phe
+NC_009004.1	RefSeq	exon	25904	25976	.	+	.	ID=id4;Parent=rna3;Dbxref=GeneID:4797075;anticodon=%28pos:25937..25939%29;codons=1;gbkey=tRNA;product=tRNA-Phe
+NC_009004.1	RefSeq	gene	25988	26058	.	+	.	ID=gene24;Name=llmg_tRNA_05;Note=tRNA-Gly;Dbxref=GeneID:4798176;gbkey=Gene;locus_tag=llmg_tRNA_05
+NC_009004.1	RefSeq	tRNA	25988	26058	.	+	.	ID=rna4;Dbxref=GeneID:4798176;anticodon=%28pos:26020..26022%29;codons=62;gbkey=tRNA;product=tRNA-Gly
+NC_009004.1	RefSeq	exon	25988	26058	.	+	.	ID=id5;Parent=rna4;Dbxref=GeneID:4798176;anticodon=%28pos:26020..26022%29;codons=62;gbkey=tRNA;product=tRNA-Gly
+NC_009004.1	RefSeq	gene	26073	26146	.	+	.	ID=gene25;Name=llmg_tRNA_06;Note=tRNA-Ile;Dbxref=GeneID:4796729;gbkey=Gene;locus_tag=llmg_tRNA_06
+NC_009004.1	RefSeq	tRNA	26073	26146	.	+	.	ID=rna5;Dbxref=GeneID:4796729;anticodon=%28pos:26107..26109%29;codons=33;gbkey=tRNA;product=tRNA-Ile
+NC_009004.1	RefSeq	exon	26073	26146	.	+	.	ID=id6;Parent=rna5;Dbxref=GeneID:4796729;anticodon=%28pos:26107..26109%29;codons=33;gbkey=tRNA;product=tRNA-Ile
+NC_009004.1	RefSeq	gene	26149	26264	.	+	.	ID=gene26;Name=llmg_tRNA_06a;Dbxref=GeneID:5309718;gbkey=Gene;locus_tag=llmg_tRNA_06a
+NC_009004.1	RefSeq	rRNA	26149	26264	.	+	.	ID=rna6;Parent=gene26;Dbxref=GeneID:5309718;gbkey=rRNA;product=5S ribosomal RNA
+NC_009004.1	RefSeq	exon	26149	26264	.	+	.	ID=id7;Parent=rna6;Dbxref=GeneID:5309718;gbkey=rRNA;product=5S ribosomal RNA
+NC_009004.1	RefSeq	gene	26271	26344	.	+	.	ID=gene27;Name=llmg_tRNA_07;Note=tRNA-Asn;Dbxref=GeneID:4796632;gbkey=Gene;locus_tag=llmg_tRNA_07
+NC_009004.1	RefSeq	tRNA	26271	26344	.	+	.	ID=rna7;Dbxref=GeneID:4796632;anticodon=%28pos:26305..26307%29;codons=41;gbkey=tRNA;product=tRNA-Asn
+NC_009004.1	RefSeq	exon	26271	26344	.	+	.	ID=id8;Parent=rna7;Dbxref=GeneID:4796632;anticodon=%28pos:26305..26307%29;codons=41;gbkey=tRNA;product=tRNA-Asn
+NC_009004.1	RefSeq	gene	26494	28317	.	+	.	ID=gene28;Name=mtlA;Dbxref=GeneID:4799042;gbkey=Gene;gene=mtlA;locus_tag=llmg_0022
+NC_009004.1	RefSeq	CDS	26494	28317	.	+	0	ID=cds20;Name=YP_001031386.1;Parent=gene28;Note=%5BKO:K02799 K02800%5D%2C PTS system%2C mannitol-specific IIBC component %28EIIBC-Mtl%29%2C Phosphotransferase system%2C EIIC%7EHigh confidence in function and specificity;Dbxref=Genbank:YP_001031386.1,GeneID:4799042;gbkey=CDS;product=PTS system mannitol-specific transporter subunit IIBC;protein_id=YP_001031386.1;transl_table=11
+NC_009004.1	RefSeq	gene	28377	30311	.	+	.	ID=gene29;Name=mtlR;Dbxref=GeneID:4797439;gbkey=Gene;gene=mtlR;locus_tag=llmg_0023
+NC_009004.1	RefSeq	CDS	28377	30311	.	+	0	ID=cds21;Name=YP_001031387.1;Parent=gene29;Note=PRD domain%7EHigh confidence in function and specificity;Dbxref=Genbank:YP_001031387.1,GeneID:4797439;gbkey=CDS;product=transcriptional regulator mtl operon mtlR;protein_id=YP_001031387.1;transl_table=11
+NC_009004.1	RefSeq	gene	30358	30789	.	+	.	ID=gene30;Name=mtlF;Dbxref=GeneID:4797482;gbkey=Gene;gene=mtlF;locus_tag=llmg_0024
+NC_009004.1	RefSeq	CDS	30358	30789	.	+	0	ID=cds22;Name=YP_001031388.1;Parent=gene30;Note=PTS system%2C mannitol-specific IIABC component %28EIIABC-Mtl%29%2C Phosphoenolpyruvate-dependent sugar phosphotransferase system%2C EIIA 2%7EHigh confidence in function and specificity;Dbxref=Genbank:YP_001031388.1,GeneID:4797482;gbkey=CDS;product=PTS system mannitol-specific transporter subunit IIA;protein_id=YP_001031388.1;transl_table=11
+NC_009004.1	RefSeq	gene	30938	32104	.	+	.	ID=gene31;Name=mtlD;Dbxref=GeneID:4797451;gbkey=Gene;gene=mtlD;locus_tag=llmg_0025
+NC_009004.1	RefSeq	CDS	30938	32104	.	+	0	ID=cds23;Name=YP_001031389.1;Parent=gene31;Note=Mannitol-1-phosphate 5-dehydrogenase%7EHigh confidence in function and specificity;Dbxref=Genbank:YP_001031389.1,GeneID:4797451;gbkey=CDS;product=mannitol-1-phosphate 5-dehydrogenase;protein_id=YP_001031389.1;transl_table=11
+NC_009004.1	RefSeq	gene	32974	33297	.	-	.	ID=gene32;Name=ps130;Dbxref=GeneID:4797446;gbkey=Gene;gene=ps130;locus_tag=llmg_0026
+NC_009004.1	RefSeq	CDS	32974	33297	.	-	0	ID=cds24;Name=YP_001031390.1;Parent=gene32;Dbxref=Genbank:YP_001031390.1,GeneID:4797446;gbkey=CDS;product=hypothetical protein;protein_id=YP_001031390.1;transl_table=11
+NC_009004.1	RefSeq	gene	33398	33778	.	-	.	ID=gene33;Name=ps129;Dbxref=GeneID:4798054;gbkey=Gene;gene=ps129;locus_tag=llmg_0027
+NC_009004.1	RefSeq	CDS	33398	33778	.	-	0	ID=cds25;Name=YP_001031391.1;Parent=gene33;Dbxref=Genbank:YP_001031391.1,GeneID:4798054;gbkey=CDS;product=hypothetical protein;protein_id=YP_001031391.1;transl_table=11
+NC_009004.1	RefSeq	gene	33806	34108	.	-	.	ID=gene34;Name=ps128;Dbxref=GeneID:4797973;gbkey=Gene;gene=ps128;locus_tag=llmg_0028
+NC_009004.1	RefSeq	CDS	33806	34108	.	-	0	ID=cds26;Name=YP_001031392.1;Parent=gene34;Note=nucleic acid binding motif%2C phage associated;Dbxref=Genbank:YP_001031392.1,GeneID:4797973;gbkey=CDS;product=hypothetical protein;protein_id=YP_001031392.1;transl_table=11
+NC_009004.1	RefSeq	gene	34425	35006	.	-	.	ID=gene35;Name=ps127;Dbxref=GeneID:4797958;gbkey=Gene;gene=ps127;locus_tag=llmg_0029
+NC_009004.1	RefSeq	CDS	34425	35006	.	-	0	ID=cds27;Name=YP_001031393.1;Parent=gene35;Dbxref=Genbank:YP_001031393.1,GeneID:4797958;gbkey=CDS;product=hypothetical protein;protein_id=YP_001031393.1;transl_table=11
+NC_009004.1	RefSeq	gene	35242	36870	.	-	.	ID=gene36;Name=ps126;Dbxref=GeneID:4796891;gbkey=Gene;gene=ps126;locus_tag=llmg_0030
+NC_009004.1	RefSeq	CDS	35242	36870	.	-	0	ID=cds28;Name=YP_001031394.1;Parent=gene36;Note=Similar to ps105 from IL1403%2C Phage associated%7EFamily membership;Dbxref=Genbank:YP_001031394.1,GeneID:4796891;gbkey=CDS;product=DNA primase;protein_id=YP_001031394.1;transl_table=11
+NC_009004.1	RefSeq	gene	36881	37675	.	-	.	ID=gene37;Name=ps125;Dbxref=GeneID:4796946;gbkey=Gene;gene=ps125;locus_tag=llmg_0031
+NC_009004.1	RefSeq	CDS	36881	37675	.	-	0	ID=cds29;Name=YP_001031395.1;Parent=gene37;Dbxref=Genbank:YP_001031395.1,GeneID:4796946;gbkey=CDS;product=phage DNA replication;protein_id=YP_001031395.1;transl_table=11
+NC_009004.1	RefSeq	gene	37672	38007	.	-	.	ID=gene38;Name=ps124;Dbxref=GeneID:4798304;gbkey=Gene;gene=ps124;locus_tag=llmg_0032
+NC_009004.1	RefSeq	CDS	37672	38007	.	-	0	ID=cds30;Name=YP_001031396.1;Parent=gene38;Dbxref=Genbank:YP_001031396.1,GeneID:4798304;gbkey=CDS;product=hypothetical protein;protein_id=YP_001031396.1;transl_table=11
+NC_009004.1	RefSeq	gene	38004	38258	.	-	.	ID=gene39;Name=ps123;Dbxref=GeneID:4797243;gbkey=Gene;gene=ps123;locus_tag=llmg_0033
+NC_009004.1	RefSeq	CDS	38004	38258	.	-	0	ID=cds31;Name=YP_001031397.1;Parent=gene39;Dbxref=Genbank:YP_001031397.1,GeneID:4797243;gbkey=CDS;product=hypothetical protein;protein_id=YP_001031397.1;transl_table=11
+NC_009004.1	RefSeq	gene	38255	38494	.	-	.	ID=gene40;Name=ps122;Dbxref=GeneID:4798229;gbkey=Gene;gene=ps122;locus_tag=llmg_0034
+NC_009004.1	RefSeq	CDS	38255	38494	.	-	0	ID=cds32;Name=YP_001031398.1;Parent=gene40;Dbxref=Genbank:YP_001031398.1,GeneID:4798229;gbkey=CDS;product=hypothetical protein;protein_id=YP_001031398.1;transl_table=11
+NC_009004.1	RefSeq	gene	38536	38817	.	-	.	ID=gene41;Name=ps121;Dbxref=GeneID:4796976;gbkey=Gene;gene=ps121;locus_tag=llmg_0035
+NC_009004.1	RefSeq	CDS	38536	38817	.	-	0	ID=cds33;Name=YP_001031399.1;Parent=gene41;Dbxref=Genbank:YP_001031399.1,GeneID:4796976;gbkey=CDS;product=DNA binding protein;protein_id=YP_001031399.1;transl_table=11
+NC_009004.1	RefSeq	gene	38829	39254	.	-	.	ID=gene42;Name=ps120;Dbxref=GeneID:4798010;gbkey=Gene;gene=ps120;locus_tag=llmg_0036
+NC_009004.1	RefSeq	CDS	38829	39254	.	-	0	ID=cds34;Name=YP_001031400.1;Parent=gene42;Dbxref=Genbank:YP_001031400.1,GeneID:4798010;gbkey=CDS;product=hypothetical protein;protein_id=YP_001031400.1;transl_table=11
+NC_009004.1	RefSeq	gene	39259	39453	.	-	.	ID=gene43;Name=ps119;Dbxref=GeneID:4796936;gbkey=Gene;gene=ps119;locus_tag=llmg_0037
+NC_009004.1	RefSeq	CDS	39259	39453	.	-	0	ID=cds35;Name=YP_001031401.1;Parent=gene43;Note=Similar to ps113 of IL1403%2C Protein of unknown function %28DUF1655%29%2C Phage associated;Dbxref=Genbank:YP_001031401.1,GeneID:4796936;gbkey=CDS;product=hypothetical protein;protein_id=YP_001031401.1;transl_table=11
+NC_009004.1	RefSeq	gene	39569	39754	.	-	.	ID=gene44;Name=ps118;Dbxref=GeneID:4796961;gbkey=Gene;gene=ps118;locus_tag=llmg_0038
+NC_009004.1	RefSeq	CDS	39569	39754	.	-	0	ID=cds36;Name=YP_001031402.1;Parent=gene44;Note=Lambda repressor-like%2C DNA-binding%2C Helix-turn- helix;Dbxref=Genbank:YP_001031402.1,GeneID:4796961;gbkey=CDS;product=hypothetical protein;protein_id=YP_001031402.1;transl_table=11
+NC_009004.1	RefSeq	gene	39837	40163	.	+	.	ID=gene45;Name=ps117;Dbxref=GeneID:4796925;gbkey=Gene;gene=ps117;locus_tag=llmg_0039
+NC_009004.1	RefSeq	CDS	39837	40163	.	+	0	ID=cds37;Name=YP_001031403.1;Parent=gene45;Dbxref=Genbank:YP_001031403.1,GeneID:4796925;gbkey=CDS;product=hypothetical protein;protein_id=YP_001031403.1;transl_table=11
+NC_009004.1	RefSeq	gene	40519	40734	.	-	.	ID=gene46;Name=ps116;Dbxref=GeneID:4796585;gbkey=Gene;gene=ps116;locus_tag=llmg_0040
+NC_009004.1	RefSeq	CDS	40519	40734	.	-	0	ID=cds38;Name=YP_001031404.1;Parent=gene46;Note=Lambda repressor-like%2C DNA-binding;Dbxref=Genbank:YP_001031404.1,GeneID:4796585;gbkey=CDS;product=phage repressor;protein_id=YP_001031404.1;transl_table=11
+NC_009004.1	RefSeq	gene	40860	41282	.	+	.	ID=gene47;Name=ps115;Dbxref=GeneID:4796897;gbkey=Gene;gene=ps115;locus_tag=llmg_0041
+NC_009004.1	RefSeq	CDS	40860	41282	.	+	0	ID=cds39;Name=YP_001031405.1;Parent=gene47;Note=Family membership;Dbxref=Genbank:YP_001031405.1,GeneID:4796897;gbkey=CDS;product=phage repressor;protein_id=YP_001031405.1;transl_table=11
+NC_009004.1	RefSeq	gene	41312	41866	.	+	.	ID=gene48;Name=ps114;Dbxref=GeneID:4796889;gbkey=Gene;gene=ps114;locus_tag=llmg_0042
+NC_009004.1	RefSeq	CDS	41312	41866	.	+	0	ID=cds40;Name=YP_001031406.1;Parent=gene48;Note=Conserved hypothetical protein;Dbxref=Genbank:YP_001031406.1,GeneID:4796889;gbkey=CDS;product=hypothetical protein;protein_id=YP_001031406.1;transl_table=11
+NC_009004.1	RefSeq	gene	41977	42207	.	+	.	ID=gene49;Name=ps113;Dbxref=GeneID:4798656;gbkey=Gene;gene=ps113;locus_tag=llmg_0043
+NC_009004.1	RefSeq	CDS	41977	42207	.	+	0	ID=cds41;Name=YP_001031407.1;Parent=gene49;Note=Similar to ps117 from IL1403;Dbxref=Genbank:YP_001031407.1,GeneID:4798656;gbkey=CDS;product=hypothetical protein;protein_id=YP_001031407.1;transl_table=11
+NC_009004.1	RefSeq	gene	42280	42474	.	+	.	ID=gene50;Name=ps112;Dbxref=GeneID:4796923;gbkey=Gene;gene=ps112;locus_tag=llmg_0044
+NC_009004.1	RefSeq	CDS	42280	42474	.	+	0	ID=cds42;Name=YP_001031408.1;Parent=gene50;Note=nucleic acid binding motif;Dbxref=Genbank:YP_001031408.1,GeneID:4796923;gbkey=CDS;product=hypothetical protein;protein_id=YP_001031408.1;transl_table=11
+NC_009004.1	RefSeq	gene	43098	44423	.	+	.	ID=gene51;Name=ps111;Dbxref=GeneID:4796934;gbkey=Gene;gene=ps111;locus_tag=llmg_0045
+NC_009004.1	RefSeq	CDS	43098	44423	.	+	0	ID=cds43;Name=YP_001031409.1;Parent=gene51;Dbxref=Genbank:YP_001031409.1,GeneID:4796934;gbkey=CDS;product=hypothetical protein;protein_id=YP_001031409.1;transl_table=11
+NC_009004.1	RefSeq	gene	44505	44711	.	+	.	ID=gene52;Name=ps110;Dbxref=GeneID:4798167;gbkey=Gene;gene=ps110;locus_tag=llmg_0046
+NC_009004.1	RefSeq	CDS	44505	44711	.	+	0	ID=cds44;Name=YP_001031410.1;Parent=gene52;Dbxref=Genbank:YP_001031410.1,GeneID:4798167;gbkey=CDS;product=hypothetical protein;protein_id=YP_001031410.1;transl_table=11
+NC_009004.1	RefSeq	gene	45201	45443	.	+	.	ID=gene53;Name=ps109;Dbxref=GeneID:4796706;gbkey=Gene;gene=ps109;locus_tag=llmg_0047
+NC_009004.1	RefSeq	CDS	45201	45443	.	+	0	ID=cds45;Name=YP_001031411.1;Parent=gene53;Note=Similar to ps119 from IL1403;Dbxref=Genbank:YP_001031411.1,GeneID:4796706;gbkey=CDS;product=hypothetical protein;protein_id=YP_001031411.1;transl_table=11
+NC_009004.1	RefSeq	gene	45579	45803	.	+	.	ID=gene54;Name=ps108;Dbxref=GeneID:4796604;gbkey=Gene;gene=ps108;locus_tag=llmg_0048
+NC_009004.1	RefSeq	CDS	45579	45803	.	+	0	ID=cds46;Name=YP_001031412.1;Parent=gene54;Note=Similar to ps120 from IL1403;Dbxref=Genbank:YP_001031412.1,GeneID:4796604;gbkey=CDS;product=Ps108 protein;protein_id=YP_001031412.1;transl_table=11
+NC_009004.1	RefSeq	gene	46467	47690	.	+	.	ID=gene55;Name=tnp712;Dbxref=GeneID:4797130;gbkey=Gene;gene=tnp712;locus_tag=llmg_0049
+NC_009004.1	RefSeq	CDS	46467	47690	.	+	0	ID=cds47;Name=YP_001031413.1;Parent=gene55;Note=Conserved hypothetical protein;Dbxref=Genbank:YP_001031413.1,GeneID:4797130;gbkey=CDS;product=transposase for insertion sequence element IS712A;protein_id=YP_001031413.1;transl_table=11
+NC_009004.1	RefSeq	gene	47702	48460	.	+	.	ID=gene56;Name=llmg_0050;Dbxref=GeneID:4798172;gbkey=Gene;locus_tag=llmg_0050
+NC_009004.1	RefSeq	CDS	47702	48460	.	+	0	ID=cds48;Name=YP_001031414.1;Parent=gene56;Note=IstB-like ATP-binding protein%7EConserved hypothetical protein;Dbxref=Genbank:YP_001031414.1,GeneID:4798172;gbkey=CDS;product=transposase helper protein for IS712A;protein_id=YP_001031414.1;transl_table=11
+NC_009004.1	RefSeq	gene	48562	48888	.	+	.	ID=gene57;Name=ps105;Dbxref=GeneID:4796599;gbkey=Gene;gene=ps105;locus_tag=llmg_0051
+NC_009004.1	RefSeq	CDS	48562	48888	.	+	0	ID=cds49;Name=YP_001031415.1;Parent=gene57;Dbxref=Genbank:YP_001031415.1,GeneID:4796599;gbkey=CDS;product=hypothetical protein;protein_id=YP_001031415.1;transl_table=11
+NC_009004.1	RefSeq	gene	49396	49533	.	+	.	ID=gene58;Name=ps104;Dbxref=GeneID:4796690;gbkey=Gene;gene=ps104;locus_tag=llmg_0052
+NC_009004.1	RefSeq	CDS	49396	49533	.	+	0	ID=cds50;Name=YP_001031416.1;Parent=gene58;Note=phage protein;Dbxref=Genbank:YP_001031416.1,GeneID:4796690;gbkey=CDS;product=hypothetical protein;protein_id=YP_001031416.1;transl_table=11
+NC_009004.1	RefSeq	gene	49622	49786	.	+	.	ID=gene59;Name=ps103;Dbxref=GeneID:4796705;gbkey=Gene;gene=ps103;locus_tag=llmg_0053
+NC_009004.1	RefSeq	CDS	49622	49786	.	+	0	ID=cds51;Name=YP_001031417.1;Parent=gene59;Dbxref=Genbank:YP_001031417.1,GeneID:4796705;gbkey=CDS;product=hypothetical protein;protein_id=YP_001031417.1;transl_table=11
+NC_009004.1	RefSeq	gene	49908	50213	.	+	.	ID=gene60;Name=ps102;Dbxref=GeneID:4797146;gbkey=Gene;gene=ps102;locus_tag=llmg_0054
+NC_009004.1	RefSeq	CDS	49908	50213	.	+	0	ID=cds52;Name=YP_001031418.1;Parent=gene60;Note=Similar to lciA%2C Lactococcin A immunity protein%7EConserved hypothetical protein;Dbxref=Genbank:YP_001031418.1,GeneID:4797146;gbkey=CDS;product=hypothetical protein;protein_id=YP_001031418.1;transl_table=11
+NC_009004.1	RefSeq	gene	50463	51647	.	+	.	ID=gene61;Name=ps101;Dbxref=GeneID:4797037;gbkey=Gene;gene=ps101;locus_tag=llmg_0055
+NC_009004.1	RefSeq	CDS	50463	51647	.	+	0	ID=cds53;Name=YP_001031419.1;Parent=gene61;Note=DNA breaking-rejoining enzyme%2C catalytic core%2C Tyrosine recombinase xerD%7EConserved hypothetical protein;Dbxref=Genbank:YP_001031419.1,GeneID:4797037;gbkey=CDS;product=phage integrase;protein_id=YP_001031419.1;transl_table=11
+NC_009004.1	RefSeq	gene	52156	52938	.	-	.	ID=gene62;Name=llmg_0056;Dbxref=GeneID:4796957;gbkey=Gene;locus_tag=llmg_0056
+NC_009004.1	RefSeq	CDS	52156	52938	.	-	0	ID=cds54;Name=YP_001031420.1;Parent=gene62;Note=Bacterial protein of unknown function DUF915%7EFamily membership;Dbxref=Genbank:YP_001031420.1,GeneID:4796957;gbkey=CDS;product=hypothetical protein;protein_id=YP_001031420.1;transl_table=11
+NC_009004.1	RefSeq	gene	53631	53996	.	+	.	ID=gene63;Name=llmg_0057;Dbxref=GeneID:4796648;gbkey=Gene;locus_tag=llmg_0057
+NC_009004.1	RefSeq	CDS	53631	53996	.	+	0	ID=cds55;Name=YP_001031421.1;Parent=gene63;Dbxref=Genbank:YP_001031421.1,GeneID:4796648;gbkey=CDS;product=hypothetical protein;protein_id=YP_001031421.1;transl_table=11
+NC_009004.1	RefSeq	gene	54401	54892	.	+	.	ID=gene64;Name=llmg_0059;Dbxref=GeneID:4798185;gbkey=Gene;locus_tag=llmg_0059
+NC_009004.1	RefSeq	CDS	54401	54892	.	+	0	ID=cds56;Name=YP_001031422.1;Parent=gene64;Dbxref=Genbank:YP_001031422.1,GeneID:4798185;gbkey=CDS;product=hypothetical protein;protein_id=YP_001031422.1;transl_table=11
+NC_009004.1	RefSeq	gene	55405	55563	.	+	.	ID=gene65;Name=llmg_0060;Dbxref=GeneID:4796637;gbkey=Gene;locus_tag=llmg_0060
+NC_009004.1	RefSeq	CDS	55405	55563	.	+	0	ID=cds57;Name=YP_001031423.1;Parent=gene65;Dbxref=Genbank:YP_001031423.1,GeneID:4796637;gbkey=CDS;product=hypothetical protein;protein_id=YP_001031423.1;transl_table=11
+NC_009004.1	RefSeq	gene	55905	56453	.	+	.	ID=gene66;Name=llmg_0061;Dbxref=GeneID:4799096;gbkey=Gene;locus_tag=llmg_0061
+NC_009004.1	RefSeq	CDS	55905	56453	.	+	0	ID=cds58;Name=YP_001031424.1;Parent=gene66;Note=GCN5-related N-acetyltransferase%7EFunction unclear;Dbxref=Genbank:YP_001031424.1,GeneID:4799096;gbkey=CDS;product=acetyltransferase;protein_id=YP_001031424.1;transl_table=11
+NC_009004.1	RefSeq	gene	56574	56777	.	+	.	ID=gene67;Name=llmg_0062;Dbxref=GeneID:4798950;gbkey=Gene;locus_tag=llmg_0062
+NC_009004.1	RefSeq	CDS	56574	56777	.	+	0	ID=cds59;Name=YP_001031425.1;Parent=gene67;Dbxref=Genbank:YP_001031425.1,GeneID:4798950;gbkey=CDS;product=hypothetical protein;protein_id=YP_001031425.1;transl_table=11
+NC_009004.1	RefSeq	gene	56870	58492	.	-	.	ID=gene68;Name=llmg_0063;Dbxref=GeneID:4798957;gbkey=Gene;locus_tag=llmg_0063
+NC_009004.1	RefSeq	CDS	56870	58492	.	-	0	ID=cds60;Name=YP_001031426.1;Parent=gene68;Note=Sulfate transporter family%2C sulP: sulfate permease%7EFamily membership;Dbxref=Genbank:YP_001031426.1,GeneID:4798957;gbkey=CDS;product=sulfate transporter;protein_id=YP_001031426.1;transl_table=11
+NC_009004.1	RefSeq	gene	58702	59877	.	-	.	ID=gene69;Name=tnp905;Dbxref=GeneID:4798783;gbkey=Gene;gene=tnp905;locus_tag=llmg_0064
+NC_009004.1	RefSeq	CDS	58702	59877	.	-	0	ID=cds61;Name=YP_001031427.1;Parent=gene69;Note=High confidence in function and specificity;Dbxref=Genbank:YP_001031427.1,GeneID:4798783;gbkey=CDS;product=transposase for insertion sequence element IS905A;protein_id=YP_001031427.1;transl_table=11
+NC_009004.1	RefSeq	gene	60023	60544	.	+	.	ID=gene70;Name=llmg_0065;Dbxref=GeneID:4798247;gbkey=Gene;locus_tag=llmg_0065
+NC_009004.1	RefSeq	CDS	60023	60544	.	+	0	ID=cds62;Name=YP_001031428.1;Parent=gene70;Note=Amino-acid acetyltransferase%2C GCN5-related N- acetyltransferase%7EFamily membership;Dbxref=Genbank:YP_001031428.1,GeneID:4798247;gbkey=CDS;product=GNAT family acetyltransferase;protein_id=YP_001031428.1;transl_table=11
+NC_009004.1	RefSeq	gene	60653	60725	.	+	.	ID=gene71;Name=llmg_tRNA_08;Note=tRNA-Lys;Dbxref=GeneID:4796647;gbkey=Gene;locus_tag=llmg_tRNA_08
+NC_009004.1	RefSeq	tRNA	60653	60725	.	+	.	ID=rna8;Dbxref=GeneID:4796647;anticodon=%28pos:60686..60688%29;codons=43;gbkey=tRNA;product=tRNA-Lys
+NC_009004.1	RefSeq	exon	60653	60725	.	+	.	ID=id9;Parent=rna8;Dbxref=GeneID:4796647;anticodon=%28pos:60686..60688%29;codons=43;gbkey=tRNA;product=tRNA-Lys
+NC_009004.1	RefSeq	gene	60873	62048	.	+	.	ID=gene72;Name=araT;Dbxref=GeneID:4796883;gbkey=Gene;gene=araT;locus_tag=llmg_0066
+NC_009004.1	RefSeq	CDS	60873	62048	.	+	0	ID=cds63;Name=YP_001031429.1;Parent=gene72;Note=catalyzes the transamination of the aromatic amino acid forming a ketoacid%3B first step in aromatic amino acid degradation in lactococci;Dbxref=Genbank:YP_001031429.1,GeneID:4796883;gbkey=CDS;product=aromatic amino acid aminotransferase;protein_id=YP_001031429.1;transl_table=11
+NC_009004.1	RefSeq	gene	62146	62901	.	+	.	ID=gene73;Name=recO;Dbxref=GeneID:4797012;gbkey=Gene;gene=recO;locus_tag=llmg_0067
+NC_009004.1	RefSeq	CDS	62146	62901	.	+	0	ID=cds64;Name=YP_001031430.1;Parent=gene73;Note=involved in DNA repair and RecFOR pathway recombination%3B RecFOR proteins displace ssDNA-binding protein and facilitate the production of RecA-coated ssDNA;Dbxref=Genbank:YP_001031430.1,GeneID:4797012;gbkey=CDS;product=DNA repair protein RecO;protein_id=YP_001031430.1;transl_table=11
+NC_009004.1	RefSeq	gene	63015	63896	.	+	.	ID=gene74;Name=llmg_0069;Dbxref=GeneID:4798205;gbkey=Gene;locus_tag=llmg_0069
+NC_009004.1	RefSeq	CDS	63015	63896	.	+	0	ID=cds65;Name=YP_001031431.1;Parent=gene74;Note=RGG_Cterm: transcriptional activator%2C Rgg%2FGadR%2FMutR family%2C C-terminal domain%7EConserved hypothetical protein;Dbxref=Genbank:YP_001031431.1,GeneID:4798205;gbkey=CDS;product=HTH-type transcriptional regulator;protein_id=YP_001031431.1;transl_table=11
+NC_009004.1	RefSeq	gene	64007	65242	.	+	.	ID=gene75;Name=llmg_0070;Dbxref=GeneID:4797031;gbkey=Gene;locus_tag=llmg_0070
+NC_009004.1	RefSeq	CDS	64007	65242	.	+	0	ID=cds66;Name=YP_001031432.1;Parent=gene75;Note=Major facilitator superfamily MFS_1%7EFamily membership;Dbxref=Genbank:YP_001031432.1,GeneID:4797031;gbkey=CDS;product=permease;protein_id=YP_001031432.1;transl_table=11
+NC_009004.1	RefSeq	gene	65273	66691	.	-	.	ID=gene76;Name=pdhD;Dbxref=GeneID:4798159;gbkey=Gene;gene=pdhD;locus_tag=llmg_0071
+NC_009004.1	RefSeq	CDS	65273	66691	.	-	0	ID=cds67;Name=YP_001031433.1;Parent=gene76;Note=E3 component of pyruvate complex%3B catalyzes the oxidation of dihydrolipoamide to lipoamide;Dbxref=Genbank:YP_001031433.1,GeneID:4798159;gbkey=CDS;product=dihydrolipoamide dehydrogenase;protein_id=YP_001031433.1;transl_table=11
+NC_009004.1	RefSeq	gene	66910	68502	.	-	.	ID=gene77;Name=pdhC;Dbxref=GeneID:4798127;gbkey=Gene;gene=pdhC;locus_tag=llmg_0072
+NC_009004.1	RefSeq	CDS	66910	68502	.	-	0	ID=cds68;Name=YP_001031434.1;Parent=gene77;Note=Dihydrolipoyllysine-residue acetyltransferase component of pyruvate dehydrogenase complex%2C PDHac_trf_long: pyruvate dehydrogenase complex dihydrolipoamide acetyltransferase%7EHigh confidence in function and specificity;Dbxref=Genbank:YP_001031434.1,GeneID:4798127;gbkey=CDS;product=pyruvate dehydrogenase complex E2 component;protein_id=YP_001031434.1;transl_table=11
+NC_009004.1	RefSeq	gene	68495	69475	.	-	.	ID=gene78;Name=pdhB;Dbxref=GeneID:4798128;gbkey=Gene;gene=pdhB;locus_tag=llmg_0073
+NC_009004.1	RefSeq	CDS	68495	69475	.	-	0	ID=cds69;Name=YP_001031435.1;Parent=gene78;Note=1-deoxy-D-xylulose-5-phosphate synthase %28DXP synthase%29%7EHigh confidence in function and specificity;Dbxref=Genbank:YP_001031435.1,GeneID:4798128;gbkey=CDS;product=pyruvate dehydrogenase E1 component beta subunit;protein_id=YP_001031435.1;transl_table=11
+NC_009004.1	RefSeq	gene	69478	70602	.	-	.	ID=gene79;Name=pdhA;Dbxref=GeneID:4798130;gbkey=Gene;gene=pdhA;locus_tag=llmg_0074
+NC_009004.1	RefSeq	CDS	69478	70602	.	-	0	ID=cds70;Name=YP_001031436.1;Parent=gene79;Dbxref=Genbank:YP_001031436.1,GeneID:4798130;gbkey=CDS;product=pyruvate dehydrogenase E1 component alpha subunit;protein_id=YP_001031436.1;transl_table=11
+NC_009004.1	RefSeq	gene	70691	71692	.	-	.	ID=gene80;Name=lplL;Dbxref=GeneID:4798148;gbkey=Gene;gene=lplL;locus_tag=llmg_0075
+NC_009004.1	RefSeq	CDS	70691	71692	.	-	0	ID=cds71;Name=YP_001031437.1;Parent=gene80;Note=Lipoyltransferase and lipoate-protein ligase%7EHigh confidence in function and specificity;Dbxref=Genbank:YP_001031437.1,GeneID:4798148;gbkey=CDS;product=lipoate-protein ligase;protein_id=YP_001031437.1;transl_table=11
+NC_009004.1	RefSeq	gene	71885	72739	.	-	.	ID=gene81;Name=llmg_0076;Dbxref=GeneID:4796665;gbkey=Gene;locus_tag=llmg_0076
+NC_009004.1	RefSeq	CDS	71885	72739	.	-	0	ID=cds72;Name=YP_001031438.1;Parent=gene81;Note=High confidence in function and specificity;Dbxref=Genbank:YP_001031438.1,GeneID:4796665;gbkey=CDS;product=glycerophosphodiester phosphodiesterase;protein_id=YP_001031438.1;transl_table=11
+NC_009004.1	RefSeq	gene	72818	73468	.	-	.	ID=gene82;Name=llmg_0077;Dbxref=GeneID:4797453;gbkey=Gene;locus_tag=llmg_0077
+NC_009004.1	RefSeq	CDS	72818	73468	.	-	0	ID=cds73;Name=YP_001031439.1;Parent=gene82;Note=Metal-dependent phosphohydrolase%2C HD region%7EFamily membership;Dbxref=Genbank:YP_001031439.1,GeneID:4797453;gbkey=CDS;product=phosphohydrolase;protein_id=YP_001031439.1;transl_table=11
+NC_009004.1	RefSeq	gene	73518	73844	.	-	.	ID=gene83;Name=llmg_0078;Dbxref=GeneID:4797069;gbkey=Gene;locus_tag=llmg_0078
+NC_009004.1	RefSeq	CDS	73518	73844	.	-	0	ID=cds74;Name=YP_001031440.1;Parent=gene83;Dbxref=Genbank:YP_001031440.1,GeneID:4797069;gbkey=CDS;product=hypothetical protein;protein_id=YP_001031440.1;transl_table=11
+NC_009004.1	RefSeq	gene	73937	74962	.	-	.	ID=gene84;Name=trpS;Dbxref=GeneID:4796978;gbkey=Gene;gene=trpS;locus_tag=llmg_0079
+NC_009004.1	RefSeq	CDS	73937	74962	.	-	0	ID=cds75;Name=YP_001031441.1;Parent=gene84;Note=catalyzes a two-step reaction%2C first charging a tryptophan molecule by linking its carboxyl group to the alpha-phosphate of ATP%2C followed by transfer of the aminoacyl-adenylate to its tRNA;Dbxref=Genbank:YP_001031441.1,GeneID:4796978;gbkey=CDS;product=tryptophanyl-tRNA synthetase II;protein_id=YP_001031441.1;transl_table=11
+NC_009004.1	RefSeq	gene	75461	75898	.	+	.	ID=gene85;Name=osmC;Dbxref=GeneID:4798232;gbkey=Gene;gene=osmC;locus_tag=llmg_0080
+NC_009004.1	RefSeq	CDS	75461	75898	.	+	0	ID=cds76;Name=YP_001031442.1;Parent=gene85;Note=OsmC-like protein%7EHigh confidence in function and specificity;Dbxref=Genbank:YP_001031442.1,GeneID:4798232;gbkey=CDS;product=osmotically inducible protein C;protein_id=YP_001031442.1;transl_table=11
+NC_009004.1	RefSeq	gene	76060	77373	.	+	.	ID=gene86;Name=llmg_0081;Dbxref=GeneID:4799083;gbkey=Gene;locus_tag=llmg_0081
+NC_009004.1	RefSeq	CDS	76060	77373	.	+	0	ID=cds77;Name=YP_001031443.1;Parent=gene86;Note=Amino acid permease-associated region%7EFunction unclear;Dbxref=Genbank:YP_001031443.1,GeneID:4799083;gbkey=CDS;product=amino-acid permease;protein_id=YP_001031443.1;transl_table=11
+NC_009004.1	RefSeq	gene	77433	77783	.	+	.	ID=gene87;Name=llmg_0082;Dbxref=GeneID:4798306;gbkey=Gene;locus_tag=llmg_0082
+NC_009004.1	RefSeq	CDS	77433	77783	.	+	0	ID=cds78;Name=YP_001031444.1;Parent=gene87;Dbxref=Genbank:YP_001031444.1,GeneID:4798306;gbkey=CDS;product=hypothetical protein;protein_id=YP_001031444.1;transl_table=11
+NC_009004.1	RefSeq	gene	77843	78838	.	-	.	ID=gene88;Name=plsX;Dbxref=GeneID:4798294;gbkey=Gene;gene=plsX;locus_tag=llmg_0083
+NC_009004.1	RefSeq	CDS	77843	78838	.	-	0	ID=cds79;Name=YP_001031445.1;Parent=gene88;Note=involved in acylation of glycerol-3-phosphate to form 1-acyl-glycerol-3 phosphate for use in phospholipid biosynthesis%3B functions with PlsY;Dbxref=Genbank:YP_001031445.1,GeneID:4798294;gbkey=CDS;product=glycerol-3-phosphate acyltransferase PlsX;protein_id=YP_001031445.1;transl_table=11
+NC_009004.1	RefSeq	gene	78941	79753	.	-	.	ID=gene89;Name=llmg_0084;Dbxref=GeneID:4797072;gbkey=Gene;locus_tag=llmg_0084
+NC_009004.1	RefSeq	CDS	78941	79753	.	-	0	ID=cds80;Name=YP_001031446.1;Parent=gene89;Note=Cof-subfamily: Cof-like hydrolase%7EFamily membership;Dbxref=Genbank:YP_001031446.1,GeneID:4797072;gbkey=CDS;product=hydrolase;protein_id=YP_001031446.1;transl_table=11
+NC_009004.1	RefSeq	gene	80129	81766	.	-	.	ID=gene90;Name=llmg_0085;Dbxref=GeneID:4798289;gbkey=Gene;locus_tag=llmg_0085
+NC_009004.1	RefSeq	CDS	80129	81766	.	-	0	ID=cds81;Name=YP_001031447.1;Parent=gene90;Note=ABC transporter related%7ESpecificity unclear;Dbxref=Genbank:YP_001031447.1,GeneID:4798289;gbkey=CDS;product=ABC transporter ATP-binding protein;protein_id=YP_001031447.1;transl_table=11
+NC_009004.1	RefSeq	gene	82266	82520	.	+	.	ID=gene91;Name=llmg_0086;Dbxref=GeneID:4796907;gbkey=Gene;locus_tag=llmg_0086
+NC_009004.1	RefSeq	CDS	82266	82520	.	+	0	ID=cds82;Name=YP_001031448.1;Parent=gene91;Note=yiaA%2FB two helix domain%7EConserved hypothetical protein;Dbxref=Genbank:YP_001031448.1,GeneID:4796907;gbkey=CDS;product=hypothetical protein;protein_id=YP_001031448.1;transl_table=11
+NC_009004.1	RefSeq	gene	82640	83464	.	-	.	ID=gene92;Name=llmg_0087;Dbxref=GeneID:4797356;gbkey=Gene;locus_tag=llmg_0087
+NC_009004.1	RefSeq	CDS	82640	83464	.	-	0	ID=cds83;Name=YP_001031449.1;Parent=gene92;Note=homology to 3-oxoacyl-%5Bacyl-carrier-protein%5D reductase%2C Short-chain dehydrogenase%2Freductase SDR%7EFunction unclear;Dbxref=Genbank:YP_001031449.1,GeneID:4797356;gbkey=CDS;product=short-chain type dehydrogenase;protein_id=YP_001031449.1;transl_table=11
+NC_009004.1	RefSeq	gene	83680	84249	.	+	.	ID=gene93;Name=llmg_0088;Dbxref=GeneID:4797349;gbkey=Gene;locus_tag=llmg_0088
+NC_009004.1	RefSeq	CDS	83680	84249	.	+	0	ID=cds84;Name=YP_001031450.1;Parent=gene93;Note=Conserved hypothetical protein;Dbxref=Genbank:YP_001031450.1,GeneID:4797349;gbkey=CDS;product=hypothetical protein;protein_id=YP_001031450.1;transl_table=11
+NC_009004.1	RefSeq	gene	84336	85064	.	+	.	ID=gene94;Name=tnp1077;Dbxref=GeneID:4797334;gbkey=Gene;gene=tnp1077;locus_tag=llmg_pseudo_01;pseudo=true
+NC_009004.1	RefSeq	gene	85125	85706	.	-	.	ID=gene95;Name=llmg_0089;Dbxref=GeneID:4797521;gbkey=Gene;locus_tag=llmg_0089
+NC_009004.1	RefSeq	CDS	85125	85706	.	-	0	ID=cds85;Name=YP_001031451.1;Parent=gene95;Note=High confidence in function and specificity;Dbxref=Genbank:YP_001031451.1,GeneID:4797521;gbkey=CDS;product=HTH-type transcriptional regulator;protein_id=YP_001031451.1;transl_table=11
+NC_009004.1	RefSeq	gene	85894	86376	.	-	.	ID=gene96;Name=llmg_0090;Dbxref=GeneID:4797318;gbkey=Gene;locus_tag=llmg_0090
+NC_009004.1	RefSeq	CDS	85894	86376	.	-	0	ID=cds86;Name=YP_001031452.1;Parent=gene96;Note=Region start changed from 86382 to 86376 %28-6 bases%29;Dbxref=Genbank:YP_001031452.1,GeneID:4797318;gbkey=CDS;product=hypothetical protein;protein_id=YP_001031452.1;transl_table=11
+NC_009004.1	RefSeq	gene	86633	87913	.	-	.	ID=gene97;Name=cysD;Dbxref=GeneID:4797283;gbkey=Gene;gene=cysD;locus_tag=llmg_0091
+NC_009004.1	RefSeq	CDS	86633	87913	.	-	0	ID=cds87;Name=YP_001031453.1;Parent=gene97;Note=OAH_OAS_sulfhy: O-acetylhomoserine aminocarboxypropyltransferase%2Fcysteine synthase%2C Cystathionine beta-lyases%2Fcystathionine gamma-synthases%7EHigh confidence in function and specificity;Dbxref=Genbank:YP_001031453.1,GeneID:4797283;gbkey=CDS;product=O-acetylhomoserine sulfhydrylase;protein_id=YP_001031453.1;transl_table=11
+NC_009004.1	RefSeq	gene	88166	88999	.	-	.	ID=gene98;Name=llmg_0092;Dbxref=GeneID:4798863;gbkey=Gene;locus_tag=llmg_0092
+NC_009004.1	RefSeq	CDS	88166	88999	.	-	0	ID=cds88;Name=YP_001031454.1;Parent=gene98;Note=Short-chain dehydrogenase%2Freductase SDR%2C homology to 3-oxoacyl-%5Bacyl-carrier-protein%5D reductase%7EFunction unclear;Dbxref=Genbank:YP_001031454.1,GeneID:4798863;gbkey=CDS;product=short-chain type dehydrogenase;protein_id=YP_001031454.1;transl_table=11
+NC_009004.1	RefSeq	gene	89403	89870	.	+	.	ID=gene99;Name=llmg_0093;Dbxref=GeneID:4797265;gbkey=Gene;locus_tag=llmg_0093
+NC_009004.1	RefSeq	CDS	89403	89870	.	+	0	ID=cds89;Name=YP_001031455.1;Parent=gene99;Note=Universal stress protein family%7EConserved hypothetical protein;Dbxref=Genbank:YP_001031455.1,GeneID:4797265;gbkey=CDS;product=hypothetical protein;protein_id=YP_001031455.1;transl_table=11
+NC_009004.1	RefSeq	gene	89996	90193	.	+	.	ID=gene100;Name=llmg_0094;Dbxref=GeneID:4797253;gbkey=Gene;locus_tag=llmg_0094
+NC_009004.1	RefSeq	CDS	89996	90193	.	+	0	ID=cds90;Name=YP_001031456.1;Parent=gene100;Dbxref=Genbank:YP_001031456.1,GeneID:4797253;gbkey=CDS;product=hypothetical protein;protein_id=YP_001031456.1;transl_table=11
+NC_009004.1	RefSeq	gene	90229	90849	.	+	.	ID=gene101;Name=llmg_0095;Dbxref=GeneID:4797358;gbkey=Gene;locus_tag=llmg_0095
+NC_009004.1	RefSeq	CDS	90229	90849	.	+	0	ID=cds91;Name=YP_001031457.1;Parent=gene101;Note=Esterase%2Flipase%2Fthioesterase;Dbxref=Genbank:YP_001031457.1,GeneID:4797358;gbkey=CDS;product=esterase;protein_id=YP_001031457.1;transl_table=11
+NC_009004.1	RefSeq	gene	90917	92086	.	+	.	ID=gene102;Name=llmg_0096;Dbxref=GeneID:4797820;gbkey=Gene;locus_tag=llmg_0096
+NC_009004.1	RefSeq	CDS	90917	92086	.	+	0	ID=cds92;Name=YP_001031458.1;Parent=gene102;Note=Family membership;Dbxref=Genbank:YP_001031458.1,GeneID:4797820;gbkey=CDS;product=glyoxylase;protein_id=YP_001031458.1;transl_table=11
+NC_009004.1	RefSeq	gene	92097	92687	.	+	.	ID=gene103;Name=llmg_0097;Dbxref=GeneID:4798000;gbkey=Gene;locus_tag=llmg_0097
+NC_009004.1	RefSeq	CDS	92097	92687	.	+	0	ID=cds93;Name=YP_001031459.1;Parent=gene103;Note=contains FMN-binding split barrel domain%7EFunction unclear;Dbxref=Genbank:YP_001031459.1,GeneID:4798000;gbkey=CDS;product=flavoprotein oxygenase;protein_id=YP_001031459.1;transl_table=11
+NC_009004.1	RefSeq	gene	92769	92918	.	-	.	ID=gene104;Name=rpmG;Dbxref=GeneID:4798430;gbkey=Gene;gene=rpmG;locus_tag=llmg_0098
+NC_009004.1	RefSeq	CDS	92769	92918	.	-	0	ID=cds94;Name=YP_001031460.1;Parent=gene104;Note=in Escherichia coli BM108%2C a mutation that results in lack of L33 synthesis had no effect on ribosome synthesis or function%3B there are paralogous genes in several bacterial genomes%2C and a CXXC motif for zinc binding and an upstream regulation region of the paralog lacking this motif that are regulated by zinc similar to other ribosomal proteins like L31%3B the proteins in this group lack the CXXC motif;Dbxref=Genbank:YP_001031460.1,GeneID:4798430;gbkey=CDS;product=50S ribosomal protein L33;protein_id=YP_001031460.1;transl_table=11
+NC_009004.1	RefSeq	gene	92948	93121	.	-	.	ID=gene105;Name=rpmF;Dbxref=GeneID:4799008;gbkey=Gene;gene=rpmF;locus_tag=llmg_0099
+NC_009004.1	RefSeq	CDS	92948	93121	.	-	0	ID=cds95;Name=YP_001031461.1;Parent=gene105;Note=some L32 proteins have zinc finger motifs consisting of CXXC while others do not;Dbxref=Genbank:YP_001031461.1,GeneID:4799008;gbkey=CDS;product=50S ribosomal protein L32;protein_id=YP_001031461.1;transl_table=11
+NC_009004.1	RefSeq	gene	93484	95265	.	+	.	ID=gene106;Name=cadA;Dbxref=GeneID:4799007;gbkey=Gene;gene=cadA;locus_tag=llmg_0100
+NC_009004.1	RefSeq	CDS	93484	95265	.	+	0	ID=cds96;Name=YP_001031462.1;Parent=gene106;Note=High confidence in function and specificity;Dbxref=Genbank:YP_001031462.1,GeneID:4799007;gbkey=CDS;product=cation-transporting ATPase;protein_id=YP_001031462.1;transl_table=11
+NC_009004.1	RefSeq	gene	95452	96300	.	+	.	ID=gene107;Name=llmg_0101;Dbxref=GeneID:4797729;gbkey=Gene;locus_tag=llmg_0101
+NC_009004.1	RefSeq	CDS	95452	96300	.	+	0	ID=cds97;Name=YP_001031463.1;Parent=gene107;Note=Conserved hypothetical protein;Dbxref=Genbank:YP_001031463.1,GeneID:4797729;gbkey=CDS;product=hypothetical protein;protein_id=YP_001031463.1;transl_table=11
+NC_009004.1	RefSeq	gene	96310	97095	.	-	.	ID=gene108;Name=parA;Dbxref=GeneID:4798323;gbkey=Gene;gene=parA;locus_tag=llmg_0102
+NC_009004.1	RefSeq	CDS	96310	97095	.	-	0	ID=cds98;Name=YP_001031464.1;Parent=gene108;Note=ParB-like partition protein%2C ParB-like nuclease domain%7EHigh confidence in function and specificity;Dbxref=Genbank:YP_001031464.1,GeneID:4798323;gbkey=CDS;product=chromosome partitioning protein parA;protein_id=YP_001031464.1;transl_table=11
+NC_009004.1	RefSeq	gene	97150	98409	.	-	.	ID=gene109;Name=cshA;Dbxref=GeneID:4798774;gbkey=Gene;gene=cshA;locus_tag=llmg_0103
+NC_009004.1	RefSeq	CDS	97150	98409	.	-	0	ID=cds99;Name=YP_001031465.1;Parent=gene109;Note=High confidence in function and specificity;Dbxref=Genbank:YP_001031465.1,GeneID:4798774;gbkey=CDS;product=recombination factor protein RarA;protein_id=YP_001031465.1;transl_table=11
+NC_009004.1	RefSeq	gene	98453	98995	.	-	.	ID=gene110;Name=llmg_0104;Dbxref=GeneID:4798818;gbkey=Gene;locus_tag=llmg_0104
+NC_009004.1	RefSeq	CDS	98453	98995	.	-	0	ID=cds100;Name=YP_001031466.1;Parent=gene110;Note=GCN5-related N-acetyltransferase%2C Acetyltransferase %28GNAT%29 family%7EHigh confidence in function and specificity;Dbxref=Genbank:YP_001031466.1,GeneID:4798818;gbkey=CDS;product=acetyltransferase;protein_id=YP_001031466.1;transl_table=11
+NC_009004.1	RefSeq	gene	99114	99581	.	+	.	ID=gene111;Name=llmg_0105;Dbxref=GeneID:4797804;gbkey=Gene;locus_tag=llmg_0105
+NC_009004.1	RefSeq	CDS	99114	99581	.	+	0	ID=cds101;Name=YP_001031467.1;Parent=gene111;Dbxref=Genbank:YP_001031467.1,GeneID:4797804;gbkey=CDS;product=hypothetical protein;protein_id=YP_001031467.1;transl_table=11
+NC_009004.1	RefSeq	gene	99611	101164	.	+	.	ID=gene112;Name=llmg_0106;Dbxref=GeneID:4798069;gbkey=Gene;locus_tag=llmg_0106
+NC_009004.1	RefSeq	CDS	99611	101164	.	+	0	ID=cds102;Name=YP_001031468.1;Parent=gene112;Note=ABC transporter related%7EFamily membership;Dbxref=Genbank:YP_001031468.1,GeneID:4798069;gbkey=CDS;product=ABC transporter ATP-binding protein;protein_id=YP_001031468.1;transl_table=11
+NC_009004.1	RefSeq	gene	101239	101523	.	+	.	ID=gene113;Name=llmg_0107;Dbxref=GeneID:4796797;gbkey=Gene;locus_tag=llmg_0107
+NC_009004.1	RefSeq	CDS	101239	101523	.	+	0	ID=cds103;Name=YP_001031469.1;Parent=gene113;Dbxref=Genbank:YP_001031469.1,GeneID:4796797;gbkey=CDS;product=hypothetical protein;protein_id=YP_001031469.1;transl_table=11

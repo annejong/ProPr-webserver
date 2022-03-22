@@ -1,0 +1,39 @@
+##gff-version 3								
+NC_0009643.0.AOI_01	Bagel4	CDS	58	1329	.	+	0	ID=orf00002;Name=orf00002;product=Probable tape measure protein n=12 RepID=TMP_BPSPB
+NC_0009643.0.AOI_01	Bagel4	CDS	1380	2138	.	+	0	ID=orf00004;Name=orf00004;product=SPBc2 prophage-derived uncharacterized protein YomH n=4 RepID=YOMH_BACSU
+NC_0009643.0.AOI_01	Bagel4	CDS	2150	4777	.	+	0	ID=orf00007;Name=orf00007;product=SPBc2 prophage-derived uncharacterized protein YomG n=5 RepID=YOMG_BACSU
+NC_0009643.0.AOI_01	Bagel4	CDS	4886	5614	.	+	0	ID=orf00008;Name=orf00008;product=SPBc2 prophage-derived uncharacterized protein YomF n=10 RepID=YOMF_BACSU
+NC_0009643.0.AOI_01	Bagel4	CDS	5585	5677	.	-	0	ID=sORF_9;Name=sORF_9;product=unkown
+NC_0009643.0.AOI_01	Bagel4	CDS	5651	7585	.	+	0	ID=orf00010;Name=orf00010;product=SPBc2 prophage-derived uncharacterized protein YomE n=11 RepID=YOME_BACSU
+NC_0009643.0.AOI_01	Bagel4	CDS	7612	7761	.	-	0	ID=sORF_8;Name=sORF_8;product=unkown
+NC_0009643.0.AOI_01	Bagel4	CDS	7755	8579	.	+	0	ID=orf00012;Name=orf00012;product=SPBc2 prophage-derived uncharacterized protein YomD n=4 RepID=YOMD_BACSU
+NC_0009643.0.AOI_01	Bagel4	CDS	8569	8787	.	+	0	ID=orf00013;Name=orf00013;product=unkown
+NC_0009643.0.AOI_01	Bagel4	CDS	8807	9910	.	+	0	ID=orf00015;Name=orf00015;product=N-acetylmuramoyl-L-alanine amidase BlyA n=15 RepID=BLYA_BACSU
+NC_0009643.0.AOI_01	Bagel4	CDS	9894	10013	.	+	0	ID=sORF_1;Name=sORF_1;product=unkown
+NC_0009643.0.AOI_01	Bagel4	CDS	9998	10210	.	+	0	ID=orf00017;Name=UviB;product=225.2;UviB
+NC_0009643.0.AOI_01	Bagel4	CDS	10221	10487	.	+	0	ID=orf00019;Name=orf00019;product=SPBc2 prophage-derived protein BhlB n=5 RepID=BHLB_BACSU
+NC_0009643.0.AOI_01	Bagel4	CDS	10543	10989	.	-	0	ID=orf00020;Name=orf00020;product=SPBc2 prophage-derived disulfide bond formation protein B n=3 RepID=BDBB_BACSU
+NC_0009643.0.AOI_01	Bagel4	CDS	10986	12254	.	-	0	ID=orf00022;Name=GlyS;product=SPBc2 prophage-derived glycosyltransferase SunS n=6 RepID=SUNS_BACSU
+NC_0009643.0.AOI_01	Bagel4	CDS	12254	12667	.	-	0	ID=orf00024;Name=orf00024;product=SPBc2 prophage-derived disulfide bond formation protein A n=5 RepID=BDBA_BACSU
+NC_0009643.0.AOI_01	Bagel4	CDS	12664	14601	.	-	0	ID=orf00025;Name=LanT;product=Sublancin-168-processing and transport ATP-binding protein sunT 
+NC_0009643.0.AOI_01	Bagel4	CDS	14839	15036	.	-	0	ID=orf00026;Name=Sublancin_168;product=LE-MER+2PEP; 127.1;Sublancin_168
+NC_0009643.0.AOI_01	Bagel4	CDS	15027	15137	.	+	0	ID=sORF_2;Name=sORF_2;product=unkown
+NC_0009643.0.AOI_01	Bagel4	CDS	15185	15313	.	-	0	ID=sORF_7;Name=sORF_7;product=unkown
+NC_0009643.0.AOI_01	Bagel4	CDS	15306	15662	.	-	0	ID=orf00029;Name=orf00029;product=Sublancin immunity protein SunI n=3 RepID=SUNI_BACSU
+NC_0009643.0.AOI_01	Bagel4	CDS	15725	16975	.	-	0	ID=orf00033;Name=orf00033;product=Putative UV-damage repair protein UvrX n=53 RepID=UVRX_BACSU
+NC_0009643.0.AOI_01	Bagel4	CDS	16968	17351	.	-	0	ID=orf00035;Name=orf00035;product=SPBc2 prophage-derived uncharacterized protein YolD n=43 RepID=YOLD_BACSU
+NC_0009643.0.AOI_01	Bagel4	CDS	17352	17453	.	-	0	ID=sORF_6;Name=sORF_6;product=unkown
+NC_0009643.0.AOI_01	Bagel4	CDS	17474	17809	.	+	0	ID=orf00038;Name=orf00038;product=SPBc2 prophage-derived uncharacterized protein YolC n=7 RepID=YOLC_BACSU
+NC_0009643.0.AOI_01	Bagel4	CDS	17852	18208	.	-	0	ID=orf00039;Name=orf00039;product=SPBc2 prophage-derived uncharacterized protein YolB n=12 RepID=YOLB_BACSU
+NC_0009643.0.AOI_01	Bagel4	CDS	18214	18681	.	-	0	ID=orf00040;Name=orf00040;product=SPBc2 prophage-derived uncharacterized protein YolA n=15 RepID=YOLA_BACSU
+NC_0009643.0.AOI_01	Bagel4	CDS	18831	19028	.	+	0	ID=orf00041;Name=orf00041;product=unkown
+NC_0009643.0.AOI_01	Bagel4	CDS	19075	19209	.	+	0	ID=sORF_3;Name=sORF_3;product=unkown
+NC_0009643.0.AOI_01	Bagel4	CDS	19307	19867	.	-	0	ID=orf00044;Name=orf00044;product=SPBc2 prophage-derived uncharacterized N-acetyltransferase YokL n=15 RepID=YOKL_BACSU
+NC_0009643.0.AOI_01	Bagel4	CDS	19876	20478	.	-	0	ID=orf00045;Name=orf00045;product=SPBc2 prophage-derived uncharacterized protein YokK n=18 RepID=YOKK_BACSU
+NC_0009643.0.AOI_01	Bagel4	CDS	20518	21003	.	-	0	ID=orf00047;Name=orf00047;product=Antitoxin YokJ n=13 RepID=YOKJ_BACSU
+NC_0009643.0.AOI_01	Bagel4	CDS	21024	22739	.	-	0	ID=orf00048;Name=orf00048;product=Probable ribonuclease YokI n=12 RepID=YOKI_BACSU
+NC_0009643.0.AOI_01	Bagel4	CDS	22839	23405	.	-	0	ID=orf00051;Name=orf00051;product=Uncharacterized protein YobM n=27 RepID=YOBM_BACSU
+NC_0009643.0.AOI_01	Bagel4	CDS	23379	23471	.	+	0	ID=sORF_4;Name=sORF_4;product=unkown
+NC_0009643.0.AOI_01	Bagel4	CDS	23480	23665	.	+	0	ID=orf00052;Name=orf00052;product=unkown
+NC_0009643.0.AOI_01	Bagel4	CDS	23676	23801	.	-	0	ID=sORF_5;Name=sORF_5;product=unkown
+NC_0009643.0.AOI_01	Bagel4	CDS	23920	24993	.	-	0	ID=orf00054;Name=orf00054;product=SPBc2 prophage-derived pesticidal crystal protein-like YokG n=4 RepID=YOKG_BACSU

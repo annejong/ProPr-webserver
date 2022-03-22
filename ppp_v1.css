@@ -1,0 +1,471 @@
+<style>
+	li{
+		list-style-type: none;
+		margin-top: 1px;
+	}
+	textarea
+	{
+	  border:1px solid #999999;
+	  width:100%;
+	  margin:5px 0;
+	  padding:3px;
+	}
+	.inputform {
+		 padding: 5px 5px 5px 5px;
+		 background-color: #ddd;
+	}
+	.detected_inputtype {
+		background-color: #01577c; 
+		color: white;
+	}	
+
+	.ConvertButton {
+		background-color: #008080; 
+		border: 1px solid white;;
+		color: white;
+		padding: 2px 24px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 12px;
+		width: 220px;
+		
+	}	
+	.ConvertButton:hover {background-color: #004d4d;}
+	.SmallButton {
+		background-color: #008080; 
+		border: 1px solid white;
+		color: white;
+		padding: 2px 24px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 12px;
+		width: 120px;
+		
+	}	
+	.SmallButton:hover {background-color: #004d4d;}
+	.SmallWideButton {
+		background-color: #008080; 
+		border: 1px solid white;;
+		color: white;
+		padding: 2px 6px 2px 6px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 12px;
+		width: 200px;
+		
+	}	
+	.SmallWideButton:hover {background-color: #004d4d;}
+	.TinyButton {
+		background-color: #008080; 
+		border: 1px solid white;;
+		color: white;
+		padding: 1px 20px 1px 10px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 12px;
+		width: 20px;
+		
+	}	
+	.TinyButton:hover {background-color: #004d4d;}
+	.GeneralButton {
+		background-color: #385b93; 
+		border: 1px solid white;;
+		color: white;
+		padding: 7px 24px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 12px;
+		width: 180px;
+	}
+	.GeneralButton:hover {background-color: #3377ff;}
+	.WideButton {
+		background-color: #385b93; 
+		border: 1px solid white;;
+		color: white;
+		padding: 7px 14px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 12px;
+		width: 330px;
+	}
+	.buttonDownload:hover {background-color: #004d4d;}
+	.buttonDownload {
+		background-color: #b33c00; 
+		border: 1px solid white;;
+		color: white;
+		padding: 4px 24px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 12px;
+		width: 120px;
+	}	
+	.buttonSaveImage:hover {background-color: #004d4d;}
+	.buttonSaveImage {
+		background-color: #267326; 
+		border: 1px solid white;;
+		color: white;
+		padding: 4px 24px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 12px;
+		width: 150px;
+	}
+	.buttonShowTable:hover {background-color: #004d4d;}
+	.buttonShowTable {
+		background-color: #2a6b96; 
+		border: 1px solid white;;
+		color: white;
+		padding: 4px 24px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 12px;
+		width: 150px;
+	}
+	.WideButton:hover {background-color: #3377ff;}
+	.genomename {
+		background-color: #385b93; 
+		border: none;
+		color: white;
+		padding: 1px 10px;
+	
+	}	
+	td {
+		vertical-align: top;
+	}
+	.tooltip {
+		position: relative;
+		display: inline-block;
+		border-bottom: 1px dotted black;
+	}
+
+	.tooltip .tooltiptext {
+		visibility: hidden;
+		width: 120px;
+		background-color: black;
+		color: #fff;
+		text-align: center;
+		border-radius: 6px;
+		padding: 5px 0;
+
+		/* Position the tooltip */
+		position: absolute;
+		z-index: 1;
+	}
+
+	.tooltip:hover .tooltiptext {
+		visibility: visible;
+	}
+	#myProgressBarEmpty {
+	  width: 100%;
+	  background-color: #ddd;
+	}
+
+	#myProgressBarFill {
+	  width: 1%;
+	  height: 30px;
+	  background-color: #167a87;
+	} 
+	table.table1 {
+	  background-color: #EEEEEE;
+	  width: auto;
+	  border-collapse: collapse;
+		font-family: Calibri;
+	}
+	table.table1 th {
+		padding-left: 3px;
+		padding-right: 15px;
+		padding-top: 1px;
+		font-weight: normal;
+		font-size: 16px;
+		background: #1C6EA4;
+		color: white;
+		border-bottom: 2px solid #12496d;				
+		border-top: 1px solid #12496d;	
+		cursor:pointer;	
+	}
+	table.table1 td {
+		padding-left: 5px;
+		padding-right: 25px;
+		padding-top: 2px;
+		padding-bottom: 1px;
+		font-size: 14px;
+		color: #01375b;
+		background-color:#dce8ef;	
+	}
+	table.test_sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sorttable_nosort):after { 
+		content: " \25B4\25BE" 
+	}
+	button.SelectClass {
+		background-color: #04729e; 
+		border: none;
+		color: white;
+		padding: 2px 20px 2px 20px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+	}
+	/* Popup container - can be anything you want */
+	table.PopupTable {
+		width: auto;
+		white-space: nowrap;
+	}
+	table.PopupTable th {
+		padding-left: 3px;
+		padding-right: 15px;
+		padding-top: 1px;
+		font-weight: normal;
+		font-size: 16px;
+		background: #1C6EA4;
+		color: white;
+		border-bottom: 2px solid #12496d;				
+		border-top: 1px solid #12496d;	
+		cursor:pointer;	
+	}
+	table.PopupTable td {
+		padding-left: 5px;
+		padding-right: 25px;
+		padding-top: 2px;
+		padding-bottom: 1px;
+		font-size: 14px;
+		color: #01375b;
+		background-color:#dce8ef;	
+	}			
+	
+	
+	.popup {
+		position: relative;
+		display: inline-block;
+		cursor: pointer;
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+	}
+
+	/* The actual popup */
+	.popup .popuptext {
+		visibility: hidden;
+		width: auto;
+		background-color: #555;
+		color: #fff;
+		text-align: center;
+		border-radius: 6px;
+		padding: 8px 0;
+		position: absolute;
+		z-index: 1;
+		bottom: 125%;
+		left: 50%;
+		margin-left: -80px;
+	}
+
+	/* Popup arrow */
+	.popup .popuptext::after {
+		content: "";
+		position: absolute;
+		top: 100%;
+		left: 50%;
+		margin-left: -5px;
+		border-width: 5px;
+		border-style: solid;
+		border-color: #555 transparent transparent transparent;
+	}
+
+	/* Toggle this class - hide and show the popup */
+	.popup .show {
+		visibility: visible;
+		-webkit-animation: fadeIn 1s;
+		animation: fadeIn 1s;
+	}
+
+	/* Add animation (fade in the popup) */
+	@-webkit-keyframes fadeIn {
+		from {opacity: 0;} 
+		to {opacity: 1;}
+	}
+
+	@keyframes fadeIn {
+		from {opacity: 0;}
+		to {opacity:1 ;}
+	}
+
+	.bar{
+		fill: steelblue;
+	}
+	
+	.bar:hover{
+		fill: brown;
+	}
+
+	.axis {
+		font: 14px sans-serif;
+	}
+
+	.axis path,
+	.axis line {
+		fill: none;
+		stroke: #000;
+		shape-rendering: crispEdges;
+	}
+	 .d3-tip {
+		  line-height: 1;
+		  /*font-weight: bold;*/ 
+		  padding: 12px;
+		  background: rgba(0, 0, 0, 0.8);
+		  color: #fff;
+		  border-radius: 2px;
+	}
+
+	/* Creates a small triangle extender for the tooltip */
+	.d3-tip:after {
+		  box-sizing: border-box;
+		  display: inline;
+		  font-size: 10px;
+		  width: 100%;
+		  line-height: 1;
+		  color: rgba(0, 0, 0, 0.8);
+		  content: "\25BC";
+		  position: absolute;
+		  text-align: center;
+	}
+
+	/* Style northward tooltips differently */
+	.d3-tip.n:after {
+		  margin: -1px 0 0 0;
+		  top: 100%;
+		  left: 0;
+	}
+		table.GeneTable {
+			  background-color: #EEEEEE;
+			  width: auto;
+			  border-collapse: collapse;
+				font-family: Calibri;
+			}
+			table.GeneTable th {
+				padding-left: 3px;
+				padding-right: 15px;
+				padding-top: 1px;
+				font-weight: normal;
+				font-size: 16px;
+				background: #1C6EA4;
+				color: white;
+				border-bottom: 2px solid #12496d;				
+				border-top: 1px solid #12496d;	
+				cursor:pointer;	
+			}
+			table.GeneTable td {
+				padding-left: 5px;
+				padding-right: 25px;
+				padding-top: 2px;
+				padding-bottom: 1px;
+				font-size: 14px;
+				color: #01375b;
+				background-color:#dce8ef;	
+			}
+			table.GeneTable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sorttable_nosort):after { 
+				content: " \25B4\25BE" 
+			}
+			button.SelectClass {
+				background-color: #04729e; 
+				border: none;
+				color: white;
+				padding: 2px 20px 2px 20px;
+				text-align: center;
+				text-decoration: none;
+				display: inline-block;
+				font-size: 16px;
+			}
+			/* Popup container - can be anything you want */
+			table.PopupTable {
+				width: auto;
+				white-space: nowrap;
+			}
+			table.PopupTable th {
+				padding-left: 3px;
+				padding-right: 15px;
+				padding-top: 1px;
+				font-weight: normal;
+				font-size: 16px;
+				background: #1C6EA4;
+				color: white;
+				border-bottom: 2px solid #12496d;				
+				border-top: 1px solid #12496d;	
+				cursor:pointer;	
+			}
+			table.PopupTable td {
+				padding-left: 5px;
+				padding-right: 25px;
+				padding-top: 2px;
+				padding-bottom: 1px;
+				font-size: 14px;
+				color: #01375b;
+				background-color:#dce8ef;	
+			}			
+			
+			
+			.popup {
+				position: relative;
+				display: inline-block;
+				cursor: pointer;
+				-webkit-user-select: none;
+				-moz-user-select: none;
+				-ms-user-select: none;
+				user-select: none;
+			}
+
+			/* The actual popup */
+			.popup .popuptext {
+				visibility: hidden;
+				width: auto;
+				background-color: #555;
+				color: #fff;
+				text-align: center;
+				border-radius: 6px;
+				padding: 8px 0;
+				position: absolute;
+				z-index: 1;
+				bottom: 125%;
+				left: 50%;
+				margin-left: -80px;
+			}
+
+			/* Popup arrow */
+			.popup .popuptext::after {
+				content: "";
+				position: absolute;
+				top: 100%;
+				left: 50%;
+				margin-left: -5px;
+				border-width: 5px;
+				border-style: solid;
+				border-color: #555 transparent transparent transparent;
+			}
+
+			/* Toggle this class - hide and show the popup */
+			.popup .show {
+				visibility: visible;
+				-webkit-animation: fadeIn 1s;
+				animation: fadeIn 1s;
+			}
+
+			/* Add animation (fade in the popup) */
+			@-webkit-keyframes fadeIn {
+				from {opacity: 0;} 
+				to {opacity: 1;}
+			}
+
+			@keyframes fadeIn {
+				from {opacity: 0;}
+				to {opacity:1 ;}
+			}
+	
+</style>

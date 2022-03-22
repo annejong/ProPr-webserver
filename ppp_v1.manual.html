@@ -1,0 +1,84 @@
+<html>
+<title>Prokaryote Promoter Prediction</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+		<!-- Bootstrap -->
+	<script src="js/bootstrap501/js/bootstrap.min.js" ></script>
+	<link rel="stylesheet" href="js/bootstrap501/css/bootstrap.min.css">
+	<link rel="stylesheet" href="ppp_v1.css?v1.1">
+</head>
+
+
+<div class="bg">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				<h1> Manual for the Promoter Prediction Web Server</h1>
+				<hr>
+				<h2>Input</h2><br>
+				<div class="row">
+					<div class="col-sm-1"></div>
+					<div class="col-sm-10">
+						<h4>DNA</h4>
+						The most basic input for Promoter Prediction is a DNA sequence with a minimal length of <b>75bp</b><br>
+						This sequence should be stored in a FASTA file with the extension .fna or .fasta. Other formats will be ignored by the web server.<br>
+						<br>
+						<b>Example of a FASTA sequence:</b> the first line is the header and all the lines below is the DNA sequence<br>
+						>my_sequence<br>
+						ACTACTGCTCAATTTTTTTACTTTTATCGATTAAAGATAGAAATTTGACAACACGATGCGAGCAATCTATAATTTCATAACATCACCA<br>
+						<br>
+						<b>Example of a FASTA file</b> with 100,000 bases: <a href='examples/S_aureus_USA300_TCH1516_100k.fna'>S_aureus_USA300_TCH1516_100k.fna</a><br>
+						<br>
+						The web server is limited to one FASTA file containing one header.<br> 
+						The web server is limited to <b>200,000bp</b><br>
+						For multiple or large sequences use the stand-alone version.<br>
+						<br>
+						If a proper FASTA is uploaded, the web server will show a summery of the content. For the example above this will be:<br>
+						&nbsp&nbsp&nbsp FASTA header: >CP000730.1 <br>
+						&nbsp&nbsp&nbsp DNA length: 99920         <br>
+						&nbsp&nbsp&nbsp GC: 32.3%    <br>
+						<br>
+						Once the FASTA is uploaded the "START ANALYSIS" button will appear showing that your input is ready to be analyzed<br>
+						<br>
+						<h4>Optional: Annotation</h4>
+						An annotation file is optional but will highly improve the interpretation and visualization of the results.<br>
+						The most common annotation format is the Generic Feature Format version 3: GFF3 or GFF <br>
+						<br>
+						<b>Example of a GFF file</b>: <a href='examples/S_aureus_USA300_TCH1516.gff'>S_aureus_USA300_TCH1516.gff</a><br>
+						<br>
+						The web server will accept both file extensions; .gff or .gff3 <br>
+					</div>
+				</div>	
+				<hr>
+				<div class="row">
+					<h2>Advanced options</h2>
+					<div class="col-sm-1"></div>
+					<div class="col-sm-10">
+						For the Prokaryote Promoter Prediction we trained models based on RNA sequencing data. 
+						As default the web server will use a generic model for predictions, but other models can be selected:<br>
+						&nbsp&nbsp&nbsp 1) On the basis of a user defined GC% instead of the calculated value. 
+											Usually higher GC% will result in more predicted promoters but also increase the number of false positives<br>
+						&nbsp&nbsp&nbsp 2) Select a specific model from the provide list. 
+											Here you can select a model trained on a specific species, a group of species or a species with other GC%<br>
+						<br> 
+						For more information about models we would advice to read our paper<br>
+					</div>
+				</div>	
+				<hr>
+				<div class="row">
+				<h2>Results</h2>
+					<div class="col-sm-1"></div>
+					<div class="col-sm-10">
+						Usually results will be shown in seconds up to a few minutes depending on the size of the DNA.<br>
+						If no promoters or too many promoters are found can caused by; i) no promoters in your sequence. ii) use of a wrong model<br>
+						Note that the result table can be sorted by clicking the header title<br>
+					</div>
+				</div>	
+				<hr>
+			</div>	
+		</div>	
+	</div>	
+</div>	
+

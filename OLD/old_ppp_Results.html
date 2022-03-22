@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+    <title>Pro2Pr results</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://d3js.org/d3.v3.min.js"></script> 
+	<script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<!-- <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet"> -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+	<script src="js/canvas-to-blob.min.js"></script>
+	<script src="js/FileSaver.min.js"></script>	
+	<script src="js/sorttable.js"></script>
+	<link rel="stylesheet" href="ppp_v1.css"> 
+
+</head>
+
+<body>
+<script>
+function getUrlVars()
+  {
+      var vars = [], hash;
+      var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+   
+      for(var i = 0; i < hashes.length; i++)
+      {
+          hash = hashes[i].split('=');
+      hash[1] = unescape(hash[1]);
+      vars.push(hash[0]);
+          vars[hash[0]] = hash[1];
+      }
+   
+      return vars;
+  }
+var urlVars = getUrlVars();
+
+
+
+</script>
+
+<div class="container">
+	<header>
+			<script>
+			var UrlVars = getUrlVars();
+			document.write("<header><h2>Promoters Predicted for: '"+UrlVars['queryname']+"'</h2></header>" );
+			</script>
+	   
+	</header>
+
+
+	<div class="row">
+		<div class="col-sm-2 float-right">
+			<div class="row float-right">
+				<span class="border bg-primary "><center>
+				<script>
+					var UrlVars = getUrlVars();
+					document.write("<span class=text-light bg-dark>View data</span>" );
+					document.write("<a href=pppresults/"+UrlVars['sessionID']+"/00.OverviewGeneTables.html><button class=buttonShowTable>Overview Table</button></a>" );
+					document.write("<button class=buttonShowTable onclick=showPromotersTable()>Promoters Table</button>");
+					document.write("<button class=buttonShowTable onclick=showGeneTable()>Genes Table</button>");
+				</script>
+				
+				</center></span>
+				<span class="border bg-success"><center>
+				<script>	
+					document.write("<span class=text-light bg-dark>Save data</span>" );
+					document.write("<a href=pppresults/"+UrlVars['sessionID']+"/"+UrlVars['queryname']+".gbk download><button class=buttonSaveImage>Promoters Table</button></a>" );
+					document.write("<a href=pppresults/"+UrlVars['sessionID']+"/"+UrlVars['queryname']+".fna download><button class=buttonSaveImage>Promoters GFF3</button></a>" );
+					document.write("<button class=buttonSaveImage id='saveButton'>Image as PNG</button>" );
+					document.write("<button class=buttonSaveImage id='saveButtonSVG'>Image as SVG</button>" );
+				</script>
+				</center></span>
+			</div>
+		</div>
+		<div class="col-sm-10">
+			 <svg width="1960" height="200" id=my_svg></svg>
+		</div>	
+	</div>
+	
+	<div class="row">
+ 
+	</div>
+	<div class="row">
+		<div class="col-sm-12">
+			<div id="MessageBox"></div><br>
+			<div id="GenesTable"></div><br>
+			<div id="PromotersTable"></div> <!-- New JSON Table -->
+		
+		</div>
+	</div>
+	
+	<footer>Copyright 2019 &copy; University of Groningen</footer>
+	
+</div>
+
+  
+   
+
+
+
+
+
+<script>
+
+// ================================================================== main script ============================================================
+// for testing 
+// GFF file: http://ppp.molgenrug.nl/pppresults/94.212.189.120.ceddkobu7qt1udc379fkdg9g05.227/Annotation.json
+// Promotes file: http://ppp.molgenrug.nl/pppresults/94.212.189.120.ceddkobu7qt1udc379fkdg9g05.227/00.promoters.json
+// This page: http://ppp.molgenrug.nl/ppp_Results.html?sessionID=94.212.189.120.ceddkobu7qt1udc379fkdg9g05.227&queryname=NC_0009643.0.AOI_01
+
+// TO DO add zoom: https://bl.ocks.org/rutgerhofste/5bd5b06f7817f0ff3ba1daa64dee629d
+
+// get the GraphData from url
+	var UrlVars = getUrlVars();
+	sessionID = UrlVars['sessionID'] ;
+
+	var svgWidth = 1000;
+	var svgHeight = 200;
+	var margin = {top: 5, right: 2, bottom: 5, left: 2} ;
+	var width = svgWidth - margin.left - margin.right;
+	var height = svgHeight - margin.top - margin.bottom;	
+	 
+	var svg = d3.select("svg")
+		.attr("width", width)
+		.attr("height", height)
+		.attr("id","svg1");
+	
+	
+	var layer1 = svg.append("g");
+	var layer2 = svg.append("g");
+
+	var scaleX = d3.scale.linear()
+			.domain([0,250000]) //Give appropriate range in the scale
+			.range([0,width]);
+
+	var scaleY = d3.scale.linear()
+			.domain([0,30]) //Give appropriate range in the scale
+			.range([height,0]);
+
+	function html_tip(GeneName, Function, Annotation, motifs, protein, dna) {
+		my_html = "<span style='color:#293d3d'><strong>" + GeneName + "</strong> </span><br>" ; 
+		if (Function == '')   { my_html += Function }    else { my_html  += "<span style='color:#293d3d'><strong>Function:</strong> " + Function + "</span><br>" ;} 
+		if (Annotation == '') { my_html += Annotation } else { my_html += "<span style='color:#293d3d'><strong>Blast result UniRef90:</strong> " + Annotation + "</span><br>" ;} 
+		if (motifs == '')    { my_html += motifs } else { my_html += "<span style='color:#293d3d'><strong>motifs:</strong><a href=http://pfam.xfam.org/family/"+motifs.substr(0,7)+" target=_blank>"+motifs.substr(0,7)+"</a>" ;} 
+		if (motifs.substr(8,2) == 'PF') { my_html +="&nbsp&nbsp<a href=http://pfam.xfam.org/family/"+motifs.substr(8,7)+" target=_blank><span >"+motifs.substr(8,7) ;} 
+		if (motifs.substr(16,2) == 'PF') { my_html += "</a>&nbsp&nbsp<a href=http://pfam.xfam.org/family/"+motifs.substr(16,7)+" target=_blank><span >"+motifs.substr(16,7)+"</span></a><br>" ;} else {my_html +="</span></a><br>";} 
+		if (protein.length < 100) { my_html += "<span style='color:#293d3d'><strong>AA:</strong> " + protein + "</span><br>" ;} 
+		my_html += "<a href=https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE=Proteins&PROGRAM=blastp&BLAST_PROGRAMS=blastp&QUERY="+protein+"&LINK_LOC=protein&PAGE_TYPE=BlastSearch target=_blank><span >BLAST protein</span></a><br>"
+		my_html += "<a href=https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE=Nucleotides&PROGRAM=blastn&QUERY="+dna+"&DATABASE=nr&MEGABLAST=on&BLAST_PROGRAMS=megaBlast&LINK_LOC=nuccore&PAGE_TYPE=BlastSearch target=_blank><span >BLAST DNA</span></a>"
+		return my_html;
+	}			
+		
+
+	var gff_tip = d3.tip()
+		.attr('class', 'd3-tip')
+		.style("font-family", "sans-serif")
+		.style("font-size", "10px")
+		.style("text-anchor", "middle")
+		.offset([10,-20])
+		.direction('s')
+		
+		.html(function(d) { return html_tip(d.name, d.function, d.annotation, d.motifs, d.protein, d.dna ) });
+	
+	
+	
+	var promoter_tip = d3.tip()
+		.attr('class', 'd3-tip') 
+		.style("font-family", "sans-serif")
+		.style("font-size", "8px")
+		.style("text-anchor", "middle")
+		.offset([10,-20])
+		.direction('s')
+		.html(function(d) { return  "<span style='color:#293d3d'><strong>Sequence:</strong> " + d.annotation + "</span>" }) 	;
+								
+								
+		
+
+  /* Initialize tooltip */
+	svg.call(gff_tip);	
+	svg.call(promoter_tip);	
+	//d3.selectAll(".d3-tip").on("click", tip.hide);
+	
+	
+	
+
+
+	
+// Draw Promoters
+	d3.json('pppresults/'+sessionID+'/00.promoters.json', function(dataPromoters) {
+		max = 250000 ;
+		document.getElementById("MessageBox").innerHTML += 'Max DNA position = '+max+'<br>' ;
+		showPromters(dataPromoters) ;
+		//for (key in dataPromoters) { document.getElementById("MessageBox").innerHTML += key + ',' ;	}
+		layer1.append('g').selectAll("polygon")
+			.data(dataPromoters)
+				.enter().append("polygon")
+				.attr("points",function(d) { if (d.strand == "+") {
+												return [scaleX(d.tss),scaleY(0),scaleX(d.tss),scaleY(5)].join(",")
+											} else 
+												return [scaleX(d.tss),scaleY(12),scaleX(d.tss),scaleY(17)].join(",")	
+											})
+				.attr("fill","gray")
+				//.attr("fill",function(d)   { return d.color})
+				.style("opacity", 1)
+				.attr("stroke", "gray")
+				.attr("stroke-width",0.8)
+				.style("stroke-opacity", 0.8) ;	
+		
+	});
+
+	cmp = function(a, b) {
+				if (a > b) return +1;
+				if (a < b) return -1;
+				return 0;
+			}
+	
+	function showPromters(promoters) {
+		//document.getElementById(GenesTable).classList.toggle("show");
+		var TableBody = '<table class=GeneTable></thead>' ;
+		TableBody += '<tr><th>TSS</th><th>Strand</th></tr></thead>'; 
+		promoters.sort(function(a,b) { return cmp(a.tss,b.tss) ; }) ;
+		for (key in promoters) {
+			TableBody += '<tr>' ;
+			TableBody += '<td>'+promoters[key].tss+'</td>';
+			TableBody += '<td>'+promoters[key].strand	  +'</td>';
+			TableBody += '</tr>';
+		} ;
+		TableBody += '</table>';
+		document.getElementById("PromotersTable").style.display = "none";
+		document.getElementById("PromotersTable").innerHTML = TableBody ;
+	}	
+	
+	function showGeneAnnotation(genes) {
+		//document.getElementById(GenesTable).classList.toggle("show");
+		var TableBody = '<table class=GeneTable></thead>' ;
+		TableBody += '<tr><th>Locus_tag</th><th>Gene</th><th>Start</th><th>End</th><th>Strand</th><th>Product</th></tr></thead>'; 
+		genes.sort(function(a,b) { return cmp(a.start,b.start) ; }) ;
+		for (key in genes) {
+			TableBody += '<tr>' ;
+			TableBody += '<td>'+genes[key].locus_tag+'</td>';
+			TableBody += '<td>'+genes[key].Name	  +'</td>';
+			TableBody += '<td>'+genes[key].start  +'</td>';
+			TableBody += '<td>'+genes[key].end	  +'</td>';
+			TableBody += '<td>'+genes[key].strand +'</td>';
+			TableBody += '<td>'+genes[key].product+'</td>';
+			TableBody += '</tr>';
+		} ;
+		TableBody += '</table>';
+		document.getElementById("GenesTable").innerHTML = TableBody ;
+	}	
+	
+	
+// load GFF3 data
+	d3.json('pppresults/'+sessionID+'/Annotation.json', function(dataGFF) {
+		queryname = UrlVars['queryname'] ;
+		document.getElementById("MessageBox").innerHTML += 'Query name = '+queryname+'<br>' ;
+		var geneData = dataGFF[queryname].CDS ;
+		var genes =[]; // Make a gene array compatible to D3
+		for (key in geneData) {
+			genes.push({locus_tag:key,
+						Name:geneData[key].Name, 
+						start:geneData[key].start, 
+						end:geneData[key].end, 
+						strand:geneData[key].strand, 
+						product:geneData[key].product}) ;
+		}	
+
+		showGeneAnnotation(genes) ;
+
+		layer1.append('g').selectAll("polygon")
+			.data(genes)
+				.enter().append("polygon")
+				.attr("points",function(d) { if (d.strand == "+") {
+												return [scaleX(d.start),scaleY(5),scaleX(d.start),scaleY(7),scaleX(d.end)-2,scaleY(7),
+													 scaleX(d.end),scaleY(6),scaleX(d.end)-2,scaleY(5)].join(",") }
+												else 
+												return [scaleX(d.start)+2,scaleY(5),scaleX(d.start),scaleY(6),scaleX(d.start)+2,scaleY(7),
+													 scaleX(d.end),scaleY(7),scaleX(d.end),scaleY(5)].join(",") 
+												})
+				.attr("fill","#1f7a54")
+				.style("opacity", 1)
+				.attr("stroke", "none")
+				;	
+				
+		// add genenames 
+		layer1.append("g").selectAll("text")
+			.data(genes)
+				.enter().append("text")
+				//.filter(function(d){return d.protein.length > 100})
+				//.filter(function(d){return d.protein.indexOf("M") == 0})
+				.attr("id", "GeneName")
+				.attr("x", function(d) { return scaleX(d.start+(d.end-d.start)/2) }) 
+				.attr("y", function(d) { return scaleY(7) }) 
+				.style("text-anchor", "start")
+				.attr("transform", function(d) { return "rotate(" + [-30,scaleX(d.start+(d.end-d.start)/2),scaleY(7)] + ")" } )
+				.style("font-family", "sans-serif")
+				.style("font-size", "10px")
+				.style("opacity", 1)
+				.style("fill", "black")
+				.text(function(d) { return d.Name; });
+
+
+				
+
+//	
+//	
+//	
+//	
+//	// drawing genome line 
+//		layer1.append("g").selectAll("polygon")
+//			.data(data.AOIs)
+//				.enter().append("polygon")
+//				.attr("points",function(d) { return d.points.map(function(d) { return [scaleX(d.x),scaleY(25)].join(","); }).join(" ");})
+//				.attr("stroke","black")//function(d) { return d.color}
+//				.attr("fill",function(d)   { return d.color})
+//				.attr("stroke-width",2)
+//				.on('mouseover', tip.show);
+			
+		  
+	});
+
+
+
+
+
+	
+	$(document).ready(function() {
+	});
+	
+	$( window ).on( "load", function() { 
+		//show_PrommotersTable();
+	});
+
+
+
+// Set-up the PNG export button
+d3.select('#saveButton').on('click', function(){
+	var svgString = getSVGString(svg.node());
+	svgString2Image( svgString, 2*width, 2*height, 'png', save ); // passes Blob and filesize String to the callback
+	function save( dataBlob, filesize ){
+		saveAs( dataBlob, 'Graphics export to '+queryname+'.png' ); // FileSaver.js function
+	}
+});
+
+// Set-up the SVG export button
+d3.select('#saveButtonSVG').on('click', function(){
+    try {
+        var isFileSaverSupported = !!new Blob();
+    } catch (e) {
+        alert("blob not supported");
+    }
+
+    var html = d3.select("svg")
+        .style("font-family","Calibri")
+		.attr("xmlns", "http://www.w3.org/2000/svg")
+        //.node().parentNode;
+        .node().parentNode.innerHTML;
+
+    var blob = new Blob([html], {type: "image/svg+xml"});
+    saveAs(blob, queryname+'.svg');
+});
+
+
+
+
+
+// =============================================== functions ===============================================================
+
+
+// Below are the functions that handle actual exporting:
+// getSVGString ( svgNode ) and svgString2Image( svgString, width, height, format, callback )
+function getSVGString( svgNode ) {
+	svgNode.setAttribute('xlink', 'http://www.w3.org/1999/xlink');
+	var cssStyleText = getCSSStyles( svgNode );
+	appendCSS( cssStyleText, svgNode );
+	var serializer = new XMLSerializer();
+	var svgString = serializer.serializeToString(svgNode);
+	svgString = svgString.replace(/(\w+)?:?xlink=/g, 'xmlns:xlink='); // Fix root xlink without namespace
+	svgString = svgString.replace(/NS\d+:href/g, 'xlink:href'); // Safari NS namespace fix
+	return svgString;
+	function getCSSStyles( parentElement ) {
+		var selectorTextArr = [];
+		// Add Parent element Id and Classes to the list
+		selectorTextArr.push( '#'+parentElement.id );
+		for (var c = 0; c < parentElement.classList.length; c++)
+				if ( !contains('.'+parentElement.classList[c], selectorTextArr) )
+					selectorTextArr.push( '.'+parentElement.classList[c] );
+		// Add Children element Ids and Classes to the list
+		var nodes = parentElement.getElementsByTagName("*");
+		for (var i = 0; i < nodes.length; i++) {
+			var id = nodes[i].id;
+			if ( !contains('#'+id, selectorTextArr) )
+				selectorTextArr.push( '#'+id );
+			var classes = nodes[i].classList;
+			for (var c = 0; c < classes.length; c++)
+				if ( !contains('.'+classes[c], selectorTextArr) )
+					selectorTextArr.push( '.'+classes[c] );
+		}
+		// Extract CSS Rules
+		var extractedCSSText = "";
+		for (var i = 0; i < document.styleSheets.length; i++) {
+			var s = document.styleSheets[i];
+			
+			try {
+			    if(!s.cssRules) continue;
+			} catch( e ) {
+		    		if(e.name !== 'SecurityError') throw e; // for Firefox
+		    		continue;
+		    	}
+			var cssRules = s.cssRules;
+			for (var r = 0; r < cssRules.length; r++) {
+				if ( contains( cssRules[r].selectorText, selectorTextArr ) )
+					extractedCSSText += cssRules[r].cssText;
+			}
+		}
+		
+		return extractedCSSText;
+		function contains(str,arr) {
+			return arr.indexOf( str ) === -1 ? false : true;
+		}
+	}
+	function appendCSS( cssText, element ) {
+		var styleElement = document.createElement("style");
+		styleElement.setAttribute("type","text/css"); 
+		styleElement.innerHTML = cssText;
+		var refNode = element.hasChildNodes() ? element.children[0] : null;
+		element.insertBefore( styleElement, refNode );
+	}
+}
+function svgString2Image( svgString, width, height, format, callback ) {
+	var format = format ? format : 'png';
+	var imgsrc = 'data:image/svg+xml;base64,'+ btoa( unescape( encodeURIComponent( svgString ) ) ); // Convert SVG string to data URL
+	var canvas = document.createElement("canvas");
+	var context = canvas.getContext("2d");
+	canvas.width = width;
+	canvas.height = height;
+	var image = new Image();
+	image.onload = function() {
+		context.clearRect ( 0, 0, width, height );
+		context.drawImage(image, 0, 0, width, height);
+		canvas.toBlob( function(blob) {
+			var filesize = Math.round( blob.length/1024 ) + ' KB';
+			if ( callback ) callback( blob, filesize );
+		});
+		
+	};
+	image.src = imgsrc;
+}
+
+
+function showPromotersTable() {
+	document.getElementById("PromotersTable").style.display = "block";
+	document.getElementById("GenesTable").style.display = "none";
+}
+
+
+function showGeneTable() {
+	document.getElementById("PromotersTable").style.display = "none";
+	document.getElementById("GenesTable").style.display = "block";
+}
+
+
+</script>
+
+</div>
+
+
+</body>
+</html>
+
+

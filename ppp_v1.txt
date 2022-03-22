@@ -1,0 +1,17 @@
+#Text_Intro
+<p>
+<h2><b>ProPr</b>: Prokaryote Promoter Prediction v2.0</h2>
+Prediction of Prokaryote Promoter sequences and Transcription Start Sites (TSSs)<br>
+</p>
+//
+
+
+
+#Text_Footer
+<p>
+Anne de Jong and Auke van Heel, Molecular Genetics, University of Groningen, the Netherlands<br>
+Co-authors: Hung Chu, Jan Kok, Oscar Kuipers<br>
+Master students: Max Luppus, Dan Kaptijn, Inge Hendriks<br>
+Bachelor students: Tomas Vogels, Michael van Dijk, Marlon van Es, Ezvin Herdic<br>
+</p>
+//

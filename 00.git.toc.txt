@@ -1,0 +1,15 @@
+echo "# ProPr-webserver" >> README.md
+git init
+git add README.md
+
+git add *.html
+git add 00.ppp.sh
+git add GFF_filter.py
+git add ppp_Prediction_Only_Anne.py
+
+
+
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/annejong/ProPr-webserver
+git push -u origin main

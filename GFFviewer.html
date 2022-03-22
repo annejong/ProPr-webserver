@@ -1,0 +1,283 @@
+<!--
+Author: Anne 2021-07-07
+
+Include file for: GFF graphics viewer
+
+ -->
+<html>
+
+<head>
+	<script src="https://d3js.org/d3.v7.min.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap501/js/bootstrap.min.js" ></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="js/bootstrap501/css/bootstrap.min.css">
+
+</head>
+<body>
+<div class="bg">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-10">
+				<div id=genomemap></div>
+				<div id=message></div>
+			</div>				
+		</div>				
+	</div>				
+</div>	
+
+
+			
+<script>
+
+	var	urlVars = getUrlVars();
+	var SessionID = '';
+	if (urlVars['SessionID'] == undefined ) { 
+		SessionID = "<?php session_start(); echo $_SERVER['REMOTE_ADDR'].'.'.session_id().'.'.rand(1, 1000) ; ?>" ;	
+	} else {
+		SessionID = urlVars['SessionID'] ;
+		SessionType = 'bookmark' ;
+	}
+	var sessionurl = 'pppresults/'+SessionID ;
+	var sessiondir = '/tmpdrive/PPP/'+SessionID ;
+	var GFFfilename = 'ppp_Genes_Promoters.gff' ; // default filename
+	var GFF = [] ;
+	sessionurl = 'pppresults'; //DEBUG
+
+	document.getElementById("message").innerHTML = SessionID ; 	
+
+
+	// D3.js genome map
+	var GenomeMapHeight = 120 ;
+	var GenomeMapWidth = 1000 ;
+	var GenomeMapMarginLeft = 20 ;
+	var GenomeMapMarginRight = 20 ;
+	var GenomePosition = 1 ; // start drawing on base position
+	var BasesPerPixel = 20 ;  
+	var GeneAnnotation = [] ;
+	var PromoterAnnotation = [] ;
+	
+	
+	var OLD_genePolygon =  function(d) {
+		if (d[3] == "-") { // lower strand
+		  return(
+		   (d[2])+','+(GenomeMapHeight+1+12)+' '
+		  +(d[2])+','+(GenomeMapHeight+1-12)+' '
+		  +(d[1]+10)+','+(GenomeMapHeight+1-12)+' '
+		  +(d[1])+','+(GenomeMapHeight+1)+' '
+		  +(d[1]+10)+','+(GenomeMapHeight+1+12)+' '
+		  +(d[2])+','+(GenomeMapHeight+1+12))
+		} else {
+		  return(
+		   (d[1])+','+(GenomeMapHeight+1+12)+' '
+		  +(d[1])+','+(GenomeMapHeight+1-12)+' '
+		  +(d[2]-10)+','+(GenomeMapHeight+1-12)+' '
+		  +(d[2])+','+(GenomeMapHeight+1)+' '
+		  +(d[2]-10)+','+(GenomeMapHeight+1+12)+' '
+		  +(d[1])+','+(GenomeMapHeight+1+12))
+		}
+	}
+	
+	var genePolygon =  function(d) {
+		if (d['strand'] == "-") { // lower strand
+		  return(
+		   (d['end']/BasesPerPixel)+','+(GenomeMapHeight+1+12)+' '
+		  +(d['end']/BasesPerPixel)+','+(GenomeMapHeight+1-12)+' '
+		  +(d['start']/BasesPerPixel+10)+','+(GenomeMapHeight+1-12)+' '
+		  +(d['start']/BasesPerPixel)+','+(GenomeMapHeight+1)+' '
+		  +(d['start']/BasesPerPixel+10)+','+(GenomeMapHeight+1+12)+' '
+		  +(d['end']/BasesPerPixel)+','+(GenomeMapHeight+1+12))
+		} else {
+		  return(
+		   (d['start']/BasesPerPixel)+','+(GenomeMapHeight+1+12)+' '
+		  +(d['start']/BasesPerPixel)+','+(GenomeMapHeight+1-12)+' '
+		  +(d['end']/BasesPerPixel-10)+','+(GenomeMapHeight+1-12)+' '
+		  +(d['end']/BasesPerPixel)+','+(GenomeMapHeight+1)+' '
+		  +(d['end']/BasesPerPixel-10)+','+(GenomeMapHeight+1+12)+' '
+		  +(d['start']/BasesPerPixel)+','+(GenomeMapHeight+1+12))
+		}
+	}
+	  
+	var promoterPolygon =  function(d) { 
+		if (d['strand'] == "+") { return( // upper strand
+			(d['start']/BasesPerPixel)+','+(GenomeMapHeight)+' '+
+			(d['start']/BasesPerPixel)+','+(GenomeMapHeight-24)+' '+
+			(d['start']/BasesPerPixel+10)+','+(GenomeMapHeight-24)+' '+
+			(d['start']/BasesPerPixel+6)+','+(GenomeMapHeight-30)+' ' +
+			(d['start']/BasesPerPixel+6)+','+(GenomeMapHeight-18)+' ' +
+			(d['start']/BasesPerPixel+10)+','+(GenomeMapHeight-24)+' '+
+			(d['start']/BasesPerPixel)+','+(GenomeMapHeight-24))
+		} else { return( //lower strand
+			(d['start']/BasesPerPixel)+','+(GenomeMapHeight)+' '+
+			(d['start']/BasesPerPixel)+','+(GenomeMapHeight+24)+' '+
+			(d['start']/BasesPerPixel-10)+','+(GenomeMapHeight+24)+' '+
+			(d['start']/BasesPerPixel-6)+','+(GenomeMapHeight+30)+' ' +
+			(d['start']/BasesPerPixel-6)+','+(GenomeMapHeight+18)+' ' +
+			(d['start']/BasesPerPixel-10)+','+(GenomeMapHeight+24)+' '+
+			(d['start']/BasesPerPixel)+','+(GenomeMapHeight+24))	
+		}
+	}
+
+	var geneNames = function(d) {
+		return( "x:")
+		}
+	  
+	  
+	
+	readGFF('examples/ppp.Genes_Promoters.gff');
+
+	
+	var GenomeMap = d3.select("#genomemap").append("svg:svg").attr("width", GenomeMapWidth+GenomeMapMarginLeft+GenomeMapMarginRight).attr("height", 280);
+	// DNA line
+	GenomeMap.append("svg:rect").attr("x", GenomeMapMarginLeft).attr("y", GenomeMapHeight).attr("height", 2).attr("width", GenomeMapWidth).style("fill", "black");	
+	// Creates the first instance of the gene annotations
+	var geneGroup = GenomeMap.append("g");
+	var promoterGroup = GenomeMap.append("g");
+	var geneTextGroup = GenomeMap.append("g");
+	
+	
+	function addGeneNames() { }
+	function removeGeneNames() { }
+	
+	function DrawGenes() {
+		geneGroup.selectAll("polygon")
+			.data(GeneAnnotation)
+			.enter()
+			.append("polygon")
+			.attr("points",genePolygon )
+			.attr("fill","LightBlue")
+			.attr("stroke", "black")
+			.attr("stroke-width", 1);
+			//.on("mouseover", addGeneNames)
+			//.on("mouseout", removeGeneNames);
+	}
+
+	function DrawPromoters() {
+		promoterGroup.selectAll("polygon")
+			.data(PromoterAnnotation)
+			.enter()
+			.append("polyline")
+			.attr("points",promoterPolygon )
+			.attr("fill","#23827d")
+			.attr("stroke", "#23827d")
+			.attr("stroke-width", 1);
+			//.on("mouseover", addGeneNames)
+			//.on("mouseout", removeGeneNames);
+	}
+	
+	function DrawGeneNames() {
+		geneTextGroup.selectAll("text")
+			.data(GeneAnnotation)
+			.enter()
+			.append("text")
+			.style("font-size", "12px")
+			.attr("x", function(d) { return d['start']/BasesPerPixel +10; })
+			.attr("y", GenomeMapHeight - 24)
+			.text(function(d) { return d['Name']});
+	}
+
+
+	// Creating a scaled version of gene annotations list
+	function getGenes() {
+		// add genes within the window and scale position
+		scaledGeneAnnotation = [] ;
+		var test = ' geneset =';
+		for (var key in GFF) {
+			if (GFF[key]['type'] == 'gene') {
+				if (GFF[key]['start'] > GenomePosition && GFF[key]['end']<GenomePosition+GenomeMapWidth*BasesPerPixel) {
+					GeneAnnotation.push(GFF[key]) ;
+					test += ','+key;
+				}
+			}
+		}	
+	}
+	
+
+
+		// Creating a scaled version of gene annotations list
+	function getPromoters() {
+		// add genes within the window and scale position
+		scaledPromoterAnnotation = [] ;
+		for (var key in GFF) {
+			if (GFF[key]['type'] == 'promoter') {
+				if (GFF[key]['start'] > GenomePosition && GFF[key]['end']<GenomePosition+GenomeMapWidth*BasesPerPixel) {
+					PromoterAnnotation.push(GFF[key]) ;
+				}
+			}	
+		}	
+	}
+	
+
+
+		
+	
+
+	
+	function readGFF(filename) {  // relative path to GFF filename
+		$.get({url: filename, cache: false}).done( function(data) {
+			var lines = data.split('\n') ;
+			lines.forEach(function (line) {
+				if (!line.startsWith('#')) {  // ignore lines starting with #
+					line += ';' ;  // be sure that line ends with ;
+					if (line.match('locus_tag=(.*)')) {
+						var arr = line.match('locus_tag=(.*?);') ;
+						var key = arr[1] ;
+						var items = line.split('\t');
+						GFF[key] = [] ; 
+						GFF[key]['seqid'] = items[0] ;
+						GFF[key]['type'] = items[2] ;
+						GFF[key]['start'] = items[3] ;
+						GFF[key]['end'] = items[4] ;
+						GFF[key]['strand'] = items[6] ;
+						GFF[key]['attributes'] = items[8] ;
+						arr = line.match('Name=(.*?);') ;  // get 'Name' from desciption
+						if (arr) { GFF[key]['Name'] = arr[1] ; } else { GFF[key]['Name'] = key ;}
+						arr = line.match('gene=(.*?);') ;  // get 'gene' from desciption
+						if (arr) { GFF[key]['gene'] = arr[1] ; } else { GFF[key]['gene'] = key ;}
+					}
+				}		
+			}) ;
+			showRecordGFF('USA300HOU_0005') ;
+			getGenes();
+			getPromoters();
+			DrawGenes() ;
+			DrawPromoters() ;
+			DrawGeneNames() ;
+		});	
+	}
+	
+
+	function showRecordGFF(key) {
+		document.getElementById("message").innerHTML =  GFF[key]['seqid'] + '<br>' ;
+		document.getElementById("message").innerHTML += GFF[key]['type']+ '<br>' ;
+		document.getElementById("message").innerHTML += GFF[key]['start']  + '<br>' ;
+		document.getElementById("message").innerHTML += GFF[key]['end']  + '<br>' ;
+		document.getElementById("message").innerHTML += GFF[key]['strand']  + '<br>' ;
+		document.getElementById("message").innerHTML += GFF[key]['attributes'] + '<br>' ;
+		document.getElementById("message").innerHTML += GFF[key]['gene'] + '<br>' ;
+		document.getElementById("message").innerHTML += GFF[key]['Name'] + '<hr>' ;
+	}
+
+	function getUrlVars() {
+		var vars = [], hash;
+		var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+		for(var i = 0; i < hashes.length; i++) {
+			hash = hashes[i].split('=');
+			hash[1] = unescape(hash[1]);
+			vars.push(hash[0]);
+			vars[hash[0]] = hash[1];
+		}
+		return vars;
+	}
+
+	$(document).ready(function() {	
+		//$.get({url: 'pppresults/hitcount.txt', cache: false}).done( function(data) { document.getElementById("hitcount").innerHTML = "Succesful Sessions: "+ data ;	});	
+			
+	}) 
+	
+</script>	
+
+</body>
+</html>
+
+

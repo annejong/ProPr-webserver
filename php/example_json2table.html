@@ -1,0 +1,33 @@
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+<div id=my_condensed_table></div>
+
+<script>
+
+// http://bagel4.molgenrug.nl/bagel4results/129.125.142.95dgutkorp3q359s578n66gj1tt5207/NC_0085331.AOI_01.GeneTable.json
+
+var GeneTableJSON = 'bagel4results/129.125.142.95dgutkorp3q359s578n66gj1tt5207/NC_0085331.AOI_01.GeneTable.json';
+show_condensed_table('all') ;
+
+// load json
+function show_condensed_table(include_sORF) {
+	$.getJSON(GeneTableJSON,function(data){
+		var TableBody = 'Condensed GeneTable<br><table id=CondensedTable style=margin-left:20px;>' ;
+		TableBody += '<tr style=background-color:black;color:white;margin-top:15px;margin-bottom:25px;><th>Name</th><th>Function</th><th>Motifs</th></tr><tbody>' ;
+		for (var i = 0, len = data.Genes.length; i < len; i++) {
+			if (include_sORF == 'all' ||  !data.Genes[i].name.startsWith("sORF")) {
+				TableBody += '<tr style=background-color:'+data.Genes[i].color + ';>' ;
+				TableBody += '<td>'+data.Genes[i].name + '</td>' ;
+				TableBody += '<td>'+data.Genes[i].function + '</td>' ;
+				TableBody += '<td>'+data.Genes[i].motifs + '</td>' ;
+				TableBody += '</tr>' ;
+			}	
+		}
+		TableBody +=  '</tbody></table>' ;
+		document.getElementById("my_condensed_table").innerHTML = TableBody ;
+	}) ;
+}	
+
+</script>
