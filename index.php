@@ -322,9 +322,10 @@ Anne de Jong
 			});
 		});
 		
-		document.getElementById("ResultGraphics").innerHTML = 'Graphics for chroms;<br>' ;
+		document.getElementById("ResultGraphics").innerHTML = 'Graphics for seqIDs;<br>' ;
 		for (let i = 0; i < chroms.length; i++) {
-			document.getElementById("ResultGraphics").innerHTML += '<a href=http://ppp.molgenrug.nl/pppresults/'+sessionID+'/D3GB/index.html?r='+chroms[i]+':0-10000 target=_blank>'+chroms[i]+'</a><br>' ;
+			//document.getElementById("ResultGraphics").innerHTML += 'D3GB:  <a href=http://ppp.molgenrug.nl/pppresults/'+sessionID+'/D3GB/index.html?r='+chroms[i]+':0-10000 target=_blank>'+chroms[i]+'</a><br>' ;
+			document.getElementById("ResultGraphics").innerHTML += 'ProPr: <a href=http://ppp.molgenrug.nl/GFFviewer.html?sessionID='+sessionID+'&seqID='+chroms[i]+' target=_blank>'+chroms[i]+'</a><br>' ;
 		}	
 		document.getElementById("ResultGraphics").innerHTML += '<hr>' ;	
 		
